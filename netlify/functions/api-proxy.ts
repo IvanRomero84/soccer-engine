@@ -1,6 +1,10 @@
-import { Context } from '@netlify/functions';
+import { Context, Config } from '@netlify/functions';
 import axios from 'axios';
 import * as cheerio from 'cheerio';
+
+export const config: Config = {
+  path: "/api/*"
+};
 
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
@@ -51,12 +55,18 @@ export default async (request: Request, context: Context) => {
     }
   }
 
-  // Fallback: si id sigue siendo null, intentar buscarlo en el path directo si el redirect no pasó params
-  if (!id && url.pathname.includes('/competitions/')) {
+  // Fallback: buscar en el path directo si no vino como param
+  if (!id) {
     const parts = url.pathname.split('/');
-    const idx = parts.indexOf('competitions');
-    id = parts[idx + 1];
-    type = 'competition';
+    if (parts.includes('competitions')) {
+      const idx = parts.indexOf('competitions');
+      id = parts[idx + 1];
+      type = 'competition';
+    } else if (parts.includes('teams')) {
+      const idx = parts.indexOf('teams');
+      id = parts[idx + 1];
+      type = 'club';
+    }
   }
 
   if (!type || !id) {

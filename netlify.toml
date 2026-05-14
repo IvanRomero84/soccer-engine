@@ -6,10 +6,6 @@
   directory = "netlify/functions"
   node_bundler = "esbuild"
 
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/scraper?type=:splat"
-  status = 200
 
 [[redirects]]
   from = "/*"
