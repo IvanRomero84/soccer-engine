@@ -1,0 +1,2009 @@
+{
+  "leagueId": "WC",
+  "leagueName": "Copa del Mundo",
+  "fetchedAt": 1778792251331,
+  "standings": [
+    [
+      {
+        "rank": 1,
+        "teamId": "3379",
+        "teamName": "Países Bajos",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/122.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 7,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 4,
+          "goalsAgainst": null,
+          "goalsDiff": 7
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3499",
+        "teamName": "Senegal",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/149.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 6,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 1,
+          "goalsAgainst": null,
+          "goalsDiff": 6
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "5750",
+        "teamName": "Ecuador",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/44.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 4,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 1,
+          "goalsAgainst": null,
+          "goalsDiff": 4
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "14162",
+        "teamName": "Catar",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/137.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 0,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -6,
+          "goalsAgainst": null,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3299",
+        "teamName": "Inglaterra",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/189.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 7,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 7,
+          "goalsAgainst": null,
+          "goalsDiff": 7
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3505",
+        "teamName": "Estados Unidos",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/184.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 5,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 1,
+          "goalsAgainst": null,
+          "goalsDiff": 5
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3582",
+        "teamName": "Irán",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/71.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 3,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -3,
+          "goalsAgainst": null,
+          "goalsDiff": 3
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3864",
+        "teamName": "Gales",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/191.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 1,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -5,
+          "goalsAgainst": null,
+          "goalsDiff": 1
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3437",
+        "teamName": "Argentina",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/9.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 6,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 3,
+          "goalsAgainst": null,
+          "goalsDiff": 6
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3442",
+        "teamName": "Polonia",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/135.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 4,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": null,
+          "goalsDiff": 4
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "6303",
+        "teamName": "México",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/110.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 4,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -1,
+          "goalsAgainst": null,
+          "goalsDiff": 4
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3807",
+        "teamName": "Arabia Saudita",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/146.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 3,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -2,
+          "goalsAgainst": null,
+          "goalsDiff": 3
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3377",
+        "teamName": "Francia",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/50.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 6,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 3,
+          "goalsAgainst": null,
+          "goalsDiff": 6
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3433",
+        "teamName": "Australia",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/12.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 6,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -1,
+          "goalsAgainst": null,
+          "goalsDiff": 6
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3670",
+        "teamName": "Túnez",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/173.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 4,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": null,
+          "goalsDiff": 4
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3436",
+        "teamName": "Dinamarca",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/39.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 1,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -2,
+          "goalsAgainst": null,
+          "goalsDiff": 1
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3435",
+        "teamName": "Japón",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/77.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 6,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 1,
+          "goalsAgainst": null,
+          "goalsDiff": 6
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3375",
+        "teamName": "España",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/157.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 4,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 6,
+          "goalsAgainst": null,
+          "goalsDiff": 4
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3262",
+        "teamName": "Alemania",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/40.png?lm=1520612525",
+        "points": null,
+        "goalsDiff": 4,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 1,
+          "goalsAgainst": null,
+          "goalsDiff": 4
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "8497",
+        "teamName": "Costa Rica",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/36.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 3,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -8,
+          "goalsAgainst": null,
+          "goalsDiff": 3
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3575",
+        "teamName": "Marruecos",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/107.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 7,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 3,
+          "goalsAgainst": null,
+          "goalsDiff": 7
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3556",
+        "teamName": "Croacia",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/37.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 5,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 3,
+          "goalsAgainst": null,
+          "goalsDiff": 5
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3382",
+        "teamName": "Bélgica",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/19.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 4,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -1,
+          "goalsAgainst": null,
+          "goalsDiff": 4
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3510",
+        "teamName": "Canadá",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/80.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 0,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -5,
+          "goalsAgainst": null,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3439",
+        "teamName": "Brasil",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/26.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 6,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 2,
+          "goalsAgainst": null,
+          "goalsDiff": 6
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3384",
+        "teamName": "Suiza",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/148.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 6,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 1,
+          "goalsAgainst": null,
+          "goalsDiff": 6
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3434",
+        "teamName": "Camerún",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/31.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 4,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": null,
+          "goalsDiff": 4
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3438",
+        "teamName": "Serbia",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/215.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 1,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -3,
+          "goalsAgainst": null,
+          "goalsDiff": 1
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3300",
+        "teamName": "Portugal",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/136.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 6,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 2,
+          "goalsAgainst": null,
+          "goalsDiff": 6
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3589",
+        "teamName": "Corea del Sur",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/87.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 4,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": null,
+          "goalsDiff": 4
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3449",
+        "teamName": "Uruguay",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/179.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 4,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": null,
+          "goalsDiff": 4
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3441",
+        "teamName": "Ghana",
+        "teamLogo": "https://tmssl.akamaized.net//images/flagge/tiny/54.png?lm=1520611569",
+        "points": null,
+        "goalsDiff": 3,
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": -2,
+          "goalsAgainst": null,
+          "goalsDiff": 3
+        }
+      }
+    ]
+  ],
+  "matches": [
+    {
+      "id": "mcfkyc724",
+      "date": "1",
+      "homeTeam": {
+        "id": "3379",
+        "name": "Países Bajos"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "glgvjfysj",
+      "date": "2",
+      "homeTeam": {
+        "id": "3499",
+        "name": "Senegal"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "cqxgyx1f0",
+      "date": "3",
+      "homeTeam": {
+        "id": "5750",
+        "name": "Ecuador"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "to8pa1jwx",
+      "date": "4",
+      "homeTeam": {
+        "id": "14162",
+        "name": "Catar"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "a76uheaaa",
+      "date": "20/11/2022",
+      "homeTeam": {
+        "id": "14162",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "1pzgx9puf",
+      "date": "21/11/2022",
+      "homeTeam": {
+        "id": "3499",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "bstjsh0wf",
+      "date": "25/11/2022",
+      "homeTeam": {
+        "id": "14162",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "5vu0ja51g",
+      "date": "",
+      "homeTeam": {
+        "id": "3379",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "z6aiviq37",
+      "date": "29/11/2022",
+      "homeTeam": {
+        "id": "5750",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "drw678eqy",
+      "date": "",
+      "homeTeam": {
+        "id": "3379",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "lhvvt9ntt",
+      "date": "1",
+      "homeTeam": {
+        "id": "3299",
+        "name": "Inglaterra"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "0ni1clw9c",
+      "date": "2",
+      "homeTeam": {
+        "id": "3505",
+        "name": "Estados Unidos"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "w4t012z0g",
+      "date": "3",
+      "homeTeam": {
+        "id": "3582",
+        "name": "Irán"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "h232y2apu",
+      "date": "4",
+      "homeTeam": {
+        "id": "3864",
+        "name": "Gales"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "o3d6hv9h5",
+      "date": "21/11/2022",
+      "homeTeam": {
+        "id": "3299",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "bwjuxj2fw",
+      "date": "",
+      "homeTeam": {
+        "id": "3505",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "g24mdl4ge",
+      "date": "25/11/2022",
+      "homeTeam": {
+        "id": "3864",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "6du05vsv5",
+      "date": "",
+      "homeTeam": {
+        "id": "3299",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "w8ia3caj4",
+      "date": "29/11/2022",
+      "homeTeam": {
+        "id": "3582",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "t1xpa2q1v",
+      "date": "",
+      "homeTeam": {
+        "id": "3864",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "rbsfez87i",
+      "date": "1",
+      "homeTeam": {
+        "id": "3437",
+        "name": "Argentina"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "8lj0a96gw",
+      "date": "2",
+      "homeTeam": {
+        "id": "3442",
+        "name": "Polonia"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "msjf2u0u8",
+      "date": "3",
+      "homeTeam": {
+        "id": "6303",
+        "name": "México"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "y0z12bi3k",
+      "date": "4",
+      "homeTeam": {
+        "id": "3807",
+        "name": "Arabia Saudita"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "mk2hm4r3i",
+      "date": "22/11/2022",
+      "homeTeam": {
+        "id": "3437",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "01wknc99e",
+      "date": "",
+      "homeTeam": {
+        "id": "6303",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "nlfzv2esn",
+      "date": "26/11/2022",
+      "homeTeam": {
+        "id": "3442",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "xmq6eslwc",
+      "date": "",
+      "homeTeam": {
+        "id": "3437",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "xv44k3ozw",
+      "date": "30/11/2022",
+      "homeTeam": {
+        "id": "3807",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "zv5mhu6zj",
+      "date": "",
+      "homeTeam": {
+        "id": "3442",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "3n85muvrk",
+      "date": "1",
+      "homeTeam": {
+        "id": "3377",
+        "name": "Francia"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "65djjvsd9",
+      "date": "2",
+      "homeTeam": {
+        "id": "3433",
+        "name": "Australia"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "pk9ia5lu4",
+      "date": "3",
+      "homeTeam": {
+        "id": "3670",
+        "name": "Túnez"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "x8b7rs8gn",
+      "date": "4",
+      "homeTeam": {
+        "id": "3436",
+        "name": "Dinamarca"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "crh2tuuls",
+      "date": "22/11/2022",
+      "homeTeam": {
+        "id": "3436",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "mgom3w5o7",
+      "date": "",
+      "homeTeam": {
+        "id": "3377",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "a4g6mm6pp",
+      "date": "26/11/2022",
+      "homeTeam": {
+        "id": "3670",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "loz0f61a6",
+      "date": "",
+      "homeTeam": {
+        "id": "3377",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "d76up6lrk",
+      "date": "30/11/2022",
+      "homeTeam": {
+        "id": "3433",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "ta5bwa17h",
+      "date": "",
+      "homeTeam": {
+        "id": "3670",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "lzmjr8ije",
+      "date": "1",
+      "homeTeam": {
+        "id": "3435",
+        "name": "Japón"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "lbjb3nkij",
+      "date": "2",
+      "homeTeam": {
+        "id": "3375",
+        "name": "España"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "50y44ls4y",
+      "date": "3",
+      "homeTeam": {
+        "id": "3262",
+        "name": "Alemania"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "1av8gelqd",
+      "date": "4",
+      "homeTeam": {
+        "id": "8497",
+        "name": "Costa Rica"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "9tjcnuvxf",
+      "date": "23/11/2022",
+      "homeTeam": {
+        "id": "3262",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "4yuuxeme7",
+      "date": "",
+      "homeTeam": {
+        "id": "3375",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "roaug5gk6",
+      "date": "27/11/2022",
+      "homeTeam": {
+        "id": "3435",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "decstf68t",
+      "date": "",
+      "homeTeam": {
+        "id": "3375",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "daz93amgp",
+      "date": "01/12/2022",
+      "homeTeam": {
+        "id": "8497",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "37vst3b66",
+      "date": "",
+      "homeTeam": {
+        "id": "3435",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "sg3rv4u3a",
+      "date": "1",
+      "homeTeam": {
+        "id": "3575",
+        "name": "Marruecos"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "ygru3tgyi",
+      "date": "2",
+      "homeTeam": {
+        "id": "3556",
+        "name": "Croacia"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "s7y58fuxc",
+      "date": "3",
+      "homeTeam": {
+        "id": "3382",
+        "name": "Bélgica"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "u0syf9tuc",
+      "date": "4",
+      "homeTeam": {
+        "id": "3510",
+        "name": "Canadá"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "tlmovuwlx",
+      "date": "23/11/2022",
+      "homeTeam": {
+        "id": "3575",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "o36r4t2cz",
+      "date": "",
+      "homeTeam": {
+        "id": "3382",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "s2r7ssct3",
+      "date": "27/11/2022",
+      "homeTeam": {
+        "id": "3382",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "klo449rad",
+      "date": "",
+      "homeTeam": {
+        "id": "3556",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "yn9op2ew0",
+      "date": "01/12/2022",
+      "homeTeam": {
+        "id": "3510",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "1du9qloxl",
+      "date": "",
+      "homeTeam": {
+        "id": "3556",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "bmphz16vf",
+      "date": "1",
+      "homeTeam": {
+        "id": "3439",
+        "name": "Brasil"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "nvhdbi5f8",
+      "date": "2",
+      "homeTeam": {
+        "id": "3384",
+        "name": "Suiza"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "1qr5blydr",
+      "date": "3",
+      "homeTeam": {
+        "id": "3434",
+        "name": "Camerún"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "1jmm1t347",
+      "date": "4",
+      "homeTeam": {
+        "id": "3438",
+        "name": "Serbia"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "g0lqxjt85",
+      "date": "24/11/2022",
+      "homeTeam": {
+        "id": "3384",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "qx3y4mny0",
+      "date": "",
+      "homeTeam": {
+        "id": "3439",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "btoe58yig",
+      "date": "28/11/2022",
+      "homeTeam": {
+        "id": "3434",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "9g7jtq4tv",
+      "date": "",
+      "homeTeam": {
+        "id": "3439",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "i56ywpypq",
+      "date": "02/12/2022",
+      "homeTeam": {
+        "id": "3438",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "xx2wj0gba",
+      "date": "",
+      "homeTeam": {
+        "id": "3434",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "f36qtarj2",
+      "date": "1",
+      "homeTeam": {
+        "id": "3300",
+        "name": "Portugal"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "c31xhq5xy",
+      "date": "2",
+      "homeTeam": {
+        "id": "3589",
+        "name": "Corea del Sur"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "qayswur5q",
+      "date": "3",
+      "homeTeam": {
+        "id": "3449",
+        "name": "Uruguay"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "7scvdjya7",
+      "date": "4",
+      "homeTeam": {
+        "id": "3441",
+        "name": "Ghana"
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "8ma1vrj88",
+      "date": "24/11/2022",
+      "homeTeam": {
+        "id": "3449",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "wc28bvh2r",
+      "date": "",
+      "homeTeam": {
+        "id": "3300",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "rr9hh3rhs",
+      "date": "28/11/2022",
+      "homeTeam": {
+        "id": "3589",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "kxpv9tkob",
+      "date": "",
+      "homeTeam": {
+        "id": "3300",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "1tt9h0re9",
+      "date": "02/12/2022",
+      "homeTeam": {
+        "id": "3441",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    },
+    {
+      "id": "xzeh5ve0a",
+      "date": "",
+      "homeTeam": {
+        "id": "3589",
+        "name": ""
+      },
+      "awayTeam": {
+        "name": ""
+      },
+      "score": {
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "status": "FT"
+    }
+  ]
+}

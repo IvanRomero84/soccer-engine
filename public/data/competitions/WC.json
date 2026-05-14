@@ -1,0 +1,3482 @@
+{
+  "leagueId": "WC",
+  "leagueName": "Copa del Mundo",
+  "leagueLogo": "",
+  "season": 2024,
+  "standings": [
+    [
+      {
+        "rank": 1,
+        "teamId": "",
+        "teamName": "Kylian Mbappé",
+        "teamLogo": "",
+        "points": 23,
+        "goalsDiff": 0,
+        "group": "Máximos goleadores",
+        "all": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "",
+        "teamName": "Lionel Messi",
+        "teamLogo": "",
+        "points": 35,
+        "goalsDiff": 0,
+        "group": "Máximos goleadores",
+        "all": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "",
+        "teamName": "Julián Alvarez",
+        "teamLogo": "",
+        "points": 22,
+        "goalsDiff": 0,
+        "group": "Máximos goleadores",
+        "all": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "",
+        "teamName": "Olivier Giroud",
+        "teamLogo": "",
+        "points": 36,
+        "goalsDiff": 0,
+        "group": "Máximos goleadores",
+        "all": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 5,
+        "teamId": "",
+        "teamName": "Álvaro Morata",
+        "teamLogo": "",
+        "points": 30,
+        "goalsDiff": 0,
+        "group": "Máximos goleadores",
+        "all": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3379",
+        "teamName": "Países Bajos",
+        "teamLogo": "",
+        "points": 7,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo A",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3499",
+        "teamName": "Senegal",
+        "teamLogo": "",
+        "points": 6,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo A",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "5750",
+        "teamName": "Ecuador",
+        "teamLogo": "",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo A",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "14162",
+        "teamName": "Catar",
+        "teamLogo": "",
+        "points": 0,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo A",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3299",
+        "teamName": "Inglaterra",
+        "teamLogo": "",
+        "points": 7,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo B",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3505",
+        "teamName": "Estados Unidos",
+        "teamLogo": "",
+        "points": 5,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo B",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3582",
+        "teamName": "Irán",
+        "teamLogo": "",
+        "points": 3,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo B",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3864",
+        "teamName": "Gales",
+        "teamLogo": "",
+        "points": 1,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo B",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3437",
+        "teamName": "Argentina",
+        "teamLogo": "",
+        "points": 6,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo C",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3442",
+        "teamName": "Polonia",
+        "teamLogo": "",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo C",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "6303",
+        "teamName": "México",
+        "teamLogo": "",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo C",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3807",
+        "teamName": "Arabia Saudita",
+        "teamLogo": "",
+        "points": 3,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo C",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3377",
+        "teamName": "Francia",
+        "teamLogo": "",
+        "points": 6,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo D",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3433",
+        "teamName": "Australia",
+        "teamLogo": "",
+        "points": 6,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo D",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3670",
+        "teamName": "Túnez",
+        "teamLogo": "",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo D",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3436",
+        "teamName": "Dinamarca",
+        "teamLogo": "",
+        "points": 1,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo D",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3435",
+        "teamName": "Japón",
+        "teamLogo": "",
+        "points": 6,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo E",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3375",
+        "teamName": "España",
+        "teamLogo": "",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo E",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3262",
+        "teamName": "Alemania",
+        "teamLogo": "",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo E",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "8497",
+        "teamName": "Costa Rica",
+        "teamLogo": "",
+        "points": 3,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo E",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3575",
+        "teamName": "Marruecos",
+        "teamLogo": "",
+        "points": 7,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo F",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3556",
+        "teamName": "Croacia",
+        "teamLogo": "",
+        "points": 5,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo F",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3382",
+        "teamName": "Bélgica",
+        "teamLogo": "",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo F",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3510",
+        "teamName": "Canadá",
+        "teamLogo": "",
+        "points": 0,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo F",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3439",
+        "teamName": "Brasil",
+        "teamLogo": "",
+        "points": 6,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo G",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3384",
+        "teamName": "Suiza",
+        "teamLogo": "",
+        "points": 6,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo G",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3434",
+        "teamName": "Camerún",
+        "teamLogo": "",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo G",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3438",
+        "teamName": "Serbia",
+        "teamLogo": "",
+        "points": 1,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo G",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "3300",
+        "teamName": "Portugal",
+        "teamLogo": "",
+        "points": 6,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo H",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "3589",
+        "teamName": "Corea del Sur",
+        "teamLogo": "",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo H",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "3449",
+        "teamName": "Uruguay",
+        "teamLogo": "",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo H",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "3441",
+        "teamName": "Ghana",
+        "teamLogo": "",
+        "points": 3,
+        "goalsDiff": 0,
+        "group": "Clasificación del grupo H",
+        "all": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 3,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ]
+  ],
+  "matches": [
+    {
+      "id": "17c2npzxs",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3379",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3379",
+        "name": "Países Bajos",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "u2cvsqr5t",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3499",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3499",
+        "name": "Senegal",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "3k00962e5",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "5750",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "5750",
+        "name": "Ecuador",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "4lpmerikr",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "14162",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "14162",
+        "name": "Catar",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "cvwi6d87q",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "14162",
+        "name": "Catar",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "14162",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "7nvfpn0yn",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3499",
+        "name": "Senegal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3499",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "yuloeoq5e",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "14162",
+        "name": "Catar",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "14162",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "kwnu95eb6",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3379",
+        "name": "Países Bajos",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3379",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "3xxwzalod",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "5750",
+        "name": "Ecuador",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "5750",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "a1xz0xdz3",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3379",
+        "name": "Países Bajos",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3379",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "cdfqin75n",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3299",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3299",
+        "name": "Inglaterra",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "79ct9bepc",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3505",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3505",
+        "name": "Estados Unidos",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "s09rqvnz6",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3582",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3582",
+        "name": "Irán",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "5ktqpuv91",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3864",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3864",
+        "name": "Gales",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "rb2umdxj0",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3299",
+        "name": "Inglaterra",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3299",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 6,
+        "away": 2
+      }
+    },
+    {
+      "id": "p448fxd5g",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3505",
+        "name": "Estados Unidos",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3505",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "c90noh8l8",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3864",
+        "name": "Gales",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3864",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "mc11ro3el",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3299",
+        "name": "Inglaterra",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3299",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "s94pkimgu",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3582",
+        "name": "Irán",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3582",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "hh7vzavoa",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3864",
+        "name": "Gales",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3864",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "trva27zj7",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3437",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3437",
+        "name": "Argentina",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "vji1uun7q",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3442",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3442",
+        "name": "Polonia",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "jg6l80f8f",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "6303",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "6303",
+        "name": "México",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "jsgglknat",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3807",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3807",
+        "name": "Arabia Saudita",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "iw2frw4wm",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3437",
+        "name": "Argentina",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3437",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "zzzmz5w8q",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "6303",
+        "name": "México",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "6303",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "tmxwwvt33",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3442",
+        "name": "Polonia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3442",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "21co1qbku",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3437",
+        "name": "Argentina",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3437",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "9vdjs8p3j",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3807",
+        "name": "Arabia Saudita",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3807",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "gb19qdq4d",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3442",
+        "name": "Polonia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3442",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "mtu90xbke",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3377",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3377",
+        "name": "Francia",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "56zpx8u20",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3433",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3433",
+        "name": "Australia",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "zzpgo0bco",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3670",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3670",
+        "name": "Túnez",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "4yrsws2ji",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3436",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3436",
+        "name": "Dinamarca",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "4dedtthcx",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3436",
+        "name": "Dinamarca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3436",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "hzy96jycf",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3377",
+        "name": "Francia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3377",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "ao5nkeqcz",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3670",
+        "name": "Túnez",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3670",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "evpic0j6b",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3377",
+        "name": "Francia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3377",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "8z9fcebag",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3433",
+        "name": "Australia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3433",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "rm0boofrb",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3670",
+        "name": "Túnez",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3670",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "xervy3gtz",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3435",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3435",
+        "name": "Japón",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "yw9nabdu7",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3375",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3375",
+        "name": "España",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "oht5iguwv",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3262",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3262",
+        "name": "Alemania",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "qxg01ot4s",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "8497",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "8497",
+        "name": "Costa Rica",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "4gccl88xc",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3262",
+        "name": "Alemania",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3262",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "6lyur9c4q",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3375",
+        "name": "España",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3375",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 7,
+        "away": 0
+      }
+    },
+    {
+      "id": "wm9c7spv5",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3435",
+        "name": "Japón",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3435",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "y1qhje9yf",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3375",
+        "name": "España",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3375",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "oo1ff2f53",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "8497",
+        "name": "Costa Rica",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "8497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "3swxzk63h",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3435",
+        "name": "Japón",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3435",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "7yyid5rrt",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3575",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3575",
+        "name": "Marruecos",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "jugyar6sz",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3556",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3556",
+        "name": "Croacia",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "pj6mspz99",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3382",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3382",
+        "name": "Bélgica",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "z6psqwxqk",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3510",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3510",
+        "name": "Canadá",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "b90w26wwi",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3575",
+        "name": "Marruecos",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3575",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "53ji76o7m",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3382",
+        "name": "Bélgica",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3382",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "f3uez7br4",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3382",
+        "name": "Bélgica",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3382",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "4a8nx6biw",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3556",
+        "name": "Croacia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3556",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "6gwyqawuk",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3510",
+        "name": "Canadá",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3510",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "5357iupio",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3556",
+        "name": "Croacia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3556",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "hgl1wuk1v",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3439",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3439",
+        "name": "Brasil",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "xh9ai2wo1",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3384",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3384",
+        "name": "Suiza",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "6754gwog2",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3434",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3434",
+        "name": "Camerún",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "qd6vzxkt2",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3438",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3438",
+        "name": "Serbia",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "xez3bgppk",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3384",
+        "name": "Suiza",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3384",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "kb715wp11",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3439",
+        "name": "Brasil",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3439",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "tk7y508go",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3434",
+        "name": "Camerún",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3434",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "mn6hqzvxq",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3439",
+        "name": "Brasil",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3439",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "rmjzpnzn4",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3438",
+        "name": "Serbia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3438",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "c4t4qifmi",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3434",
+        "name": "Camerún",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3434",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "m3obvgdds",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3300",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3300",
+        "name": "Portugal",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "9ze8ul1bo",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3589",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3589",
+        "name": "Corea del Sur",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "33xrs7wpp",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3449",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3449",
+        "name": "Uruguay",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "rrupfhhk9",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3441",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3441",
+        "name": "Ghana",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "ltkp5jlzu",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3449",
+        "name": "Uruguay",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3449",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "bwsuecwld",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3300",
+        "name": "Portugal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3300",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "d9k9s4r6c",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3589",
+        "name": "Corea del Sur",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3589",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "sokaa0jn3",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3300",
+        "name": "Portugal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3300",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "6287qm72r",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3441",
+        "name": "Ghana",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3441",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "s60f1hixv",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3589",
+        "name": "Corea del Sur",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3589",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "zbnwn9xop",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "16:00",
+      "homeTeam": {
+        "id": "3379",
+        "name": "Países Bajos",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3379",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "yb8y5c7li",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "3437",
+        "name": "Argentina",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3437",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "3k5n56s1x",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "16:00",
+      "homeTeam": {
+        "id": "3377",
+        "name": "Francia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3377",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "ufxa6m37c",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "3299",
+        "name": "Inglaterra",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3299",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "1veram1kn",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "16:00",
+      "homeTeam": {
+        "id": "3435",
+        "name": "Japón",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3435",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "k1v7g0np7",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "3439",
+        "name": "Brasil",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3439",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "ymsek42mm",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "16:00",
+      "homeTeam": {
+        "id": "3575",
+        "name": "Marruecos",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3575",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "obesz95lc",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "3300",
+        "name": "Portugal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3300",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 6,
+        "away": 1
+      }
+    },
+    {
+      "id": "0rx6adavb",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "16:00",
+      "homeTeam": {
+        "id": "3556",
+        "name": "Croacia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3556",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 5,
+        "away": 3
+      }
+    },
+    {
+      "id": "ex86163nb",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "3379",
+        "name": "Países Bajos",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3379",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 5,
+        "away": 6
+      }
+    },
+    {
+      "id": "6k32jkg6x",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "16:00",
+      "homeTeam": {
+        "id": "3575",
+        "name": "Marruecos",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3575",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "j1aoo5eza",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "3299",
+        "name": "Inglaterra",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3299",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "1w48aq0ah",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "3437",
+        "name": "Argentina",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3437",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "ogojy61z4",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "3377",
+        "name": "Francia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3377",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "w4wrjhu4f",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "16:00",
+      "homeTeam": {
+        "id": "3556",
+        "name": "Croacia",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3556",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "r2zj2noqb",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "16:00",
+      "homeTeam": {
+        "id": "3437",
+        "name": "Argentina",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3437",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 7,
+        "away": 5
+      }
+    },
+    {
+      "id": "h5jecia6y",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3439",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3439",
+        "name": "Brasil",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "cbve08pak",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3262",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3262",
+        "name": "Alemania",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "aldijnvgf",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3376",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3376",
+        "name": "Italia",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "21f7c5yjt",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3437",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3437",
+        "name": "Argentina",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "brpws3r6r",
+      "leagueId": "WC",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3377",
+        "name": "",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3377",
+        "name": "Francia",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ],
+  "fetchedAt": 1778791875496
+}

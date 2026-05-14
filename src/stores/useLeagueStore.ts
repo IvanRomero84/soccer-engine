@@ -68,7 +68,7 @@ function mapFixture(f: FDMatch): Match {
     leagueLogo: f.competition?.emblem || '',
     leagueCountry: '',
     season: new Date(f.utcDate).getFullYear(),
-    round: '', 
+    round: '',
     homeTeam: { id: f.homeTeam.id, name: f.homeTeam.shortName || f.homeTeam.name, logo: f.homeTeam.crest },
     awayTeam: { id: f.awayTeam.id, name: f.awayTeam.shortName || f.awayTeam.name, logo: f.awayTeam.crest },
     status: mapFixtureStatus(f.status),
@@ -184,12 +184,12 @@ export const useLeagueStore = defineStore('league', () => {
 
     try {
       const res = await fetchFromFootballDataOrg<FDMatchesResponse>(`/competitions/${leagueId}/matches`, { status: 'SCHEDULED', season: selectedSeason.value })
-      
+
       let matches: Match[] = []
       if (res && res.matches) {
         matches = res.matches.slice(0, next).map(mapFixture)
       }
-      
+
       fixturesCache.value.set(leagueId, { data: matches, fetchedAt: Date.now() })
       return matches
     } catch (e: any) {

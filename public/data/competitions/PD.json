@@ -1,0 +1,9617 @@
+{
+  "leagueId": "PD",
+  "leagueName": "LaLiga",
+  "leagueLogo": "",
+  "season": 2024,
+  "standings": [
+    [
+      {
+        "rank": 1,
+        "teamId": "418",
+        "teamName": "Real Madrid CF",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/418.png?lm=1729684474",
+        "points": 46,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 25,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 25,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 25,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "131",
+        "teamName": "FC Barcelona",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/131.png?lm=1406739548",
+        "points": 46,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 25,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 25,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 25,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "13",
+        "teamName": "Atlético de Madrid",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/13.png?lm=1719915566",
+        "points": 25,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "621",
+        "teamName": "Athletic Club",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/621.png?lm=1695069038",
+        "points": 10,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 5,
+        "teamId": "1050",
+        "teamName": "Villarreal CF",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/1050.png?lm=1408655310",
+        "points": 10,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 6,
+        "teamId": "681",
+        "teamName": "Real Sociedad",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/681.png?lm=1614795530",
+        "points": 10,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 7,
+        "teamId": "150",
+        "teamName": "Real Betis Balompié",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/150.png?lm=1663358526",
+        "points": 9,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 29,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 29,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 29,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 8,
+        "teamId": "940",
+        "teamName": "RC Celta de Vigo",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/940.png?lm=1406966406",
+        "points": 6,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 9,
+        "teamId": "1049",
+        "teamName": "Valencia CF",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/1049.png?lm=1406966320",
+        "points": 6,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 10,
+        "teamId": "12321",
+        "teamName": "Girona FC",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/12321.png?lm=1730455718",
+        "points": 5,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 11,
+        "teamId": "368",
+        "teamName": "Sevilla FC",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/368.png?lm=1730896593",
+        "points": 5,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 12,
+        "teamId": "714",
+        "teamName": "RCD Espanyol",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/714.png?lm=1406966369",
+        "points": 5,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 13,
+        "teamId": "367",
+        "teamName": "Rayo Vallecano",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/367.png?lm=1653488445",
+        "points": 3,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 14,
+        "teamId": "331",
+        "teamName": "CA Osasuna",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/331.png?lm=1686070937",
+        "points": 4,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 15,
+        "teamId": "237",
+        "teamName": "RCD Mallorca",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/237.png?lm=1407484750",
+        "points": 3,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 27,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 16,
+        "teamId": "3368",
+        "teamName": "Levante UD",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/3368.png?lm=1408655062",
+        "points": 3,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 17,
+        "teamId": "1531",
+        "teamName": "Elche CF",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/1531.png?lm=1421955260",
+        "points": 3,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 26,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 18,
+        "teamId": "3709",
+        "teamName": "Getafe CF",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/3709.png?lm=1408655116",
+        "points": 3,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 19,
+        "teamId": "1108",
+        "teamName": "Deportivo Alavés",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/1108.png?lm=1596131395",
+        "points": 2,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 20,
+        "teamId": "2497",
+        "teamName": "Real Oviedo",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/2497.png?lm=1417193316",
+        "points": 2,
+        "goalsDiff": 0,
+        "group": "Clubes de LaLiga 25/26",
+        "all": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 28,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "131",
+        "teamName": "FC Barcelona",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/131.png?lm=1406739548",
+        "points": 91,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "418",
+        "teamName": "Real Madrid",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/418.png?lm=1729684474",
+        "points": 80,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "1050",
+        "teamName": "Villarreal",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/1050.png?lm=1408655310",
+        "points": 69,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "13",
+        "teamName": "Atlético",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/13.png?lm=1719915566",
+        "points": 66,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 5,
+        "teamId": "150",
+        "teamName": "Real Betis",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/150.png?lm=1663358526",
+        "points": 57,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 6,
+        "teamId": "940",
+        "teamName": "RC Celta",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/940.png?lm=1406966406",
+        "points": 50,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 7,
+        "teamId": "3709",
+        "teamName": "Getafe CF",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/3709.png?lm=1408655116",
+        "points": 48,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 8,
+        "teamId": "681",
+        "teamName": "Real Sociedad",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/681.png?lm=1614795530",
+        "points": 45,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 9,
+        "teamId": "367",
+        "teamName": "Rayo Vallecano",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/367.png?lm=1653488445",
+        "points": 44,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 10,
+        "teamId": "621",
+        "teamName": "Athletic Club",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/621.png?lm=1695069038",
+        "points": 44,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 11,
+        "teamId": "368",
+        "teamName": "Sevilla FC",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/368.png?lm=1730896593",
+        "points": 43,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 12,
+        "teamId": "1049",
+        "teamName": "Valencia CF",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/1049.png?lm=1406966320",
+        "points": 43,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 13,
+        "teamId": "331",
+        "teamName": "CA Osasuna",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/331.png?lm=1686070937",
+        "points": 42,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 14,
+        "teamId": "714",
+        "teamName": "RCD Espanyol",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/714.png?lm=1406966369",
+        "points": 42,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 15,
+        "teamId": "1108",
+        "teamName": "Alavés",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/1108.png?lm=1596131395",
+        "points": 40,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 16,
+        "teamId": "12321",
+        "teamName": "Girona FC",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/12321.png?lm=1730455718",
+        "points": 40,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 17,
+        "teamId": "1531",
+        "teamName": "Elche CF",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/1531.png?lm=1421955260",
+        "points": 39,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 18,
+        "teamId": "237",
+        "teamName": "RCD Mallorca",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/237.png?lm=1407484750",
+        "points": 39,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 19,
+        "teamId": "3368",
+        "teamName": "Levante UD",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/3368.png?lm=1408655062",
+        "points": 39,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 20,
+        "teamId": "2497",
+        "teamName": "Real Oviedo",
+        "teamLogo": "https://tmssl.akamaized.net//images/wappen/tiny/2497.png?lm=1417193316",
+        "points": 29,
+        "goalsDiff": 0,
+        "group": "Clasificación LaLiga",
+        "all": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 36,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ],
+    [
+      {
+        "rank": 1,
+        "teamId": "",
+        "teamName": "Kylian Mbappé",
+        "teamLogo": "",
+        "points": 27,
+        "goalsDiff": 0,
+        "group": "Máximos goleadores",
+        "all": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 2,
+        "teamId": "",
+        "teamName": "Vedat Muriqi",
+        "teamLogo": "",
+        "points": 32,
+        "goalsDiff": 0,
+        "group": "Máximos goleadores",
+        "all": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 3,
+        "teamId": "",
+        "teamName": "Ante Budimir",
+        "teamLogo": "",
+        "points": 34,
+        "goalsDiff": 0,
+        "group": "Máximos goleadores",
+        "all": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 4,
+        "teamId": "",
+        "teamName": "Lamine Yamal",
+        "teamLogo": "",
+        "points": 18,
+        "goalsDiff": 0,
+        "group": "Máximos goleadores",
+        "all": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      },
+      {
+        "rank": 5,
+        "teamId": "",
+        "teamName": "Ferran Torres",
+        "teamLogo": "",
+        "points": 26,
+        "goalsDiff": 0,
+        "group": "Máximos goleadores",
+        "all": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "home": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        },
+        "away": {
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "lose": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalsDiff": 0
+        }
+      }
+    ]
+  ],
+  "matches": [
+    {
+      "id": "6y2bpc7hy",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "xwiezm7sj",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "e2n23klzf",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:30",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "zk4poplsj",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "dci0ikl35",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "l072eaddu",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "17:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "b4yg6z04m",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:30",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "ysw60wqvd",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "mdvbldpff",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "84av4oa39",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "k0h86bsuz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "3yztcqnm0",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "17:00",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "nh0kfa8bm",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:30",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "yt8echv5k",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "k4326tf9c",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "17:00",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "0nfwd1k54",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:30",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 5,
+        "away": 0
+      }
+    },
+    {
+      "id": "dne6gu7n7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "9qf28pjiu",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "ji6bbqnha",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:30",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "0wyxy8q2j",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "yg2zrbsk5",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:30",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "nuzohekec",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "bxsnnhusb",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "17:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "ejf982481",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "dpcn7kkrk",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:30",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "ftxmzcit0",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "kq4t5a1pd",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "17:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "gb1a7656d",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "cze0jkmz8",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:30",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "33m5e9ki3",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "af1a00bzp",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "1d9f9vfqu",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "axr1yvv8b",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "iwithoeci",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "wwzkk1z14",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "ilt2ghj06",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "ntgkj29jd",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "8ythw028r",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "xwogkz6o5",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 6,
+        "away": 0
+      }
+    },
+    {
+      "id": "6d6wldub3",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "cht6lrgt6",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "5c7m0urvs",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 4
+      }
+    },
+    {
+      "id": "ynfyqd4c6",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "nkax2vaco",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "9zhdomn70",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "g0tv2xvuw",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "xwuhpavfm",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "4wegs0ios",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "o96g1t3xk",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "p86ik8m1f",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "8lxc1ybvt",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "tubh16hly",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "c3goh7ypw",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "35arbt5cg",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 4
+      }
+    },
+    {
+      "id": "qyd67lqwu",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "man2aaf8a",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "d1seeh5xo",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "8wjb4ur48",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "tmqbbqd1f",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:30",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "fbzpa17l0",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "h6hof4q3h",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "0pp169aiv",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "mcdq5vt9y",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "j0t1to6fz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "flmpufhub",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "sobbsggvp",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "8qsguyf8n",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "ngpg73drt",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "y3px9ye0m",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "kdpb10g0e",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "z56ih07h3",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "u8oap1dis",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "8t2qowqc8",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "qwq2ogy74",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "xntz21b8b",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "uflldj94q",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "7dv1mdeey",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "tllyhbmmz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "0kjfsubmb",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "ymt6x9lp4",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "0s8jo3278",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "2iax6bldz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "ymgbr4ez7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "4283xra5l",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "kq9hq9z1r",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "dvv4g96go",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "ndcuwk13k",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "k03g1jcd4",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "3dg5kp8w8",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "16dfg9b9n",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "enxcktxuz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "kod71uyj6",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "zpydbjkaa",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "o9of8cezj",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "13rme8p03",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "f7fc56lno",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "7daiuylxy",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "sdoebuhce",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "aobjwy76r",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "x0uu9mrb0",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "4jq70y9wq",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "v36bjroa1",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "pgfvfznsw",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "492bmpvob",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "bpd443lwh",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "sw2jefo2t",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "8dos46dft",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "dvg6z4pk7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "wz8jrbu8m",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "opt4hnfyz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "757oo3ugp",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "jn2w6dm27",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "c8xowxm9l",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "cmpudm7f7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "wrc4g73i8",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "ammohw4jx",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "cai17g1oz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "fxho68zn3",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "3m2gdgqnx",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "rz7xth7ob",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "07pcmvke1",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "a429273el",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "oj0o39jyw",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "hpgrspmqu",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "tefojpfjh",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "7nq0codus",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "mblixqikh",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "pur1j2hlg",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "o5dp3m2rv",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "6cchmbbn3",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "f0pd5brku",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "sa798um5m",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "dmz9mq6fn",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "auxpf68o4",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "heu64tze0",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "6v8g70kos",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "ef3rtq9ig",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "vks6t6vmg",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "7pev8ns0n",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "vbsibygaj",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "0usf6wq3e",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "8sg6ccf5t",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "8q80425i3",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "57nfiuzco",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 5
+      }
+    },
+    {
+      "id": "2ogtexwrr",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "vfs8qsaeh",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "9qd1n4bdx",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "pkcdj2h9n",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "kuxy5is74",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "dlhxkb8iu",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "1q1b9w1uz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "qmm7suza9",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "efcc3tsy5",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "o7z12xlk4",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "qtih0b82f",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "e25ly8ggk",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "f5a8eeyn7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "qutjkl8rh",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "h3w0ebk46",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "es09sbjw5",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "nrxb9x0er",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "cxpn2eegn",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "ltvg7sk4g",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "tv9rrr39x",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "dtkaqkzjh",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "vo0x9xnae",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "1vjxuu0ho",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "nvov36yt9",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "r4r98ctie",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 0
+      }
+    },
+    {
+      "id": "lvven7tzd",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "pptc2pyir",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "2y1murnj0",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "9xcgx6rzs",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "x9ffgq0gd",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "xybhyxn4l",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "9otyrn1wc",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "xydgfk8yi",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "wwmfvb9lz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "cgduv7pq0",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "piuxbqrvb",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "6v6w3ll4u",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "aposxh82k",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "x2qenb9nt",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "t8kdg3ygj",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "8r1bpw6hn",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "o0udmyrg2",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "ncdaj6jhr",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "bcueajx5w",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "ku1dfekf7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "gk89gpd5y",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "mprb6vz73",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "pjoz7vxjc",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "g172l150p",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "ua5a40p9l",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "iixqwtnw2",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "iw1melyf9",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "shh1bps8u",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "zvsqsrkxd",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "3yq0gci3i",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "6kfzs0a8j",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "7irbdr4sz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "g1ldyv1x7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "qcguedr77",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "1g1v8kjma",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "dczro1ntn",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "wwqpiqdrh",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "07gr1x1vf",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "d40q3vhsx",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "n33lmx12e",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "15hzuljfq",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "riitk93j9",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "pj4o0l8z2",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "e20v34c2d",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "szq0uwg7y",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "9nrrq9o95",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "id": "9akp7pyq4",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "nkj0n6edy",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "0v79zj1bd",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "n3h775wzq",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "oyxd7a053",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "bi9osvzlm",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "dh1vkb4sr",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "zdqoge7r6",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "ymg4ms8t2",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "xmliqpuh2",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "vdrvs0rpc",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "asrws4mnm",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "py6pk6mz5",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "xas4409pf",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "hkwlrnxhk",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "k50iebuqz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "ic4cszqxr",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "thj9ncvke",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "kl949fvmn",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "ov0n29epk",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "qwq7jgr2v",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "dlwo75lql",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "y23sgvc1f",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "zayeoapg4",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "mp44bwvrp",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "t9jdhtbk4",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "ugecrptyw",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "yl7qrijfj",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "c29u30k4j",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "0wpx5odzc",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "47ze7vnzd",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "1w2ubuugk",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "y6yqb7j8q",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "b3576fiph",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "5vtzk383k",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "yo74t9m5p",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "kqszcm420",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "ao0ectze5",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "ktqlko52m",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "li79xfqtg",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "6ntxzvun3",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "4r9to6uqe",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "d5euv5wcw",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "ze75mzsn2",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "r52ahd1yu",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "usmfhbf88",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "ya8ehu21d",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "p6jeu1kd2",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "03k3ngmav",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "wxwy5mg76",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "usztw02x4",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "r7yn0yonn",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "pcz220yhb",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "iqryj0ft5",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "uctb6ef3i",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "ltnprzd05",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "uwmtab5pr",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "1t9gutnuk",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "m2ix8myi8",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "9b9u1j4i7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "9apms3nj8",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "2ya7rvhtm",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 5,
+        "away": 2
+      }
+    },
+    {
+      "id": "u6jb4ddep",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "dzgygp0m2",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "zlgum57y1",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "ii156ifnm",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "0xx6vmlrv",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "04cw2p3ox",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "rioe20mhz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "4phpq7hzi",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 2
+      }
+    },
+    {
+      "id": "cmosksjqe",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "32m367jlo",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "w20s04q2c",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 4
+      }
+    },
+    {
+      "id": "kh7ja3xjh",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "d1xw5vnhp",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "nxg9aemeu",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "9eb6uxopx",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "zxtimqlc7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "uelc2r1nv",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "zv2n61n68",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "yoa1lwtyh",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "p5oelnnzc",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "jmoojm3iw",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "qp855l94w",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "ayiskwknd",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "u5uvnq4f0",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "dtz13h3yr",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "6iv3fe3dj",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "4o1obndcq",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 4,
+        "away": 1
+      }
+    },
+    {
+      "id": "t6wxi399g",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "pht5ns6wd",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "uqggv5qel",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "ect9uj6o1",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    {
+      "id": "yxzt3m2vj",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "x54bwr552",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "xyyz88xjc",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "mvnmwmnbu",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "q7opzuqjb",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "o3iblp4p6",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "ettaqwwvq",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "qs64tywkv",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 3
+      }
+    },
+    {
+      "id": "mkbsamqgv",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "kxspcspoe",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "jefrvhuj2",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "awqbxgq46",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "l1n1q7nsz",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "gbd1p5rn7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "kwhsflu8z",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "e2v6lrcj5",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "r6dxz4cnx",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "qxhxribwp",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "46q903739",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "90k773cnf",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "a5gptrhxm",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "7zo0j241n",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "e6h6e7let",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "zm4nun1hj",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 5,
+        "away": 1
+      }
+    },
+    {
+      "id": "ig7vq83rl",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "4aia4gyni",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "id": "bq1nh7nh8",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "3k7599my2",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "0dwhs13gp",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "i7co2f74v",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    {
+      "id": "ivhimnu7u",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "5kdw4vjks",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "j35ov97e3",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 2
+      }
+    },
+    {
+      "id": "xxy47w7b7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "o34nvpu5r",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "nqmomkasi",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "qnz3rrp2t",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "ew1juhgwt",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "14:00",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "1c7710z22",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "16:15",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "id": "476j31by4",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "18:30",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "rez7gm1jt",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "7u8yjwwox",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "q61anuq76",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "1lrocieu5",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "id": "abekhioon",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "id": "9pwvoma20",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "id": "j282ze3hv",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 2,
+        "away": 3
+      }
+    },
+    {
+      "id": "ozt8dci71",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "id": "hu5fb1pi7",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "id": "fw5van7qo",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "u6acmkp9y",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "20:00",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "FT",
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "id": "v985o5et9",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:30",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "ls3inh5zr",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "19:00",
+      "homeTeam": {
+        "id": "621",
+        "name": "Athletic Club",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "621",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "xyf0zfnua",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "13",
+        "name": "Atlético",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "13",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "qd80v9qbv",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "1531",
+        "name": "Elche CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1531",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "ezw1sqgps",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3368",
+        "name": "Levante UD",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "g15a5qcbr",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "367",
+        "name": "Rayo Vallecano",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "367",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "v5tmjypov",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "681",
+        "name": "Real Sociedad",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "681",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "10dg3ln5f",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "2497",
+        "name": "Real Oviedo",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "2497",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "7nx8b4neb",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "331",
+        "name": "CA Osasuna",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "331",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "yst9tsxs1",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "368",
+        "name": "Sevilla FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "368",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "uqulqhc5t",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:15",
+      "homeTeam": {
+        "id": "131",
+        "name": "FC Barcelona",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "131",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "9nrgf0bwq",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1108",
+        "name": "Alavés",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1108",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "dzpow24sw",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "150",
+        "name": "Real Betis",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "150",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "p88a3nv2u",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "940",
+        "name": "RC Celta",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "940",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "n62fgyyx6",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "714",
+        "name": "RCD Espanyol",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "714",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "196io0ax6",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "3709",
+        "name": "Getafe CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "3709",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "uz48344ga",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "237",
+        "name": "RCD Mallorca",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "237",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "dwwsjdgql",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "418",
+        "name": "Real Madrid",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "418",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "z5vxfpr0z",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "1049",
+        "name": "Valencia CF",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1049",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "5t7x8d3ga",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "",
+      "homeTeam": {
+        "id": "12321",
+        "name": "Girona FC",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "12321",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    },
+    {
+      "id": "383d5b2oy",
+      "leagueId": "PD",
+      "leagueName": "",
+      "date": "21:00",
+      "homeTeam": {
+        "id": "1050",
+        "name": "Villarreal",
+        "logo": ""
+      },
+      "awayTeam": {
+        "id": "1050",
+        "name": "",
+        "logo": ""
+      },
+      "status": "NS",
+      "goals": {
+        "home": null,
+        "away": null
+      }
+    }
+  ],
+  "fetchedAt": 1778791866800
+}
