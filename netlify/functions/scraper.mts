@@ -30,23 +30,69 @@ async function fetchWithRetry(url: string, retries = 2) {
 
 export default async (request: Request, context: Context) => {
   const url = new URL(request.url);
-  const type = url.searchParams.get('type');
-  const id = url.searchParams.get('id');
+  let type = url.searchParams.get('type');
+  let id = url.searchParams.get('id');
+
+  // Si no hay type/id en query params, intentar extraerlos del path (especialmente para redirects de Netlify)
+  // El path vendrá como /.netlify/functions/scraper/football/competitions/PD/standings si usamos path forwarding
+  // O el type tendrá el valor del splat: football/competitions/PD/standings
+  
+  if (type && type.includes('/')) {
+    const parts = type.split('/');
+    // Manejar formato football-data.org: football/competitions/{id}/standings
+    if (parts.includes('competitions')) {
+      const compIdx = parts.indexOf('competitions');
+      id = parts[compIdx + 1];
+      type = 'competition';
+    } else if (parts.includes('teams')) {
+       const teamIdx = parts.indexOf('teams');
+       id = parts[teamIdx + 1];
+       type = 'club';
+    }
+  }
+
+  // Fallback: si id sigue siendo null, intentar buscarlo en el path directo si el redirect no pasó params
+  if (!id && url.pathname.includes('/competitions/')) {
+    const parts = url.pathname.split('/');
+    const idx = parts.indexOf('competitions');
+    id = parts[idx + 1];
+    type = 'competition';
+  }
 
   if (!type || !id) {
-    return new Response(JSON.stringify({ error: 'Missing type or id' }), { 
+    return new Response(JSON.stringify({ 
+      error: 'Missing type or id',
+      debug: { type, id, pathname: url.pathname, search: url.search }
+    }), { 
       status: 400,
       headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
     });
   }
 
   try {
-    if (type === 'club') {
+    if (type === 'club' || type === 'team') {
       return await handleClubScrape(id);
-    } else if (type === 'competition') {
+    } else if (type === 'competition' || type === 'league') {
+      // Si la URL termina en /matches, el store espera fixtures. El scraper aún no tiene scraping de matches.
+      if (url.pathname.endsWith('/matches') || (url.searchParams.get('type') || '').includes('/matches')) {
+        return new Response(JSON.stringify({ matches: [] }), { 
+          headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
+        });
+      }
       return await handleCompetitionScrape(id);
     }
-    return new Response(JSON.stringify({ error: 'Invalid type' }), { status: 400 });
+    
+    // Si es /matches global
+    if (type === 'matches' || (url.searchParams.get('type') || '').includes('/matches')) {
+      return new Response(JSON.stringify({ matches: [] }), { 
+        headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
+      });
+    }
+
+    return new Response(JSON.stringify({ error: `Endpoint not fully implemented in scraper: ${type}` }), { 
+      status: 200, // Devolvemos 200 con error para evitar crashes si el store no maneja bien errores
+      headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
+    });
   } catch (error: any) {
     return new Response(JSON.stringify({ error: error.message }), { 
       status: 500,
@@ -116,14 +162,29 @@ async function handleClubScrape(id: string) {
     });
   });
 
-  return new Response(JSON.stringify({ id, name, logo, coach, venue, squad }), {
+  return new Response(JSON.stringify({ 
+    id, 
+    name, 
+    shortName: name,
+    tla: name.substring(0, 3).toUpperCase(),
+    crest: logo, 
+    coach, 
+    venue, 
+    squad 
+  }), {
     headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
   });
 }
 
 async function handleCompetitionScrape(id: string) {
   const comp = COMPETITIONS[id as keyof typeof COMPETITIONS];
-  if (!comp) throw new Error('Competition not supported');
+  if (!comp) {
+    // Si la liga no está en nuestra lista de soportadas, devolver un error amigable o datos vacíos
+    return new Response(JSON.stringify({ 
+      competition: { id, name: id, emblem: '' },
+      standings: [] 
+    }), { headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' } });
+  }
 
   const { data } = await fetchWithRetry(comp.url);
   const $ = cheerio.load(data);
@@ -133,26 +194,44 @@ async function handleCompetitionScrape(id: string) {
   
   $tables.each((i, tableBox) => {
     const $table = $(tableBox).find('table.items');
-    const groupTable: any[] = [];
+    const table: any[] = [];
     $table.find('tr').each((j, tr) => {
       if (j === 0 || $(tr).hasClass('spacer')) return;
       const $tds = $(tr).find('td');
       if ($tds.length < 5) return;
       const $teamLink = $tds.eq(2).find('a');
-      groupTable.push({
-        rank: parseInt($tds.eq(0).text().trim()),
-        teamId: $teamLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1],
-        teamName: $teamLink.text().trim(),
-        teamLogo: $tds.eq(1).find('img').attr('src') || $tds.eq(1).find('img').attr('data-src'),
+      
+      table.push({
+        position: parseInt($tds.eq(0).text().trim()),
+        team: {
+          id: $teamLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1],
+          name: $teamLink.text().trim(),
+          shortName: $teamLink.text().trim(),
+          crest: $tds.eq(1).find('img').attr('src') || $tds.eq(1).find('img').attr('data-src')
+        },
+        playedGames: parseInt($tds.eq(3).text().trim()),
+        won: 0,
+        draw: 0,
+        lost: 0,
         points: parseInt($tds.eq(6).text().trim()),
-        goalsDiff: parseInt($tds.eq(5).text().trim()),
-        all: { played: parseInt($tds.eq(3).text().trim()) }
+        goalDifference: parseInt($tds.eq(5).text().trim()),
+        form: ''
       });
     });
-    if (groupTable.length > 0) standings.push(groupTable);
+    if (table.length > 0) standings.push({ type: 'TOTAL', table });
   });
 
-  return new Response(JSON.stringify({ leagueId: id, leagueName: comp.name, standings }), {
+  // Estructura compatible con FDStandingsResponse
+  const response = {
+    competition: {
+      id,
+      name: comp.name,
+      emblem: '' // Transfermarkt no da el logo de la liga fácil aquí
+    },
+    standings
+  };
+
+  return new Response(JSON.stringify(response), {
     headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
   });
 }
