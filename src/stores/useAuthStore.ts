@@ -144,7 +144,7 @@ export const useAuthStore = defineStore('auth', () => {
       for (const [key, value] of Object.entries(prefs)) {
         updates[`preferences.${key}`] = value
       }
-      
+
       // Update local auth state
       currentUser.value = {
         ...currentUser.value,
@@ -164,10 +164,10 @@ export const useAuthStore = defineStore('auth', () => {
     clubLogo: string,
   ): Promise<void> {
     const normalizedId = typeof clubId === 'string' && !isNaN(Number(clubId)) ? Number(clubId) : clubId
-    await savePreferences({ 
-      favoriteClubId: normalizedId, 
-      favoriteClubName: clubName, 
-      favoriteClubLogo: clubLogo 
+    await savePreferences({
+      favoriteClubId: normalizedId as number,
+      favoriteClubName: clubName,
+      favoriteClubLogo: clubLogo
     })
   }
 
@@ -180,26 +180,26 @@ export const useAuthStore = defineStore('auth', () => {
       return
     }
 
-  onAuthStateChanged(auth, async (firebaseUser) => {
-    if (firebaseUser) {
-      try {
-        const preferences = await loadPreferencesForUser(firebaseUser.uid)
-        
-        // Sincronización: Si hay algo en guest_prefs pero no en Firestore, subirlo
-        if (Object.keys(guestPreferences.value).length > 0 && Object.keys(preferences).length === 0) {
-          await savePreferences(guestPreferences.value)
+    onAuthStateChanged(auth, async (firebaseUser) => {
+      if (firebaseUser) {
+        try {
+          const preferences = await loadPreferencesForUser(firebaseUser.uid)
+
+          // Sincronización: Si hay algo en guest_prefs pero no en Firestore, subirlo
+          if (Object.keys(guestPreferences.value).length > 0 && Object.keys(preferences).length === 0) {
+            await savePreferences(guestPreferences.value)
+          }
+
+          currentUser.value = mapFirebaseUser(firebaseUser, { ...guestPreferences.value, ...preferences })
+        } catch {
+          currentUser.value = mapFirebaseUser(firebaseUser, guestPreferences.value)
         }
-        
-        currentUser.value = mapFirebaseUser(firebaseUser, { ...guestPreferences.value, ...preferences })
-      } catch {
-        currentUser.value = mapFirebaseUser(firebaseUser, guestPreferences.value)
+      } else {
+        currentUser.value = null
       }
-    } else {
-      currentUser.value = null
-    }
-    isInitialized.value = true
-  })
-}
+      isInitialized.value = true
+    })
+  }
 
   async function loadPreferencesForUser(uid: string): Promise<UserPreferences> {
     if (!db) return {}
@@ -218,14 +218,14 @@ export const useAuthStore = defineStore('auth', () => {
       const { user } = await signInWithEmailAndPassword(auth, email, password)
       // Optimistic update
       currentUser.value = mapFirebaseUser(user)
-      
+
       // Sync in background
       upsertUserDoc(user).then(preferences => {
         if (currentUser.value && currentUser.value.uid === user.uid) {
           currentUser.value.preferences = preferences
         }
       })
-      
+
       return currentUser.value
     } catch (e) {
       error.value = getFirebaseErrorMessage(e)
@@ -263,17 +263,17 @@ export const useAuthStore = defineStore('auth', () => {
     error.value = null
     try {
       const { user } = await signInWithPopup(auth, googleProvider)
-      
+
       // Optimistic update: Set user immediately
       currentUser.value = mapFirebaseUser(user)
-      
+
       // Background sync: Don't await this
       upsertUserDoc(user).then(preferences => {
         if (currentUser.value && currentUser.value.uid === user.uid) {
           currentUser.value.preferences = preferences
         }
       })
-      
+
       return currentUser.value
     } catch (e) {
       error.value = getFirebaseErrorMessage(e)
@@ -327,7 +327,7 @@ export const useAuthStore = defineStore('auth', () => {
       // Update Firestore doc too
       const userRef = doc(db!, USERS_COLLECTION, auth.currentUser.uid)
       await updateDoc(userRef, { displayName, photoURL })
-      
+
       if (currentUser.value) {
         currentUser.value.displayName = displayName
         currentUser.value.photoURL = photoURL || currentUser.value.photoURL

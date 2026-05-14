@@ -7,7 +7,7 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 import { fetchFromFootballDataOrg } from '@/services/api'
-import type { Club, ClubStatsSeason, CacheEntry, ClubPlayer } from '@/types'
+import type { Club, ClubStatsSeason, CacheEntry, ClubPlayer, Trophy } from '@/types'
 import type { FDTeamResponse, FDMatchesResponse } from '@/types/api'
 
 const CLUB_TTL_MS = 60 * 60 * 1000 // 1 hora
@@ -57,16 +57,16 @@ export const useClubStore = defineStore('club', () => {
       let stats: ClubStatsSeason[] = []
       try {
         const matchesRes = await fetchFromFootballDataOrg<FDMatchesResponse>(`/teams/${clubId}/matches`, { status: 'FINISHED', limit: 5 })
-        
+
         if (matchesRes && matchesRes.matches && matchesRes.matches.length > 0) {
           let wins = 0, draws = 0, losses = 0, gf = 0, ga = 0
           let formStr = ''
-          
+
           matchesRes.matches.forEach(match => {
             const isHome = match.homeTeam.id === Number(clubId)
             const myScore = isHome ? match.score.fullTime.home : match.score.fullTime.away
             const oppScore = isHome ? match.score.fullTime.away : match.score.fullTime.home
-            
+
             if (myScore !== null && oppScore !== null) {
               gf += myScore
               ga += oppScore
@@ -75,7 +75,7 @@ export const useClubStore = defineStore('club', () => {
               else { losses++; formStr += 'L' }
             }
           })
-          
+
           stats.push({
             leagueId: 0,
             leagueName: 'Últimos Partidos',
@@ -112,7 +112,7 @@ export const useClubStore = defineStore('club', () => {
         const enrichmentRes = await fetch(`/data/clubs/${clubId}.json`)
         if (enrichmentRes.ok) {
           const extra = await enrichmentRes.json()
-          
+
           // Mapear trofeos (expandir por temporadas e incluir imagen)
           if (extra.trophies) {
             const allTrophies: Trophy[] = []
@@ -153,14 +153,14 @@ export const useClubStore = defineStore('club', () => {
           // Enriquecer jugadores (match por nombre)
           if (extra.squad && club.squad) {
             const normalize = (s: string) => s ? s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z ]/g, "").trim() : ""
-            
+
             club.squad = club.squad.map(p => {
               const pExtra = extra.squad.find((e: any) => {
                 const n1 = normalize(e.name)
                 const n2 = normalize(p.name)
                 return n1.includes(n2) || n2.includes(n1)
               })
-              
+
               if (pExtra) {
                 return {
                   ...p,
