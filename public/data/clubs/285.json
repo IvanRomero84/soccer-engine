@@ -1,0 +1,472 @@
+{
+  "name": "Elche CF",
+  "coach": {
+    "name": ""
+  },
+  "venue": {
+    "name": "3Manuel Martínez Valero+22,90 mill. €"
+  },
+  "seasonStats": {
+    "rank": 0,
+    "played": 0,
+    "goalsDiff": "",
+    "points": 0
+  },
+  "lastUpdated": "2026-05-14T09:46:06.795Z",
+  "source": "https://www.transfermarkt.es/fc-elche/startseite/verein/1531",
+  "squad": [
+    {
+      "id": "283170",
+      "name": "Iñaki Peña",
+      "position": "Portero",
+      "age": 27,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/283170-1702502364.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/inaki-pena/profil/spieler/283170",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1440
+      }
+    },
+    {
+      "id": "618801",
+      "name": "Alejandro Iturbe",
+      "position": "Portero",
+      "age": 22,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/618801-1731931020.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alejandro-iturbe/profil/spieler/618801",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "144128",
+      "name": "Matías Dituro",
+      "position": "Portero",
+      "age": 39,
+      "marketValue": "200 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/144128-1695219400.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/matias-dituro/profil/spieler/144128",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2190
+      }
+    },
+    {
+      "id": "452483",
+      "name": "David Affengruber",
+      "position": "Defensa central",
+      "age": 25,
+      "marketValue": "9,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/452483-1694017545.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/david-affengruber/profil/spieler/452483",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 2916
+      }
+    },
+    {
+      "id": "495625",
+      "name": "Víctor Chust",
+      "position": "Defensa central",
+      "age": 26,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/495625-1725990797.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/victor-chust/profil/spieler/495625",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 7,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2126
+      }
+    },
+    {
+      "id": "627290",
+      "name": "John Donald",
+      "position": "Defensa central",
+      "age": 25,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/627290-1680535903.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/john-donald/profil/spieler/627290",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 811
+      }
+    },
+    {
+      "id": "203043",
+      "name": "Pedro Bigas",
+      "position": "Defensa central",
+      "age": 35,
+      "marketValue": "400 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/203043-1447321397.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pedro-bigas/profil/spieler/203043",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 3,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 1934
+      }
+    },
+    {
+      "id": "501418",
+      "name": "Adrià Pedrosa",
+      "position": "Lateral izquierdo",
+      "age": 28,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/501418-1583506190.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/adria-pedrosa/profil/spieler/501418",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1348
+      }
+    },
+    {
+      "id": "412829",
+      "name": "Léo Pétrot",
+      "position": "Lateral izquierdo",
+      "age": 29,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/412829-1727723239.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/leo-petrot/profil/spieler/412829",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1912
+      }
+    },
+    {
+      "id": "937955",
+      "name": "Héctor Fort",
+      "position": "Lateral derecho",
+      "age": 19,
+      "marketValue": "12,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/937955-1702504973.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/hector-fort/profil/spieler/937955",
+      "stats": {
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 617
+      }
+    },
+    {
+      "id": "962125",
+      "name": "Buba Sangaré",
+      "position": "Lateral derecho",
+      "age": 18,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/962125-1739283835.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/buba-sangare/profil/spieler/962125",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 491
+      }
+    },
+    {
+      "id": "909758",
+      "name": "Federico Redondo",
+      "position": "Pivote",
+      "age": 23,
+      "marketValue": "3,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/909758-1740775355.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/federico-redondo/profil/spieler/909758",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 501
+      }
+    },
+    {
+      "id": "531404",
+      "name": "Marc Aguado",
+      "position": "Pivote",
+      "age": 26,
+      "marketValue": "3,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/531404-1709050897.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/marc-aguado/profil/spieler/531404",
+      "stats": {
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2467
+      }
+    },
+    {
+      "id": "217144",
+      "name": "Aleix Febas",
+      "position": "Mediocentro",
+      "age": 30,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/217144-1448531418.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/aleix-febas/profil/spieler/217144",
+      "stats": {
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 10,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3172
+      }
+    },
+    {
+      "id": "549027",
+      "name": "Martim Neto",
+      "position": "Mediocentro",
+      "age": 23,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/549027-1737124895.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/martim-neto/profil/spieler/549027",
+      "stats": {
+        "goals": 3,
+        "assists": 5,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1530
+      }
+    },
+    {
+      "id": "398163",
+      "name": "Gonzalo Villar",
+      "position": "Mediocentro",
+      "age": 28,
+      "marketValue": "1,80 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/398163-1611584180.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/gonzalo-villar/profil/spieler/398163",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 553
+      }
+    },
+    {
+      "id": "548188",
+      "name": "Germán Valera",
+      "position": "Extremo izquierdo",
+      "age": 24,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/548188-1588605205.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/german-valera/profil/spieler/548188",
+      "stats": {
+        "goals": 4,
+        "assists": 5,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 2712
+      }
+    },
+    {
+      "id": "912392",
+      "name": "Lucas Cepeda",
+      "position": "Extremo izquierdo",
+      "age": 23,
+      "marketValue": "3,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/912392-1707516783.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/lucas-cepeda/profil/spieler/912392",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 393
+      }
+    },
+    {
+      "id": "339816",
+      "name": "Tete Morente",
+      "position": "Extremo izquierdo",
+      "age": 29,
+      "marketValue": "1,80 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/339816-1730123532.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/tete-morente/profil/spieler/339816",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 753
+      }
+    },
+    {
+      "id": "706947",
+      "name": "Yago Santiago",
+      "position": "Extremo izquierdo",
+      "age": 23,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/706947-1705304254.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/yago-santiago/profil/spieler/706947",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 414
+      }
+    },
+    {
+      "id": "342048",
+      "name": "Grady Diangana",
+      "position": "Extremo derecho",
+      "age": 28,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/342048-1723555515.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/grady-diangana/profil/spieler/342048",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 866
+      }
+    },
+    {
+      "id": "277533",
+      "name": "Josan",
+      "position": "Extremo derecho",
+      "age": 36,
+      "marketValue": "100 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/277533-1601023578.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/josan/profil/spieler/277533",
+      "stats": {
+        "goals": 0,
+        "assists": 4,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 837
+      }
+    },
+    {
+      "id": "1064506",
+      "name": "Adam Boayar",
+      "position": "Mediapunta",
+      "age": 20,
+      "marketValue": "800 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/default.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/adam-boayar/profil/spieler/1064506",
+      "stats": {
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 441
+      }
+    },
+    {
+      "id": "948275",
+      "name": "Álvaro Rodríguez",
+      "position": "Delantero centro",
+      "age": 21,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/948275-1660124773.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alvaro-rodriguez/profil/spieler/948275",
+      "stats": {
+        "goals": 6,
+        "assists": 5,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2160
+      }
+    },
+    {
+      "id": "361254",
+      "name": "Rafa Mir",
+      "position": "Delantero centro",
+      "age": 28,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/361254-1720020544.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/rafa-mir/profil/spieler/361254",
+      "stats": {
+        "goals": 8,
+        "assists": 0,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1900
+      }
+    },
+    {
+      "id": "198008",
+      "name": "André Silva",
+      "position": "Delantero centro",
+      "age": 30,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/198008-1724336978.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/andre-silva/profil/spieler/198008",
+      "stats": {
+        "goals": 10,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1818
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "Campeón de Segunda División",
+      "count": 2,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/878.png?lm=1647419746",
+      "seasons": [
+        "12/13",
+        "58/59"
+      ]
+    }
+  ]
+}

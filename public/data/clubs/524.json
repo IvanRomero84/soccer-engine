@@ -1,0 +1,516 @@
+{
+  "name": "París Saint-Germain FC",
+  "lastUpdated": "2026-05-14T09:14:19.304Z",
+  "source": "https://www.transfermarkt.es/paris-saint-germain/startseite/verein/583",
+  "squad": [
+    {
+      "id": "463600",
+      "name": "Lucas Chevalier",
+      "position": "Portero",
+      "age": 24,
+      "marketValue": "30,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/463600-1708342501.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/lucas-chevalier/profil/spieler/463600",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2340
+      }
+    },
+    {
+      "id": "318470",
+      "name": "Matvey Safonov",
+      "position": "Portero",
+      "age": 27,
+      "marketValue": "22,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/318470-1732658603.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/matvey-safonov/profil/spieler/318470",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2280
+      }
+    },
+    {
+      "id": "1041614",
+      "name": "Renato Marin",
+      "position": "Portero",
+      "age": 19,
+      "marketValue": "500 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1041614-1730123074.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/renato-marin/profil/spieler/1041614",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 270
+      }
+    },
+    {
+      "id": "661171",
+      "name": "Willian Pacho",
+      "position": "Defensa central",
+      "age": 24,
+      "marketValue": "70,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/661171-1696508666.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/willian-pacho/profil/spieler/661171",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3719
+      }
+    },
+    {
+      "id": "659089",
+      "name": "Ilya Zabarnyi",
+      "position": "Defensa central",
+      "age": 23,
+      "marketValue": "45,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/659089-1760065378.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ilya-zabarnyi/profil/spieler/659089",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 2675
+      }
+    },
+    {
+      "id": "181767",
+      "name": "Marquinhos",
+      "position": "Defensa central",
+      "age": 32,
+      "marketValue": "30,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/181767-1672303747.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/marquinhos/profil/spieler/181767",
+      "stats": {
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2474
+      }
+    },
+    {
+      "id": "872171",
+      "name": "Lucas Beraldo",
+      "position": "Defensa central",
+      "age": 22,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/872171-1715107660.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/lucas-beraldo/profil/spieler/872171",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1684
+      }
+    },
+    {
+      "id": "616341",
+      "name": "Nuno Mendes",
+      "position": "Lateral izquierdo",
+      "age": 23,
+      "marketValue": "75,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/616341-1749417164.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/nuno-mendes/profil/spieler/616341",
+      "stats": {
+        "goals": 6,
+        "assists": 7,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2859
+      }
+    },
+    {
+      "id": "281963",
+      "name": "Lucas Hernández",
+      "position": "Lateral izquierdo",
+      "age": 30,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/281963-1667830435.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/lucas-hernandez/profil/spieler/281963",
+      "stats": {
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 2071
+      }
+    },
+    {
+      "id": "398073",
+      "name": "Achraf Hakimi",
+      "position": "Lateral derecho",
+      "age": 27,
+      "marketValue": "80,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/398073-1672304327.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/achraf-hakimi/profil/spieler/398073",
+      "stats": {
+        "goals": 3,
+        "assists": 9,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 2499
+      }
+    },
+    {
+      "id": "487469",
+      "name": "Vitinha",
+      "position": "Pivote",
+      "age": 26,
+      "marketValue": "110,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/487469-1749415169.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/vitinha/profil/spieler/487469",
+      "stats": {
+        "goals": 7,
+        "assists": 10,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3883
+      }
+    },
+    {
+      "id": "670681",
+      "name": "João Neves",
+      "position": "Mediocentro",
+      "age": 21,
+      "marketValue": "110,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/670681-1701295511.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/joao-neves/profil/spieler/670681",
+      "stats": {
+        "goals": 7,
+        "assists": 4,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2559
+      }
+    },
+    {
+      "id": "810092",
+      "name": "Warren Zaïre-Emery",
+      "position": "Mediocentro",
+      "age": 20,
+      "marketValue": "60,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/810092-1777411744.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/warren-zaire-emery/profil/spieler/810092",
+      "stats": {
+        "goals": 3,
+        "assists": 5,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 4141
+      }
+    },
+    {
+      "id": "350219",
+      "name": "Fabián Ruiz",
+      "position": "Mediocentro",
+      "age": 30,
+      "marketValue": "40,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/350219-1718958379.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/fabian-ruiz/profil/spieler/350219",
+      "stats": {
+        "goals": 2,
+        "assists": 4,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1937
+      }
+    },
+    {
+      "id": "903693",
+      "name": "Senny Mayulu",
+      "position": "Mediocentro",
+      "age": 19,
+      "marketValue": "40,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/903693-1716562599.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/senny-mayulu/profil/spieler/903693",
+      "stats": {
+        "goals": 6,
+        "assists": 5,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2277
+      }
+    },
+    {
+      "id": "557149",
+      "name": "Kang-in Lee",
+      "position": "Mediocentro ofensivo",
+      "age": 25,
+      "marketValue": "28,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/557149-1703978046.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/kang-in-lee/profil/spieler/557149",
+      "stats": {
+        "goals": 4,
+        "assists": 5,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1811
+      }
+    },
+    {
+      "id": "1071596",
+      "name": "Dro Fernández",
+      "position": "Mediocentro ofensivo",
+      "age": 18,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1071596-1774274719.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/dro-fernandez/profil/spieler/1071596",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 640
+      }
+    },
+    {
+      "id": "502670",
+      "name": "Khvicha Kvaratskhelia",
+      "position": "Extremo izquierdo",
+      "age": 25,
+      "marketValue": "90,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/502670-1777411223.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/khvicha-kvaratskhelia/profil/spieler/502670",
+      "stats": {
+        "goals": 19,
+        "assists": 10,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2767
+      }
+    },
+    {
+      "id": "708265",
+      "name": "Bradley Barcola",
+      "position": "Extremo izquierdo",
+      "age": 23,
+      "marketValue": "70,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/708265-1653406915.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/bradley-barcola/profil/spieler/708265",
+      "stats": {
+        "goals": 12,
+        "assists": 7,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2876
+      }
+    },
+    {
+      "id": "1053208",
+      "name": "Quentin Ndjantou",
+      "position": "Extremo izquierdo",
+      "age": 18,
+      "marketValue": "7,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1053208-1759747972.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/quentin-ndjantou/profil/spieler/1053208",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 517
+      }
+    },
+    {
+      "id": "914562",
+      "name": "Désiré Doué",
+      "position": "Extremo derecho",
+      "age": 20,
+      "marketValue": "90,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/914562-1667317075.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/desire-doue/profil/spieler/914562",
+      "stats": {
+        "goals": 13,
+        "assists": 11,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2438
+      }
+    },
+    {
+      "id": "1185888",
+      "name": "Ibrahim Mbaye",
+      "position": "Extremo derecho",
+      "age": 18,
+      "marketValue": "30,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1185888-1759430450.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ibrahim-mbaye/profil/spieler/1185888",
+      "stats": {
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1121
+      }
+    },
+    {
+      "id": "288230",
+      "name": "Ousmane Dembélé",
+      "position": "Delantero centro",
+      "age": 28,
+      "marketValue": "100,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/288230-1684148641.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ousmane-dembele/profil/spieler/288230",
+      "stats": {
+        "goals": 19,
+        "assists": 11,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2083
+      }
+    },
+    {
+      "id": "550550",
+      "name": "Gonçalo Ramos",
+      "position": "Delantero centro",
+      "age": 24,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/550550-1681906158.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/goncalo-ramos/profil/spieler/550550",
+      "stats": {
+        "goals": 12,
+        "assists": 2,
+        "yellowCards": 2,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 1613
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "UEFA Champions League winner",
+      "count": 1,
+      "seasons": [
+        "24/25"
+      ]
+    },
+    {
+      "name": "Campeón de Francia",
+      "count": 14,
+      "seasons": [
+        "25/26",
+        "24/25",
+        "23/24",
+        "22/23",
+        "21/22",
+        "19/20",
+        "18/19",
+        "17/18",
+        "15/16",
+        "14/15",
+        "13/14",
+        "12/13",
+        "93/94",
+        "85/86"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de Europa",
+      "count": 1,
+      "seasons": [
+        "25/26"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa Intercontinental",
+      "count": 1,
+      "seasons": [
+        "25/26"
+      ]
+    },
+    {
+      "name": "Campeón de la Recopa de Europa",
+      "count": 1,
+      "seasons": [
+        "95/96"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa de Francia",
+      "count": 16,
+      "seasons": [
+        "24/25",
+        "23/24",
+        "20/21",
+        "19/20",
+        "17/18",
+        "16/17",
+        "15/16",
+        "14/15",
+        "09/10",
+        "05/06",
+        "03/04",
+        "97/98",
+        "94/95",
+        "92/93",
+        "82/83",
+        "81/82"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa de la Liga de Francia",
+      "count": 9,
+      "seasons": [
+        "19/20",
+        "17/18",
+        "16/17",
+        "15/16",
+        "14/15",
+        "13/14",
+        "07/08",
+        "97/98",
+        "94/95"
+      ]
+    },
+    {
+      "name": "Campeón de la segunda división de Francia",
+      "count": 1,
+      "seasons": [
+        "70/71"
+      ]
+    },
+    {
+      "name": "Intertoto Cup Champion",
+      "count": 1,
+      "seasons": [
+        "01/02"
+      ]
+    }
+  ]
+}

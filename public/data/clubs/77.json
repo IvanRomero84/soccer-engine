@@ -1,0 +1,553 @@
+{
+  "name": "Athletic Club",
+  "coach": {
+    "name": ""
+  },
+  "venue": {
+    "name": "6San Mamés-17,80 mill. €"
+  },
+  "seasonStats": {
+    "rank": 0,
+    "played": 0,
+    "goalsDiff": "",
+    "points": 0
+  },
+  "lastUpdated": "2026-05-14T09:44:20.513Z",
+  "source": "https://www.transfermarkt.es/athletic-bilbao/startseite/verein/621",
+  "squad": [
+    {
+      "id": "262396",
+      "name": "Unai Simón",
+      "position": "Portero",
+      "age": 28,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/262396-1709674901.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/unai-simon/profil/spieler/262396",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 4050
+      }
+    },
+    {
+      "id": "834483",
+      "name": "Álex Padilla",
+      "position": "Portero",
+      "age": 22,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/834483-1709676711.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alex-padilla/profil/spieler/834483",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 510
+      }
+    },
+    {
+      "id": "524000",
+      "name": "Dani Vivian",
+      "position": "Defensa central",
+      "age": 26,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/524000-1709674998.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/dani-vivian/profil/spieler/524000",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 9,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 3388
+      }
+    },
+    {
+      "id": "591916",
+      "name": "Aitor Paredes",
+      "position": "Defensa central",
+      "age": 26,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/591916-1709675052.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/aitor-paredes/profil/spieler/591916",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 9,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 2413
+      }
+    },
+    {
+      "id": "176553",
+      "name": "Aymeric Laporte",
+      "position": "Defensa central",
+      "age": 31,
+      "marketValue": "9,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/176553-1685546335.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/aymeric-laporte/profil/spieler/176553",
+      "stats": {
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2344
+      }
+    },
+    {
+      "id": "255488",
+      "name": "Yeray Álvarez",
+      "position": "Defensa central",
+      "age": 31,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/255488-1709675129.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/yeray-alvarez/profil/spieler/255488",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 379
+      }
+    },
+    {
+      "id": "834485",
+      "name": "Unai Egiluz",
+      "position": "Defensa central",
+      "age": 24,
+      "marketValue": "600 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/834485-1709676798.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/unai-egiluz/profil/spieler/834485",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "710671",
+      "name": "Adama Boiro",
+      "position": "Lateral izquierdo",
+      "age": 23,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/710671-1709677000.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/adama-boiro/profil/spieler/710671",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1445
+      }
+    },
+    {
+      "id": "61812",
+      "name": "Yuri Berchiche",
+      "position": "Lateral izquierdo",
+      "age": 36,
+      "marketValue": "1,20 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/61812-1709675167.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/yuri-berchiche/profil/spieler/61812",
+      "stats": {
+        "goals": 0,
+        "assists": 6,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3093
+      }
+    },
+    {
+      "id": "488626",
+      "name": "Jesús Areso",
+      "position": "Lateral derecho",
+      "age": 26,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/488626-1675800186.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jesus-areso/profil/spieler/488626",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1964
+      }
+    },
+    {
+      "id": "289255",
+      "name": "Andoni Gorosabel",
+      "position": "Lateral derecho",
+      "age": 29,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/289255-1739190147.jpeg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/andoni-gorosabel/profil/spieler/289255",
+      "stats": {
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1916
+      }
+    },
+    {
+      "id": "255501",
+      "name": "Iñigo Lekue",
+      "position": "Lateral derecho",
+      "age": 33,
+      "marketValue": "1,20 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/255501-1709675295.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/inigo-lekue/profil/spieler/255501",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1199
+      }
+    },
+    {
+      "id": "300168",
+      "name": "Mikel Vesga",
+      "position": "Pivote",
+      "age": 33,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/300168-1709675412.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/mikel-vesga/profil/spieler/300168",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 824
+      }
+    },
+    {
+      "id": "938729",
+      "name": "Mikel Jauregizar",
+      "position": "Mediocentro",
+      "age": 22,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/938729-1709675994.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/mikel-jauregizar/profil/spieler/938729",
+      "stats": {
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 10,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 3660
+      }
+    },
+    {
+      "id": "625047",
+      "name": "Beñat Prados",
+      "position": "Mediocentro",
+      "age": 25,
+      "marketValue": "18,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/625047-1709675858.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/benat-prados/profil/spieler/625047",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 85
+      }
+    },
+    {
+      "id": "834491",
+      "name": "Alejandro Rego",
+      "position": "Mediocentro",
+      "age": 22,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/834491-1709677367.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alejandro-rego/profil/spieler/834491",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2009
+      }
+    },
+    {
+      "id": "1312698",
+      "name": "Selton Sánchez",
+      "position": "Mediocentro",
+      "age": 19,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1312698-1731353776.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/selton-sanchez/profil/spieler/1312698",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 403
+      }
+    },
+    {
+      "id": "126751",
+      "name": "Iñigo Ruiz de Galarreta",
+      "position": "Mediocentro",
+      "age": 32,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/126751-1709675810.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/inigo-ruiz-de-galarreta/profil/spieler/126751",
+      "stats": {
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 14,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2594
+      }
+    },
+    {
+      "id": "571020",
+      "name": "Oihan Sancet",
+      "position": "Mediocentro ofensivo",
+      "age": 26,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/571020-1709676037.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/oihan-sancet/profil/spieler/571020",
+      "stats": {
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 2466
+      }
+    },
+    {
+      "id": "834752",
+      "name": "Unai Gómez",
+      "position": "Mediocentro ofensivo",
+      "age": 22,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/834752-1709676122.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/unai-gomez/profil/spieler/834752",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1328
+      }
+    },
+    {
+      "id": "709187",
+      "name": "Nico Williams",
+      "position": "Extremo izquierdo",
+      "age": 23,
+      "marketValue": "50,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/709187-1709676169.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/nico-williams/profil/spieler/709187",
+      "stats": {
+        "goals": 6,
+        "assists": 7,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2101
+      }
+    },
+    {
+      "id": "338425",
+      "name": "Álex Berenguer",
+      "position": "Extremo izquierdo",
+      "age": 30,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/338425-1709676212.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alex-berenguer/profil/spieler/338425",
+      "stats": {
+        "goals": 2,
+        "assists": 4,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2739
+      }
+    },
+    {
+      "id": "668183",
+      "name": "Nico Serrano",
+      "position": "Extremo izquierdo",
+      "age": 23,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668183-1731352737.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/nico-serrano/profil/spieler/668183",
+      "stats": {
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 569
+      }
+    },
+    {
+      "id": "255508",
+      "name": "Iñaki Williams",
+      "position": "Extremo derecho",
+      "age": 31,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/255508-1709676323.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/inaki-williams/profil/spieler/255508",
+      "stats": {
+        "goals": 3,
+        "assists": 4,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2532
+      }
+    },
+    {
+      "id": "563137",
+      "name": "Robert Navarro",
+      "position": "Extremo derecho",
+      "age": 24,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/563137-1567246327.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/robert-navarro/profil/spieler/563137",
+      "stats": {
+        "goals": 8,
+        "assists": 3,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1903
+      }
+    },
+    {
+      "id": "340205",
+      "name": "Gorka Guruzeta",
+      "position": "Delantero centro",
+      "age": 29,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/340205-1709676375.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/gorka-guruzeta/profil/spieler/340205",
+      "stats": {
+        "goals": 16,
+        "assists": 3,
+        "yellowCards": 7,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 3126
+      }
+    },
+    {
+      "id": "1054934",
+      "name": "Maroan Sannadi",
+      "position": "Delantero centro",
+      "age": 25,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1054934-1736857054.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/maroan-sannadi/profil/spieler/1054934",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 353
+      }
+    },
+    {
+      "id": "610622",
+      "name": "Urko Izeta",
+      "position": "Delantero centro",
+      "age": 26,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/610622-1709678226.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/urko-izeta/profil/spieler/610622",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 326
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "Campeón de España",
+      "count": 8,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/11.png?lm=1520606997",
+      "seasons": [
+        "83/84",
+        "82/83",
+        "55/56",
+        "42/43",
+        "35/36",
+        "33/34",
+        "30/31",
+        "1929/30"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa del Rey",
+      "count": 24,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/94.png?lm=1520606999",
+      "seasons": [
+        "23/24",
+        "83/84",
+        "72/73",
+        "68/69",
+        "57/58",
+        "55/56",
+        "54/55",
+        "49/50",
+        "44/45",
+        "43/44",
+        "42/43",
+        "32/33",
+        "31/32",
+        "30/31",
+        "1929/30",
+        "1922/23",
+        "1920/21",
+        "1915/16",
+        "1914/15",
+        "1913/14",
+        "1910/11",
+        "1909/10",
+        "1903/04",
+        "1902/03"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de España",
+      "count": 3,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/93.png?lm=1520606999",
+      "seasons": [
+        "20/21",
+        "15/16",
+        "84/85"
+      ]
+    }
+  ]
+}

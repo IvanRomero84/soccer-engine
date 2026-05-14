@@ -1,0 +1,497 @@
+{
+  "name": "Villarreal CF",
+  "coach": {
+    "name": ""
+  },
+  "venue": {
+    "name": "10La Cerámica+2,50 mill. €"
+  },
+  "seasonStats": {
+    "rank": 0,
+    "played": 0,
+    "goalsDiff": "",
+    "points": 0
+  },
+  "lastUpdated": "2026-05-14T09:42:48.553Z",
+  "source": "https://www.transfermarkt.es/fc-villarreal/startseite/verein/1050",
+  "squad": [
+    {
+      "id": "712107",
+      "name": "Luiz Júnior",
+      "position": "Portero",
+      "age": null,
+      "marketValue": "12,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/712107-1758058969.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/luiz-junior/profil/spieler/712107",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2970
+      }
+    },
+    {
+      "id": "341713",
+      "name": "Diego Conde",
+      "position": "Portero",
+      "age": null,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/341713-1669364743.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/diego-conde/profil/spieler/341713",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 90
+      }
+    },
+    {
+      "id": "466783",
+      "name": "Arnau Tenas",
+      "position": "Portero",
+      "age": null,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/466783-1701444229.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/arnau-tenas/profil/spieler/466783",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1200
+      }
+    },
+    {
+      "id": "805714",
+      "name": "Renato Veiga",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/805714-1749414999.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/renato-veiga/profil/spieler/805714",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 3352
+      }
+    },
+    {
+      "id": "484988",
+      "name": "Logan Costa",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "18,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/484988-1708555203.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/logan-costa/profil/spieler/484988",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "662261",
+      "name": "Rafa Marín",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "12,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/662261-1725529332.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/rafa-marin/profil/spieler/662261",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2485
+      }
+    },
+    {
+      "id": "1061336",
+      "name": "Pau Navarro",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1061336-1734596703.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pau-navarro/profil/spieler/1061336",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2111
+      }
+    },
+    {
+      "id": "480763",
+      "name": "Juan Foyth",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/480763-1662668281.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/juan-foyth/profil/spieler/480763",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1314
+      }
+    },
+    {
+      "id": "780630",
+      "name": "Willy Kambwala",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/780630-1743688107.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/willy-kambwala/profil/spieler/780630",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 9
+      }
+    },
+    {
+      "id": "678406",
+      "name": "Sergi Cardona",
+      "position": "Lateral izquierdo",
+      "age": null,
+      "marketValue": "9,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/678406-1697540707.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/sergi-cardona/profil/spieler/678406",
+      "stats": {
+        "goals": 1,
+        "assists": 4,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2534
+      }
+    },
+    {
+      "id": "356197",
+      "name": "Alfonso Pedraza",
+      "position": "Lateral izquierdo",
+      "age": null,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/356197-1620304916.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alfonso-pedraza/profil/spieler/356197",
+      "stats": {
+        "goals": 1,
+        "assists": 4,
+        "yellowCards": 10,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1967
+      }
+    },
+    {
+      "id": "953901",
+      "name": "Santiago Mouriño",
+      "position": "Lateral derecho",
+      "age": null,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/953901-1691396102.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/santiago-mourino/profil/spieler/953901",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 11,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2737
+      }
+    },
+    {
+      "id": "985806",
+      "name": "Alex Freeman",
+      "position": "Lateral derecho",
+      "age": null,
+      "marketValue": "3,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/985806-1740780278.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alex-freeman/profil/spieler/985806",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 340
+      }
+    },
+    {
+      "id": "230784",
+      "name": "Thomas Partey",
+      "position": "Pivote",
+      "age": null,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/230784-1668430877.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/thomas-partey/profil/spieler/230784",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1299
+      }
+    },
+    {
+      "id": "485963",
+      "name": "Pape Gueye",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "40,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/485963-1768814767.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pape-gueye/profil/spieler/485963",
+      "stats": {
+        "goals": 4,
+        "assists": 2,
+        "yellowCards": 12,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2687
+      }
+    },
+    {
+      "id": "380598",
+      "name": "Santi Comesaña",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/380598-1726231263.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/santi-comesana/profil/spieler/380598",
+      "stats": {
+        "goals": 5,
+        "assists": 6,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 3088
+      }
+    },
+    {
+      "id": "1453066",
+      "name": "Carlos Macià",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1453066-1768693924.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/carlos-macia/profil/spieler/1453066",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 133
+      }
+    },
+    {
+      "id": "59561",
+      "name": "Dani Parejo",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "1,20 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/59561-1688725780.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/dani-parejo/profil/spieler/59561",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1611
+      }
+    },
+    {
+      "id": "733576",
+      "name": "Alberto Moleiro",
+      "position": "Extremo izquierdo",
+      "age": null,
+      "marketValue": "40,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/733576-1737365948.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alberto-moleiro/profil/spieler/733576",
+      "stats": {
+        "goals": 10,
+        "assists": 6,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2648
+      }
+    },
+    {
+      "id": "357628",
+      "name": "Alfon González",
+      "position": "Extremo izquierdo",
+      "age": null,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/357628-1734950388.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alfon-gonzalez/profil/spieler/357628",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 285
+      }
+    },
+    {
+      "id": "1331450",
+      "name": "Hugo López",
+      "position": "Extremo izquierdo",
+      "age": null,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/default.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/hugo-lopez/profil/spieler/1331450",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 180
+      }
+    },
+    {
+      "id": "638793",
+      "name": "Tajon Buchanan",
+      "position": "Extremo derecho",
+      "age": null,
+      "marketValue": "12,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638793-1758059596.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/tajon-buchanan/profil/spieler/638793",
+      "stats": {
+        "goals": 7,
+        "assists": 1,
+        "yellowCards": 9,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2286
+      }
+    },
+    {
+      "id": "343052",
+      "name": "Nicolas Pépé",
+      "position": "Extremo derecho",
+      "age": null,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/343052-1758059244.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/nicolas-pepe/profil/spieler/343052",
+      "stats": {
+        "goals": 8,
+        "assists": 8,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3093
+      }
+    },
+    {
+      "id": "729814",
+      "name": "Georges Mikautadze",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "28,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/729814-1719222514.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/georges-mikautadze/profil/spieler/729814",
+      "stats": {
+        "goals": 14,
+        "assists": 6,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2605
+      }
+    },
+    {
+      "id": "972465",
+      "name": "Tani Oluwaseyi",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/972465-1758059359.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/tani-oluwaseyi/profil/spieler/972465",
+      "stats": {
+        "goals": 7,
+        "assists": 2,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1472
+      }
+    },
+    {
+      "id": "246968",
+      "name": "Ayoze Pérez",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/246968-1716803546.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ayoze-perez/profil/spieler/246968",
+      "stats": {
+        "goals": 5,
+        "assists": 4,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1418
+      }
+    },
+    {
+      "id": "177467",
+      "name": "Gerard Moreno",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "2,80 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/177467-1726231623.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/gerard-moreno/profil/spieler/177467",
+      "stats": {
+        "goals": 10,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1368
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "Campeón de la Europa League",
+      "count": 1,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/264.png?lm=1520606999",
+      "seasons": [
+        "20/21"
+      ]
+    },
+    {
+      "name": "Intertoto Cup Champion",
+      "count": 2,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/59.png?lm=1461847499",
+      "seasons": [
+        "04/05",
+        "03/04"
+      ]
+    }
+  ]
+}

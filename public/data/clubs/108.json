@@ -1,0 +1,513 @@
+{
+  "name": "Inter de Milán",
+  "lastUpdated": "2026-05-14T09:14:32.741Z",
+  "source": "https://www.transfermarkt.es/inter-de-milan/startseite/verein/46",
+  "squad": [
+    {
+      "id": "388516",
+      "name": "Josep Martínez",
+      "position": "Portero",
+      "age": null,
+      "marketValue": "7,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/388516-1686153132.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/josep-martinez/profil/spieler/388516",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 900
+      }
+    },
+    {
+      "id": "42205",
+      "name": "Yann Sommer",
+      "position": "Portero",
+      "age": null,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/42205-1669897427.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/yann-sommer/profil/spieler/42205",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3780
+      }
+    },
+    {
+      "id": "70580",
+      "name": "Raffaele Di Gennaro",
+      "position": "Portero",
+      "age": null,
+      "marketValue": "300 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/70580-1692961707.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/raffaele-di-gennaro/profil/spieler/70580",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "315853",
+      "name": "Alessandro Bastoni",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "70,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/315853-1742497518.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alessandro-bastoni/profil/spieler/315853",
+      "stats": {
+        "goals": 2,
+        "assists": 6,
+        "yellowCards": 9,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3197
+      }
+    },
+    {
+      "id": "441986",
+      "name": "Yann Bisseck",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "40,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/441986-1742497863.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/yann-bisseck/profil/spieler/441986",
+      "stats": {
+        "goals": 3,
+        "assists": 3,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2782
+      }
+    },
+    {
+      "id": "284730",
+      "name": "Manuel Akanji",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "18,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/284730-1684165752.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/manuel-akanji/profil/spieler/284730",
+      "stats": {
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3707
+      }
+    },
+    {
+      "id": "111196",
+      "name": "Stefan de Vrij",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "3,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/111196-1663572651.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/stefan-de-vrij/profil/spieler/111196",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 995
+      }
+    },
+    {
+      "id": "131075",
+      "name": "Francesco Acerbi",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/131075-1663572709.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/francesco-acerbi/profil/spieler/131075",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1934
+      }
+    },
+    {
+      "id": "198116",
+      "name": "Federico Dimarco",
+      "position": "Lateral izquierdo",
+      "age": null,
+      "marketValue": "50,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/198116-1725531769.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/federico-dimarco/profil/spieler/198116",
+      "stats": {
+        "goals": 7,
+        "assists": 18,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3579
+      }
+    },
+    {
+      "id": "585982",
+      "name": "Carlos Augusto",
+      "position": "Lateral izquierdo",
+      "age": null,
+      "marketValue": "26,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/585982-1735891597.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/carlos-augusto/profil/spieler/585982",
+      "stats": {
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2332
+      }
+    },
+    {
+      "id": "321528",
+      "name": "Denzel Dumfries",
+      "position": "Lateral derecho",
+      "age": null,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/321528-1746042223.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/denzel-dumfries/profil/spieler/321528",
+      "stats": {
+        "goals": 5,
+        "assists": 2,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1776
+      }
+    },
+    {
+      "id": "54906",
+      "name": "Matteo Darmian",
+      "position": "Lateral derecho",
+      "age": null,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/54906-1695027410.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/matteo-darmian/profil/spieler/54906",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 330
+      }
+    },
+    {
+      "id": "126414",
+      "name": "Hakan Çalhanoğlu",
+      "position": "Pivote",
+      "age": null,
+      "marketValue": "18,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/126414-1709035146.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/hakan-calhanoglu/profil/spieler/126414",
+      "stats": {
+        "goals": 12,
+        "assists": 7,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2137
+      }
+    },
+    {
+      "id": "255942",
+      "name": "Nicolò Barella",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "50,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/255942-1725531625.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/nicolo-barella/profil/spieler/255942",
+      "stats": {
+        "goals": 3,
+        "assists": 9,
+        "yellowCards": 9,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3346
+      }
+    },
+    {
+      "id": "668207",
+      "name": "Petar Sučić",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "30,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668207-1757603291.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/petar-sucic/profil/spieler/668207",
+      "stats": {
+        "goals": 4,
+        "assists": 4,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2385
+      }
+    },
+    {
+      "id": "394300",
+      "name": "Davide Frattesi",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "22,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/394300-1730126974.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/davide-frattesi/profil/spieler/394300",
+      "stats": {
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1138
+      }
+    },
+    {
+      "id": "711976",
+      "name": "Andy Diouf",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "18,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/711976-1756099849.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/andy-diouf/profil/spieler/711976",
+      "stats": {
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 670
+      }
+    },
+    {
+      "id": "181136",
+      "name": "Piotr Zielinski",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/181136-1692962961.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/piotr-zielinski/profil/spieler/181136",
+      "stats": {
+        "goals": 7,
+        "assists": 4,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2874
+      }
+    },
+    {
+      "id": "55735",
+      "name": "Henrikh Mkhitaryan",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "3,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/55735-1664973670.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/henrikh-mkhitaryan/profil/spieler/55735",
+      "stats": {
+        "goals": 4,
+        "assists": 3,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1944
+      }
+    },
+    {
+      "id": "691316",
+      "name": "Luis Henrique",
+      "position": "Interior derecho",
+      "age": null,
+      "marketValue": "23,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/691316-1743759325.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/luis-henrique/profil/spieler/691316",
+      "stats": {
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2127
+      }
+    },
+    {
+      "id": "406625",
+      "name": "Lautaro Martínez",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "85,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/406625-1695024988.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/lautaro-martinez/profil/spieler/406625",
+      "stats": {
+        "goals": 22,
+        "assists": 6,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2638
+      }
+    },
+    {
+      "id": "318528",
+      "name": "Marcus Thuram",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "50,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/318528-1746041509.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/marcus-thuram/profil/spieler/318528",
+      "stats": {
+        "goals": 18,
+        "assists": 9,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2884
+      }
+    },
+    {
+      "id": "930781",
+      "name": "Pio Esposito",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "45,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/930781-1757605256.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pio-esposito/profil/spieler/930781",
+      "stats": {
+        "goals": 9,
+        "assists": 6,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2149
+      }
+    },
+    {
+      "id": "827734",
+      "name": "Ange-Yoan Bonny",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/827734-1751380953.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ange-yoan-bonny/profil/spieler/827734",
+      "stats": {
+        "goals": 7,
+        "assists": 8,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1575
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "UEFA Champions League winner",
+      "count": 1,
+      "seasons": [
+        "09/10"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa de Europa",
+      "count": 2,
+      "seasons": [
+        "64/65",
+        "63/64"
+      ]
+    },
+    {
+      "name": "Campeón de Italia",
+      "count": 21,
+      "seasons": [
+        "25/26",
+        "23/24",
+        "20/21",
+        "09/10",
+        "08/09",
+        "07/08",
+        "06/07",
+        "05/06",
+        "88/89",
+        "79/80",
+        "70/71",
+        "65/66",
+        "64/65",
+        "62/63",
+        "53/54",
+        "52/53",
+        "39/40",
+        "37/38",
+        "1929/30",
+        "1919/20",
+        "1909/10"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa de la UEFA",
+      "count": 3,
+      "seasons": [
+        "97/98",
+        "93/94",
+        "90/91"
+      ]
+    },
+    {
+      "name": "Campeón del Mundial de Clubes",
+      "count": 1,
+      "seasons": [
+        "10/11"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa Italia",
+      "count": 10,
+      "seasons": [
+        "25/26",
+        "22/23",
+        "21/22",
+        "10/11",
+        "09/10",
+        "05/06",
+        "04/05",
+        "81/82",
+        "77/78",
+        "38/39"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de Italia",
+      "count": 8,
+      "seasons": [
+        "23/24",
+        "22/23",
+        "21/22",
+        "10/11",
+        "08/09",
+        "06/07",
+        "05/06",
+        "89/90"
+      ]
+    },
+    {
+      "name": "Ganador de la Copa Intercontinental",
+      "count": 2,
+      "seasons": [
+        "1965",
+        "1964"
+      ]
+    }
+  ]
+}

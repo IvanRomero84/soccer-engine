@@ -1,0 +1,445 @@
+{
+  "name": "Getafe CF",
+  "coach": {
+    "name": ""
+  },
+  "venue": {
+    "name": "3Coliseum+10,80 mill. €"
+  },
+  "seasonStats": {
+    "rank": 0,
+    "played": 0,
+    "goalsDiff": "",
+    "points": 0
+  },
+  "lastUpdated": "2026-05-14T09:43:46.611Z",
+  "source": "https://www.transfermarkt.es/fc-getafe/startseite/verein/3709",
+  "squad": [
+    {
+      "id": "226012",
+      "name": "David Soria",
+      "position": "Portero",
+      "age": 33,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/226012-1696863038.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/david-soria/profil/spieler/226012",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3240
+      }
+    },
+    {
+      "id": "339079",
+      "name": "Jiri Letacek",
+      "position": "Portero",
+      "age": 27,
+      "marketValue": "2,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/339079-1714922207.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jiri-letacek/profil/spieler/339079",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 300
+      }
+    },
+    {
+      "id": "559979",
+      "name": "Abdel Abqar",
+      "position": "Defensa central",
+      "age": 27,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/559979-1705337125.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/abdel-abqar/profil/spieler/559979",
+      "stats": {
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 10,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1354
+      }
+    },
+    {
+      "id": "898352",
+      "name": "Sebastián Boselli",
+      "position": "Defensa central",
+      "age": 22,
+      "marketValue": "2,80 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/898352-1739826537.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/sebastian-boselli/profil/spieler/898352",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 374
+      }
+    },
+    {
+      "id": "741142",
+      "name": "Zaid Romero",
+      "position": "Defensa central",
+      "age": 26,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/741142-1753180256.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/zaid-romero/profil/spieler/741142",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 1170
+      }
+    },
+    {
+      "id": "221150",
+      "name": "Dakonam Djené",
+      "position": "Defensa central",
+      "age": 34,
+      "marketValue": "1,60 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/221150-1669364811.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/dakonam-djene/profil/spieler/221150",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 10,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 2546
+      }
+    },
+    {
+      "id": "257376",
+      "name": "Domingos Duarte",
+      "position": "Defensa central",
+      "age": 31,
+      "marketValue": "800 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/257376-1583309064.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/domingos-duarte/profil/spieler/257376",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 12,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2837
+      }
+    },
+    {
+      "id": "249513",
+      "name": "Diego Rico",
+      "position": "Lateral izquierdo",
+      "age": 33,
+      "marketValue": "1,20 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/249513-1697221474.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/diego-rico/profil/spieler/249513",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1964
+      }
+    },
+    {
+      "id": "1268764",
+      "name": "Davinchi",
+      "position": "Lateral izquierdo",
+      "age": 18,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1268764-1732577167.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/davinchi/profil/spieler/1268764",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 660
+      }
+    },
+    {
+      "id": "390688",
+      "name": "Juan Iglesias",
+      "position": "Lateral derecho",
+      "age": 27,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/390688-1632295269.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/juan-iglesias/profil/spieler/390688",
+      "stats": {
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3037
+      }
+    },
+    {
+      "id": "76467",
+      "name": "Kiko Femenía",
+      "position": "Lateral derecho",
+      "age": 35,
+      "marketValue": "800 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/76467-1726231817.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/kiko-femenia/profil/spieler/76467",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2052
+      }
+    },
+    {
+      "id": "1164331",
+      "name": "Ismael Bekhoucha",
+      "position": "Lateral derecho",
+      "age": 21,
+      "marketValue": "300 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1164331-1732134880.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ismael-bekhoucha/profil/spieler/1164331",
+      "stats": {
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 182
+      }
+    },
+    {
+      "id": "111508",
+      "name": "Allan Nyom",
+      "position": "Lateral derecho",
+      "age": 38,
+      "marketValue": "200 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/111508-1541162382.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/allan-nyom/profil/spieler/111508",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 512
+      }
+    },
+    {
+      "id": "948273",
+      "name": "Mario Martín",
+      "position": "Pivote",
+      "age": 22,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/948273-1707861820.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/mario-martin/profil/spieler/948273",
+      "stats": {
+        "goals": 4,
+        "assists": 2,
+        "yellowCards": 11,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2064
+      }
+    },
+    {
+      "id": "290249",
+      "name": "Mauro Arambarri",
+      "position": "Mediocentro",
+      "age": 30,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/290249-1669365106.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/mauro-arambarri/profil/spieler/290249",
+      "stats": {
+        "goals": 6,
+        "assists": 2,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3075
+      }
+    },
+    {
+      "id": "281989",
+      "name": "Luis Milla",
+      "position": "Mediocentro",
+      "age": 31,
+      "marketValue": "3,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/281989-1669364960.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/luis-milla/profil/spieler/281989",
+      "stats": {
+        "goals": 0,
+        "assists": 10,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 3142
+      }
+    },
+    {
+      "id": "282421",
+      "name": "Javi Muñoz",
+      "position": "Mediocentro",
+      "age": 31,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/282421-1698852390.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/javi-munoz/profil/spieler/282421",
+      "stats": {
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 826
+      }
+    },
+    {
+      "id": "1061122",
+      "name": "Adrián Liso",
+      "position": "Extremo izquierdo",
+      "age": 21,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1061122-1732367169.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/adrian-liso/profil/spieler/1061122",
+      "stats": {
+        "goals": 3,
+        "assists": 3,
+        "yellowCards": 4,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 1719
+      }
+    },
+    {
+      "id": "419648",
+      "name": "Veljko Birmancevic",
+      "position": "Extremo izquierdo",
+      "age": 28,
+      "marketValue": "4,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/419648-1716239654.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/veljko-birmancevic/profil/spieler/419648",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 133
+      }
+    },
+    {
+      "id": "126737",
+      "name": "Juanmi",
+      "position": "Extremo izquierdo",
+      "age": 32,
+      "marketValue": "1,20 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/126737-1653043231.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/juanmi/profil/spieler/126737",
+      "stats": {
+        "goals": 5,
+        "assists": 2,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 394
+      }
+    },
+    {
+      "id": "696764",
+      "name": "Abu Kamara",
+      "position": "Extremo derecho",
+      "age": 22,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/696764-1702280704.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/abu-kamara/profil/spieler/696764",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 320
+      }
+    },
+    {
+      "id": "560705",
+      "name": "Álex Sancris",
+      "position": "Extremo derecho",
+      "age": 29,
+      "marketValue": "2,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/560705-1712139769.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alex-sancris/profil/spieler/560705",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 2,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 905
+      }
+    },
+    {
+      "id": "298976",
+      "name": "Borja Mayoral",
+      "position": "Delantero centro",
+      "age": 29,
+      "marketValue": "7,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/298976-1669365430.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/borja-mayoral/profil/spieler/298976",
+      "stats": {
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1220
+      }
+    },
+    {
+      "id": "640109",
+      "name": "Martín Satriano",
+      "position": "Delantero centro",
+      "age": 25,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/640109-1626685122.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/martin-satriano/profil/spieler/640109",
+      "stats": {
+        "goals": 6,
+        "assists": 1,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1517
+      }
+    },
+    {
+      "id": "844516",
+      "name": "Luis Vázquez",
+      "position": "Delantero centro",
+      "age": 25,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/844516-1699907027.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/luis-vazquez/profil/spieler/844516",
+      "stats": {
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1096
+      }
+    }
+  ],
+  "trophies": []
+}

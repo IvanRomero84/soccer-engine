@@ -1,0 +1,701 @@
+{
+  "name": "Real Madrid CF",
+  "coach": {
+    "name": "Álvaro Arbeloa",
+    "photo": "https://img.a.transfermarkt.technology/portrait/big/87908-1726582252.jpg?lm=1",
+    "age": "43"
+  },
+  "venue": {
+    "name": "Santiago Bernabéu",
+    "capacity": "83.186",
+    "image": "https://tmssl.akamaized.net//images/foto/stadionnormal/santiago-bernabeu-real-madrid-2025-2026-1763638362-183257.jpg?lm=1763638400",
+    "yearBuilt": "1947",
+    "pitchSize": "105m x 68m",
+    "surface": "Césped natural",
+    "address": "Santiago Bernabéu"
+  },
+  "seasonStats": {
+    "rank": 2,
+    "played": 35,
+    "goalsDiff": "37",
+    "points": 77
+  },
+  "lastUpdated": "2026-05-14T10:25:05.889Z",
+  "source": "https://www.transfermarkt.es/real-madrid/startseite/verein/418",
+  "squad": [
+    {
+      "id": "108390",
+      "name": "Thibaut Courtois",
+      "position": "Portero",
+      "age": 34,
+      "marketValue": "18,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/108390-1717280733.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/thibaut-courtois/profil/spieler/108390",
+      "stats": {
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3735
+      }
+    },
+    {
+      "id": "404839",
+      "name": "Andriy Lunin",
+      "position": "Portero",
+      "age": 27,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/404839-1701294131.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/andriy-lunin/profil/spieler/404839",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1035
+      }
+    },
+    {
+      "id": "1055220",
+      "name": "Fran González",
+      "position": "Portero",
+      "age": 20,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1055220-1704358404.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/fran-gonzalez/profil/spieler/1055220",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "890290",
+      "name": "Dean Huijsen",
+      "position": "Defensa central",
+      "age": 21,
+      "marketValue": "65,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/890290-1750251451.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/dean-huijsen/profil/spieler/890290",
+      "stats": {
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 10,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 2928
+      }
+    },
+    {
+      "id": "401530",
+      "name": "Éder Militão",
+      "position": "Defensa central",
+      "age": 28,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/401530-1719653438.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/eder-militao/profil/spieler/401530",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1530
+      }
+    },
+    {
+      "id": "935245",
+      "name": "Raúl Asencio",
+      "position": "Defensa central",
+      "age": 23,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/935245-1731168094.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/raul-asencio/profil/spieler/935245",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 7,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2336
+      }
+    },
+    {
+      "id": "86202",
+      "name": "Antonio Rüdiger",
+      "position": "Defensa central",
+      "age": 33,
+      "marketValue": "9,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/86202-1684484602.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/antonio-rudiger/profil/spieler/86202",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2100
+      }
+    },
+    {
+      "id": "59016",
+      "name": "David Alaba",
+      "position": "Defensa central",
+      "age": 33,
+      "marketValue": "3,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/59016-1684921582.jpeg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/david-alaba/profil/spieler/59016",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 417
+      }
+    },
+    {
+      "id": "811778",
+      "name": "Álvaro Carreras",
+      "position": "Lateral izquierdo",
+      "age": 23,
+      "marketValue": "60,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/811778-1737497415.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alvaro-carreras/profil/spieler/811778",
+      "stats": {
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 10,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 3222
+      }
+    },
+    {
+      "id": "341264",
+      "name": "Fran García",
+      "position": "Lateral izquierdo",
+      "age": 26,
+      "marketValue": "12,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/341264-1688119965.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/fran-garcia/profil/spieler/341264",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 1262
+      }
+    },
+    {
+      "id": "291417",
+      "name": "Ferland Mendy",
+      "position": "Lateral izquierdo",
+      "age": 30,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/291417-1701294025.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ferland-mendy/profil/spieler/291417",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 452
+      }
+    },
+    {
+      "id": "314353",
+      "name": "Trent Alexander-Arnold",
+      "position": "Lateral derecho",
+      "age": 27,
+      "marketValue": "65,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/314353-1701680958.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/trent-alexander-arnold/profil/spieler/314353",
+      "stats": {
+        "goals": 0,
+        "assists": 5,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1717
+      }
+    },
+    {
+      "id": "138927",
+      "name": "Daniel Carvajal",
+      "position": "Lateral derecho",
+      "age": 34,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/138927-1721026790.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/daniel-carvajal/profil/spieler/138927",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 886
+      }
+    },
+    {
+      "id": "413112",
+      "name": "Aurélien Tchouaméni",
+      "position": "Pivote",
+      "age": 26,
+      "marketValue": "75,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/413112-1668500754.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/aurelien-tchouameni/profil/spieler/413112",
+      "stats": {
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 11,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3807
+      }
+    },
+    {
+      "id": "369081",
+      "name": "Federico Valverde",
+      "position": "Mediocentro",
+      "age": 27,
+      "marketValue": "120,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/369081-1731018042.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/federico-valverde/profil/spieler/369081",
+      "stats": {
+        "goals": 9,
+        "assists": 13,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 4068
+      }
+    },
+    {
+      "id": "640428",
+      "name": "Eduardo Camavinga",
+      "position": "Mediocentro",
+      "age": 23,
+      "marketValue": "50,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/640428-1668500874.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/eduardo-camavinga/profil/spieler/640428",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 3,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2089
+      }
+    },
+    {
+      "id": "1375227",
+      "name": "Thiago Pitarch",
+      "position": "Mediocentro",
+      "age": 18,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1375227-1755633821.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/thiago-pitarch/profil/spieler/1375227",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 657
+      }
+    },
+    {
+      "id": "319745",
+      "name": "Dani Ceballos",
+      "position": "Mediocentro",
+      "age": 29,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/319745-1723666162.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/dani-ceballos/profil/spieler/319745",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 812
+      }
+    },
+    {
+      "id": "1186235",
+      "name": "Jorge Cestero",
+      "position": "Mediocentro",
+      "age": 20,
+      "marketValue": "7,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1186235-1759738619.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jorge-cestero/profil/spieler/1186235",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 114
+      }
+    },
+    {
+      "id": "646824",
+      "name": "Manuel Ángel",
+      "position": "Mediocentro",
+      "age": 22,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/646824-1696445512.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/manuel-angel/profil/spieler/646824",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 129
+      }
+    },
+    {
+      "id": "581678",
+      "name": "Jude Bellingham",
+      "position": "Mediocentro ofensivo",
+      "age": 22,
+      "marketValue": "140,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/581678-1748102891.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jude-bellingham/profil/spieler/581678",
+      "stats": {
+        "goals": 6,
+        "assists": 5,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2531
+      }
+    },
+    {
+      "id": "861410",
+      "name": "Arda Güler",
+      "position": "Mediocentro ofensivo",
+      "age": 21,
+      "marketValue": "90,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/861410-1699472585.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/arda-guler/profil/spieler/861410",
+      "stats": {
+        "goals": 6,
+        "assists": 14,
+        "yellowCards": 2,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 3239
+      }
+    },
+    {
+      "id": "948272",
+      "name": "César Palacios",
+      "position": "Mediocentro ofensivo",
+      "age": 21,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/948272-1707907926.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/cesar-palacios/profil/spieler/948272",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 87
+      }
+    },
+    {
+      "id": "371998",
+      "name": "Vinicius Junior",
+      "position": "Extremo izquierdo",
+      "age": 25,
+      "marketValue": "150,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/371998-1761575144.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/vinicius-junior/profil/spieler/371998",
+      "stats": {
+        "goals": 21,
+        "assists": 14,
+        "yellowCards": 11,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 4082
+      }
+    },
+    {
+      "id": "412363",
+      "name": "Rodrygo",
+      "position": "Extremo derecho",
+      "age": 25,
+      "marketValue": "50,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/412363-1763041611.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/rodrygo/profil/spieler/412363",
+      "stats": {
+        "goals": 3,
+        "assists": 6,
+        "yellowCards": 4,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 1106
+      }
+    },
+    {
+      "id": "1057316",
+      "name": "Franco Mastantuono",
+      "position": "Extremo derecho",
+      "age": 18,
+      "marketValue": "45,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1057316-1755702696.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/franco-mastantuono/profil/spieler/1057316",
+      "stats": {
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1313
+      }
+    },
+    {
+      "id": "314678",
+      "name": "Brahim Díaz",
+      "position": "Extremo derecho",
+      "age": 26,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/314678-1744193327.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/brahim-diaz/profil/spieler/314678",
+      "stats": {
+        "goals": 1,
+        "assists": 8,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1496
+      }
+    },
+    {
+      "id": "342229",
+      "name": "Kylian Mbappé",
+      "position": "Delantero centro",
+      "age": 27,
+      "marketValue": "200,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/kylian-mbappe/profil/spieler/342229",
+      "stats": {
+        "goals": 41,
+        "assists": 6,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3421
+      }
+    },
+    {
+      "id": "935230",
+      "name": "Gonzalo García",
+      "position": "Delantero centro",
+      "age": 22,
+      "marketValue": "30,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/935230-1765462047.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/gonzalo-garcia/profil/spieler/935230",
+      "stats": {
+        "goals": 6,
+        "assists": 3,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1315
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "UEFA Champions League winner",
+      "count": 9,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/4.png?lm=1520606999",
+      "seasons": [
+        "23/24",
+        "21/22",
+        "17/18",
+        "16/17",
+        "15/16",
+        "13/14",
+        "01/02",
+        "99/00",
+        "97/98"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa de Europa",
+      "count": 6,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/55.png?lm=1520606999",
+      "seasons": [
+        "65/66",
+        "59/60",
+        "58/59",
+        "57/58",
+        "56/57",
+        "55/56"
+      ]
+    },
+    {
+      "name": "Campeón de España",
+      "count": 36,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/11.png?lm=1520606997",
+      "seasons": [
+        "23/24",
+        "21/22",
+        "19/20",
+        "16/17",
+        "11/12",
+        "07/08",
+        "06/07",
+        "02/03",
+        "00/01",
+        "96/97",
+        "94/95",
+        "89/90",
+        "88/89",
+        "87/88",
+        "86/87",
+        "85/86",
+        "79/80",
+        "78/79",
+        "77/78",
+        "75/76",
+        "74/75",
+        "71/72",
+        "68/69",
+        "67/68",
+        "66/67",
+        "64/65",
+        "63/64",
+        "62/63",
+        "61/62",
+        "60/61",
+        "57/58",
+        "56/57",
+        "54/55",
+        "53/54",
+        "32/33",
+        "31/32"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de Europa",
+      "count": 6,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/354.png?lm=1520606999",
+      "seasons": [
+        "24/25",
+        "22/23",
+        "17/18",
+        "16/17",
+        "14/15",
+        "02/03"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa de la UEFA",
+      "count": 2,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/7.png?lm=1520606999",
+      "seasons": [
+        "85/86",
+        "84/85"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa Intercontinental",
+      "count": 1,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/1100.png?lm=1734608335",
+      "seasons": [
+        "24/25"
+      ]
+    },
+    {
+      "name": "Campeón del Mundial de Clubes",
+      "count": 5,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/318.png?lm=1749717358",
+      "seasons": [
+        "22/23",
+        "18/19",
+        "17/18",
+        "16/17",
+        "14/15"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa del Rey",
+      "count": 20,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/94.png?lm=1520606999",
+      "seasons": [
+        "22/23",
+        "13/14",
+        "10/11",
+        "92/93",
+        "88/89",
+        "81/82",
+        "79/80",
+        "74/75",
+        "73/74",
+        "69/70",
+        "61/62",
+        "46/47",
+        "45/46",
+        "35/36",
+        "33/34",
+        "1916/17",
+        "1907/08",
+        "1906/07",
+        "1905/06",
+        "1904/05"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de España",
+      "count": 13,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/93.png?lm=1520606999",
+      "seasons": [
+        "23/24",
+        "21/22",
+        "19/20",
+        "17/18",
+        "12/13",
+        "08/09",
+        "03/04",
+        "01/02",
+        "97/98",
+        "93/94",
+        "90/91",
+        "89/90",
+        "88/89"
+      ]
+    },
+    {
+      "name": "Ganador de la Copa Intercontinental",
+      "count": 3,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/1.png?lm=1520606996",
+      "seasons": [
+        "2002",
+        "1998",
+        "1960"
+      ]
+    },
+    {
+      "name": "Copa de la Liga winner",
+      "count": 1,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/default.png?lm=1520606999",
+      "seasons": [
+        "84/85"
+      ]
+    }
+  ]
+}

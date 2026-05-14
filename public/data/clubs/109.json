@@ -1,0 +1,572 @@
+{
+  "name": "Juventus de Turín",
+  "lastUpdated": "2026-05-14T09:14:45.256Z",
+  "source": "https://www.transfermarkt.es/juventus-de-turin/startseite/verein/506",
+  "squad": [
+    {
+      "id": "301238",
+      "name": "Michele Di Gregorio",
+      "position": "Portero",
+      "age": null,
+      "marketValue": "14,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/301238-1730125609.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/michele-di-gregorio/profil/spieler/301238",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3195
+      }
+    },
+    {
+      "id": "110923",
+      "name": "Mattia Perin",
+      "position": "Portero",
+      "age": null,
+      "marketValue": "2,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/110923-1695107834.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/mattia-perin/profil/spieler/110923",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1155
+      }
+    },
+    {
+      "id": "75411",
+      "name": "Carlo Pinsoglio",
+      "position": "Portero",
+      "age": null,
+      "marketValue": "200 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/75411-1663577377.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/carlo-pinsoglio/profil/spieler/75411",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "516716",
+      "name": "Bremer",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/516716-1725531520.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/bremer/profil/spieler/516716",
+      "stats": {
+        "goals": 4,
+        "assists": 3,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2479
+      }
+    },
+    {
+      "id": "585949",
+      "name": "Pierre Kalulu",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "32,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/585949-1684854558.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pierre-kalulu/profil/spieler/585949",
+      "stats": {
+        "goals": 2,
+        "assists": 7,
+        "yellowCards": 1,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 4201
+      }
+    },
+    {
+      "id": "480116",
+      "name": "Lloyd Kelly",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/480116-1739281396.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/lloyd-kelly/profil/spieler/480116",
+      "stats": {
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 3776
+      }
+    },
+    {
+      "id": "509022",
+      "name": "Federico Gatti",
+      "position": "Defensa central",
+      "age": null,
+      "marketValue": "16,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/509022-1725531068.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/federico-gatti/profil/spieler/509022",
+      "stats": {
+        "goals": 4,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1557
+      }
+    },
+    {
+      "id": "459658",
+      "name": "Andrea Cambiaso",
+      "position": "Lateral izquierdo",
+      "age": null,
+      "marketValue": "30,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/459658-1662127057.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/andrea-cambiaso/profil/spieler/459658",
+      "stats": {
+        "goals": 3,
+        "assists": 5,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 3477
+      }
+    },
+    {
+      "id": "686965",
+      "name": "Juan Cabal",
+      "position": "Lateral izquierdo",
+      "age": null,
+      "marketValue": "9,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/686965-1692964112.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/juan-cabal/profil/spieler/686965",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 3,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 514
+      }
+    },
+    {
+      "id": "496745",
+      "name": "Emil Holm",
+      "position": "Lateral derecho",
+      "age": null,
+      "marketValue": "13,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/496745-1688450376.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/emil-holm/profil/spieler/496745",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 216
+      }
+    },
+    {
+      "id": "265088",
+      "name": "Manuel Locatelli",
+      "position": "Pivote",
+      "age": null,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/265088-1730125083.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/manuel-locatelli/profil/spieler/265088",
+      "stats": {
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 11,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3582
+      }
+    },
+    {
+      "id": "360518",
+      "name": "Teun Koopmeiners",
+      "position": "Pivote",
+      "age": null,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/360518-1707302998.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/teun-koopmeiners/profil/spieler/360518",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2607
+      }
+    },
+    {
+      "id": "463618",
+      "name": "Khéphren Thuram",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "40,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/463618-1683889273.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/khephren-thuram/profil/spieler/463618",
+      "stats": {
+        "goals": 4,
+        "assists": 4,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3045
+      }
+    },
+    {
+      "id": "332697",
+      "name": "Weston McKennie",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "30,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/332697-1754245044.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/weston-mckennie/profil/spieler/332697",
+      "stats": {
+        "goals": 9,
+        "assists": 8,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3741
+      }
+    },
+    {
+      "id": "571607",
+      "name": "Fabio Miretti",
+      "position": "Mediocentro",
+      "age": null,
+      "marketValue": "16,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/571607-1652773586.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/fabio-miretti/profil/spieler/571607",
+      "stats": {
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 924
+      }
+    },
+    {
+      "id": "161011",
+      "name": "Filip Kostić",
+      "position": "Interior izquierdo",
+      "age": null,
+      "marketValue": "3,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/161011-1757663094.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/filip-kostic/profil/spieler/161011",
+      "stats": {
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 527
+      }
+    },
+    {
+      "id": "944570",
+      "name": "Vasilije Adžić",
+      "position": "Mediocentro ofensivo",
+      "age": null,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/944570-1730123395.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/vasilije-adzic/profil/spieler/944570",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 349
+      }
+    },
+    {
+      "id": "845654",
+      "name": "Kenan Yıldız",
+      "position": "Extremo izquierdo",
+      "age": null,
+      "marketValue": "75,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/845654-1759822280.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/kenan-yildiz/profil/spieler/845654",
+      "stats": {
+        "goals": 11,
+        "assists": 10,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3606
+      }
+    },
+    {
+      "id": "216569",
+      "name": "Jérémie Boga",
+      "position": "Extremo izquierdo",
+      "age": null,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/216569-1756824408.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jeremie-boga/profil/spieler/216569",
+      "stats": {
+        "goals": 4,
+        "assists": 1,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 633
+      }
+    },
+    {
+      "id": "487474",
+      "name": "Francisco Conceição",
+      "position": "Extremo derecho",
+      "age": null,
+      "marketValue": "30,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/487474-1749069081.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/francisco-conceicao/profil/spieler/487474",
+      "stats": {
+        "goals": 4,
+        "assists": 4,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2555
+      }
+    },
+    {
+      "id": "496857",
+      "name": "Edon Zhegrova",
+      "position": "Extremo derecho",
+      "age": null,
+      "marketValue": "14,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/496857-1767803628.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/edon-zhegrova/profil/spieler/496857",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 492
+      }
+    },
+    {
+      "id": "357498",
+      "name": "Dušan Vlahović",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/357498-1683293071.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/dusan-vlahovic/profil/spieler/357498",
+      "stats": {
+        "goals": 8,
+        "assists": 2,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1010
+      }
+    },
+    {
+      "id": "533738",
+      "name": "Jonathan David",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/533738-1760114012.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jonathan-david/profil/spieler/533738",
+      "stats": {
+        "goals": 8,
+        "assists": 5,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2301
+      }
+    },
+    {
+      "id": "368887",
+      "name": "Loïs Openda",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "32,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/368887-1713944805.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/lois-openda/profil/spieler/368887",
+      "stats": {
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 997
+      }
+    },
+    {
+      "id": "191891",
+      "name": "Arkadiusz Milik",
+      "position": "Delantero centro",
+      "age": null,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/191891-1661518258.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/arkadiusz-milik/profil/spieler/191891",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 34
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "UEFA Champions League winner",
+      "count": 1,
+      "seasons": [
+        "95/96"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa de Europa",
+      "count": 1,
+      "seasons": [
+        "84/85"
+      ]
+    },
+    {
+      "name": "Campeón de Italia",
+      "count": 36,
+      "seasons": [
+        "19/20",
+        "18/19",
+        "17/18",
+        "16/17",
+        "15/16",
+        "14/15",
+        "13/14",
+        "12/13",
+        "11/12",
+        "02/03",
+        "01/02",
+        "97/98",
+        "96/97",
+        "94/95",
+        "85/86",
+        "83/84",
+        "81/82",
+        "80/81",
+        "77/78",
+        "76/77",
+        "74/75",
+        "72/73",
+        "71/72",
+        "66/67",
+        "60/61",
+        "59/60",
+        "57/58",
+        "51/52",
+        "49/50",
+        "34/35",
+        "33/34",
+        "32/33",
+        "31/32",
+        "30/31",
+        "1925/26",
+        "1904/05"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de Europa",
+      "count": 2,
+      "seasons": [
+        "96/97",
+        "84/85"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa de la UEFA",
+      "count": 3,
+      "seasons": [
+        "92/93",
+        "89/90",
+        "76/77"
+      ]
+    },
+    {
+      "name": "Campeón de la Recopa de Europa",
+      "count": 1,
+      "seasons": [
+        "83/84"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa Italia",
+      "count": 15,
+      "seasons": [
+        "23/24",
+        "20/21",
+        "17/18",
+        "16/17",
+        "15/16",
+        "14/15",
+        "94/95",
+        "89/90",
+        "82/83",
+        "78/79",
+        "64/65",
+        "59/60",
+        "58/59",
+        "41/42",
+        "37/38"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de Italia",
+      "count": 9,
+      "seasons": [
+        "20/21",
+        "18/19",
+        "15/16",
+        "13/14",
+        "12/13",
+        "03/04",
+        "02/03",
+        "97/98",
+        "95/96"
+      ]
+    },
+    {
+      "name": "Campeón de la segunda división de Italia",
+      "count": 1,
+      "seasons": [
+        "06/07"
+      ]
+    },
+    {
+      "name": "Ganador de la Copa Intercontinental",
+      "count": 2,
+      "seasons": [
+        "1996",
+        "1985"
+      ]
+    },
+    {
+      "name": "Intertoto Cup Champion",
+      "count": 1,
+      "seasons": [
+        "99/00"
+      ]
+    }
+  ]
+}

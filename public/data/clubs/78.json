@@ -1,0 +1,500 @@
+{
+  "name": "Atlético de Madrid",
+  "coach": {
+    "name": ""
+  },
+  "venue": {
+    "name": "18Riyadh Air Metropolitano-85,45 mill. €"
+  },
+  "seasonStats": {
+    "rank": 0,
+    "played": 0,
+    "goalsDiff": "",
+    "points": 0
+  },
+  "lastUpdated": "2026-05-14T09:43:01.363Z",
+  "source": "https://www.transfermarkt.es/atletico-madrid/startseite/verein/13",
+  "squad": [
+    {
+      "id": "121483",
+      "name": "Jan Oblak",
+      "position": "Portero",
+      "age": 33,
+      "marketValue": "17,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/121483-1719350076.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jan-oblak/profil/spieler/121483",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3780
+      }
+    },
+    {
+      "id": "242359",
+      "name": "Juan Musso",
+      "position": "Portero",
+      "age": 32,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/242359-1663583047.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/juan-musso/profil/spieler/242359",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1560
+      }
+    },
+    {
+      "id": "404418",
+      "name": "Dávid Hancko",
+      "position": "Defensa central",
+      "age": 28,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/404418-1722415670.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/david-hancko/profil/spieler/404418",
+      "stats": {
+        "goals": 3,
+        "assists": 3,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3939
+      }
+    },
+    {
+      "id": "844637",
+      "name": "Marc Pubill",
+      "position": "Defensa central",
+      "age": 22,
+      "marketValue": "28,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/844637-1732735045.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/marc-pubill/profil/spieler/844637",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2640
+      }
+    },
+    {
+      "id": "351809",
+      "name": "Robin Le Normand",
+      "position": "Defensa central",
+      "age": 29,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/351809-1707948228.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/robin-le-normand/profil/spieler/351809",
+      "stats": {
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2755
+      }
+    },
+    {
+      "id": "250845",
+      "name": "José María Giménez",
+      "position": "Defensa central",
+      "age": 31,
+      "marketValue": "12,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/250845-1664970029.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jose-maria-gimenez/profil/spieler/250845",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1521
+      }
+    },
+    {
+      "id": "182904",
+      "name": "Clément Lenglet",
+      "position": "Defensa central",
+      "age": 30,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/182904-1599988301.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/clement-lenglet/profil/spieler/182904",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 6,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 1577
+      }
+    },
+    {
+      "id": "616631",
+      "name": "Matteo Ruggeri",
+      "position": "Lateral izquierdo",
+      "age": 23,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/616631-1742497680.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/matteo-ruggeri/profil/spieler/616631",
+      "stats": {
+        "goals": 0,
+        "assists": 7,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3350
+      }
+    },
+    {
+      "id": "282411",
+      "name": "Marcos Llorente",
+      "position": "Lateral derecho",
+      "age": 31,
+      "marketValue": "22,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/282411-1773182531.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/marcos-llorente/profil/spieler/282411",
+      "stats": {
+        "goals": 4,
+        "assists": 6,
+        "yellowCards": 8,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 3771
+      }
+    },
+    {
+      "id": "424042",
+      "name": "Nahuel Molina",
+      "position": "Lateral derecho",
+      "age": 28,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/424042-1697037362.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/nahuel-molina/profil/spieler/424042",
+      "stats": {
+        "goals": 2,
+        "assists": 4,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2400
+      }
+    },
+    {
+      "id": "775605",
+      "name": "Pablo Barrios",
+      "position": "Mediocentro",
+      "age": 22,
+      "marketValue": "60,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/775605-1699431384.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pablo-barrios/profil/spieler/775605",
+      "stats": {
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2452
+      }
+    },
+    {
+      "id": "689505",
+      "name": "Johnny Cardoso",
+      "position": "Mediocentro",
+      "age": 24,
+      "marketValue": "22,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/689505-1742036970.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/johnny-cardoso/profil/spieler/689505",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1715
+      }
+    },
+    {
+      "id": "961297",
+      "name": "Rodrigo Mendoza",
+      "position": "Mediocentro",
+      "age": 21,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/961297-1765462791.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/rodrigo-mendoza/profil/spieler/961297",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 471
+      }
+    },
+    {
+      "id": "889435",
+      "name": "Obed Vargas",
+      "position": "Mediocentro",
+      "age": 20,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/889435-1740863407.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/obed-vargas/profil/spieler/889435",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 599
+      }
+    },
+    {
+      "id": "74229",
+      "name": "Koke",
+      "position": "Mediocentro",
+      "age": 34,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/74229-1664970397.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/koke/profil/spieler/74229",
+      "stats": {
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 8,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3430
+      }
+    },
+    {
+      "id": "548111",
+      "name": "Álex Baena",
+      "position": "Extremo izquierdo",
+      "age": 24,
+      "marketValue": "45,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/548111-1761821030.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alex-baena/profil/spieler/548111",
+      "stats": {
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 9,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2183
+      }
+    },
+    {
+      "id": "406040",
+      "name": "Ademola Lookman",
+      "position": "Extremo izquierdo",
+      "age": 28,
+      "marketValue": "40,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/406040-1769763751.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ademola-lookman/profil/spieler/406040",
+      "stats": {
+        "goals": 8,
+        "assists": 4,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1257
+      }
+    },
+    {
+      "id": "486031",
+      "name": "Nico González",
+      "position": "Extremo izquierdo",
+      "age": 28,
+      "marketValue": "24,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486031-1673442459.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/nico-gonzalez/profil/spieler/486031",
+      "stats": {
+        "goals": 5,
+        "assists": 0,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1914
+      }
+    },
+    {
+      "id": "576028",
+      "name": "Thiago Almada",
+      "position": "Extremo izquierdo",
+      "age": 25,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/576028-1773174386.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/thiago-almada/profil/spieler/576028",
+      "stats": {
+        "goals": 4,
+        "assists": 2,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1659
+      }
+    },
+    {
+      "id": "742201",
+      "name": "Giuliano Simeone",
+      "position": "Extremo derecho",
+      "age": 23,
+      "marketValue": "40,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/742201-1741120599.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/giuliano-simeone/profil/spieler/742201",
+      "stats": {
+        "goals": 7,
+        "assists": 8,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3713
+      }
+    },
+    {
+      "id": "125781",
+      "name": "Antoine Griezmann",
+      "position": "Mediapunta",
+      "age": 35,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/125781-1775233998.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/antoine-griezmann/profil/spieler/125781",
+      "stats": {
+        "goals": 14,
+        "assists": 6,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2688
+      }
+    },
+    {
+      "id": "576024",
+      "name": "Julián Alvarez",
+      "position": "Delantero centro",
+      "age": 26,
+      "marketValue": "90,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/576024-1684920938.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/julian-alvarez/profil/spieler/576024",
+      "stats": {
+        "goals": 20,
+        "assists": 9,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3549
+      }
+    },
+    {
+      "id": "238407",
+      "name": "Alexander Sørloth",
+      "position": "Delantero centro",
+      "age": 30,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/238407-1716403969.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alexander-sorloth/profil/spieler/238407",
+      "stats": {
+        "goals": 20,
+        "assists": 1,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 2742
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "Campeón de España",
+      "count": 11,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/11.png?lm=1520606997",
+      "seasons": [
+        "20/21",
+        "13/14",
+        "95/96",
+        "76/77",
+        "72/73",
+        "69/70",
+        "65/66",
+        "50/51",
+        "49/50",
+        "40/41",
+        "39/40"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de Europa",
+      "count": 3,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/354.png?lm=1520606999",
+      "seasons": [
+        "18/19",
+        "12/13",
+        "10/11"
+      ]
+    },
+    {
+      "name": "Campeón de la Europa League",
+      "count": 3,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/264.png?lm=1520606999",
+      "seasons": [
+        "17/18",
+        "11/12",
+        "09/10"
+      ]
+    },
+    {
+      "name": "Campeón de la Recopa de Europa",
+      "count": 1,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/53.png?lm=1647507697",
+      "seasons": [
+        "61/62"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa del Rey",
+      "count": 10,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/94.png?lm=1520606999",
+      "seasons": [
+        "12/13",
+        "95/96",
+        "91/92",
+        "90/91",
+        "84/85",
+        "75/76",
+        "71/72",
+        "64/65",
+        "60/61",
+        "59/60"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de España",
+      "count": 2,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/93.png?lm=1520606999",
+      "seasons": [
+        "14/15",
+        "85/86"
+      ]
+    },
+    {
+      "name": "Ganador de la Copa Intercontinental",
+      "count": 1,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/1.png?lm=1520606996",
+      "seasons": [
+        "1974"
+      ]
+    },
+    {
+      "name": "Campeón de Segunda División",
+      "count": 1,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/878.png?lm=1647419746",
+      "seasons": [
+        "01/02"
+      ]
+    }
+  ]
+}

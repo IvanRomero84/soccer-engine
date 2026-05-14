@@ -1,0 +1,453 @@
+{
+  "name": "RCD Espanyol",
+  "coach": {
+    "name": ""
+  },
+  "venue": {
+    "name": "2RCDE Stadium+9,80 mill. €"
+  },
+  "seasonStats": {
+    "rank": 0,
+    "played": 0,
+    "goalsDiff": "",
+    "points": 0
+  },
+  "lastUpdated": "2026-05-14T09:45:35.854Z",
+  "source": "https://www.transfermarkt.es/espanyol-barcelona/startseite/verein/714",
+  "squad": [
+    {
+      "id": "94308",
+      "name": "Marko Dmitrovic",
+      "position": "Portero",
+      "age": 34,
+      "marketValue": "800 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/94308-1669364494.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/marko-dmitrovic/profil/spieler/94308",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3240
+      }
+    },
+    {
+      "id": "628487",
+      "name": "Ángel Fortuño",
+      "position": "Portero",
+      "age": 24,
+      "marketValue": "300 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/628487-1747339466.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/angel-fortuno/profil/spieler/628487",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 180
+      }
+    },
+    {
+      "id": "692070",
+      "name": "Clemens Riedel",
+      "position": "Defensa central",
+      "age": 22,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/692070-1752059844.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/clemens-riedel/profil/spieler/692070",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1397
+      }
+    },
+    {
+      "id": "357884",
+      "name": "Fernando Calero",
+      "position": "Defensa central",
+      "age": 30,
+      "marketValue": "2,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/357884-1447238696.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/fernando-calero/profil/spieler/357884",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2124
+      }
+    },
+    {
+      "id": "583510",
+      "name": "Miguel Rubio",
+      "position": "Defensa central",
+      "age": 28,
+      "marketValue": "2,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/583510-1702390927.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/miguel-rubio/profil/spieler/583510",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 378
+      }
+    },
+    {
+      "id": "102423",
+      "name": "Leandro Cabrera",
+      "position": "Defensa central",
+      "age": 34,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/102423-1747343579.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/leandro-cabrera/profil/spieler/102423",
+      "stats": {
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3150
+      }
+    },
+    {
+      "id": "709372",
+      "name": "Carlos Romero",
+      "position": "Lateral izquierdo",
+      "age": 24,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/709372-1747385379.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/carlos-romero/profil/spieler/709372",
+      "stats": {
+        "goals": 5,
+        "assists": 3,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3015
+      }
+    },
+    {
+      "id": "819590",
+      "name": "José Salinas",
+      "position": "Lateral izquierdo",
+      "age": 25,
+      "marketValue": "2,80 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/819590-1744371555.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jose-salinas/profil/spieler/819590",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 429
+      }
+    },
+    {
+      "id": "822331",
+      "name": "Omar El Hilali",
+      "position": "Lateral derecho",
+      "age": 22,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/822331-1683211692.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/omar-el-hilali/profil/spieler/822331",
+      "stats": {
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 9,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2817
+      }
+    },
+    {
+      "id": "705813",
+      "name": "Rubén Sánchez",
+      "position": "Lateral derecho",
+      "age": 25,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/705813-1661765132.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ruben-sanchez/profil/spieler/705813",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 785
+      }
+    },
+    {
+      "id": "625651",
+      "name": "Urko González de Zárate",
+      "position": "Pivote",
+      "age": 25,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/625651-1694171507.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/urko-gonzalez-de-zarate/profil/spieler/625651",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2555
+      }
+    },
+    {
+      "id": "243879",
+      "name": "Charles Pickel",
+      "position": "Pivote",
+      "age": 28,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/243879-1658483049.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/charles-pickel/profil/spieler/243879",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 1,
+        "redCards": 1,
+        "minutes": 821
+      }
+    },
+    {
+      "id": "412045",
+      "name": "Pol Lozano",
+      "position": "Mediocentro",
+      "age": 26,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/412045-1568028635.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pol-lozano/profil/spieler/412045",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 9,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2115
+      }
+    },
+    {
+      "id": "506248",
+      "name": "Edu Expósito",
+      "position": "Mediocentro",
+      "age": 29,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/506248-1747385472.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/edu-exposito/profil/spieler/506248",
+      "stats": {
+        "goals": 1,
+        "assists": 6,
+        "yellowCards": 9,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2464
+      }
+    },
+    {
+      "id": "783396",
+      "name": "Ramón Terrats",
+      "position": "Mediocentro",
+      "age": 25,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/783396-1726231968.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ramon-terrats/profil/spieler/783396",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1072
+      }
+    },
+    {
+      "id": "408471",
+      "name": "Javi Puado",
+      "position": "Extremo izquierdo",
+      "age": 27,
+      "marketValue": "7,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/408471-1698158226.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/javi-puado/profil/spieler/408471",
+      "stats": {
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 678
+      }
+    },
+    {
+      "id": "225593",
+      "name": "Pere Milla",
+      "position": "Extremo izquierdo",
+      "age": 33,
+      "marketValue": "1,20 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/225593-1541151194.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pere-milla/profil/spieler/225593",
+      "stats": {
+        "goals": 7,
+        "assists": 0,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1867
+      }
+    },
+    {
+      "id": "647435",
+      "name": "Tyrhys Dolan",
+      "position": "Extremo derecho",
+      "age": 24,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/647435-1679678061.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/tyrhys-dolan/profil/spieler/647435",
+      "stats": {
+        "goals": 2,
+        "assists": 5,
+        "yellowCards": 5,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2343
+      }
+    },
+    {
+      "id": "358032",
+      "name": "Cyril Ngonge",
+      "position": "Extremo derecho",
+      "age": 25,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/358032-1674197416.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/cyril-ngonge/profil/spieler/358032",
+      "stats": {
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 426
+      }
+    },
+    {
+      "id": "628498",
+      "name": "Jofre Carreras",
+      "position": "Extremo derecho",
+      "age": 24,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/628498-1747385604.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jofre-carreras/profil/spieler/628498",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 911
+      }
+    },
+    {
+      "id": "834744",
+      "name": "Antoniu Roca",
+      "position": "Extremo derecho",
+      "age": 23,
+      "marketValue": "1,80 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/834744-1734596565.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/antoniu-roca/profil/spieler/834744",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 312
+      }
+    },
+    {
+      "id": "720518",
+      "name": "Roberto Fernández",
+      "position": "Delantero centro",
+      "age": 23,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/720518-1732827310.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/roberto-fernandez/profil/spieler/720518",
+      "stats": {
+        "goals": 6,
+        "assists": 4,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2351
+      }
+    },
+    {
+      "id": "93936",
+      "name": "Kike García",
+      "position": "Delantero centro",
+      "age": 36,
+      "marketValue": "800 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/93936-1490620015.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/kike-garcia/profil/spieler/93936",
+      "stats": {
+        "goals": 9,
+        "assists": 1,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1791
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "Campeón de la Copa del Rey",
+      "count": 4,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/94.png?lm=1520606999",
+      "seasons": [
+        "05/06",
+        "99/00",
+        "39/40",
+        "1928/29"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa Intertoto",
+      "count": 1,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/704.png?lm=1695400457",
+      "seasons": [
+        "68/69"
+      ]
+    },
+    {
+      "name": "Campeón de Segunda División",
+      "count": 2,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/878.png?lm=1647419746",
+      "seasons": [
+        "20/21",
+        "93/94"
+      ]
+    },
+    {
+      "name": "Copa Catalunya",
+      "count": 6,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/938.png?lm=1664868494",
+      "seasons": [
+        "10/11",
+        "09/10",
+        "05/06",
+        "98/99",
+        "95/96",
+        "94/95"
+      ]
+    }
+  ]
+}

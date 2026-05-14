@@ -1,0 +1,566 @@
+{
+  "name": "Manchester City",
+  "lastUpdated": "2026-05-14T09:13:17.312Z",
+  "source": "https://www.transfermarkt.es/manchester-city/startseite/verein/281",
+  "squad": [
+    {
+      "id": "315858",
+      "name": "Gianluigi Donnarumma",
+      "position": "Portero",
+      "age": 27,
+      "marketValue": "45,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/315858-1761076746.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/gianluigi-donnarumma/profil/spieler/315858",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 9,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3780
+      }
+    },
+    {
+      "id": "566799",
+      "name": "James Trafford",
+      "position": "Portero",
+      "age": 23,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/566799-1689876147.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/james-trafford/profil/spieler/566799",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1350
+      }
+    },
+    {
+      "id": "116648",
+      "name": "Marcus Bettinelli",
+      "position": "Portero",
+      "age": 33,
+      "marketValue": "500 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/116648-1700671752.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/marcus-bettinelli/profil/spieler/116648",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "475959",
+      "name": "Josko Gvardiol",
+      "position": "Defensa central",
+      "age": 24,
+      "marketValue": "70,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/475959-1713391602.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/josko-gvardiol/profil/spieler/475959",
+      "stats": {
+        "goals": 2,
+        "assists": 5,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1854
+      }
+    },
+    {
+      "id": "392757",
+      "name": "Marc Guéhi",
+      "position": "Defensa central",
+      "age": 25,
+      "marketValue": "65,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/392757-1683030598.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/marc-guehi/profil/spieler/392757",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1510
+      }
+    },
+    {
+      "id": "258004",
+      "name": "Rúben Dias",
+      "position": "Defensa central",
+      "age": 29,
+      "marketValue": "60,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/258004-1684921271.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ruben-dias/profil/spieler/258004",
+      "stats": {
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2556
+      }
+    },
+    {
+      "id": "763079",
+      "name": "Abdukodir Khusanov",
+      "position": "Defensa central",
+      "age": 22,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/763079-1740493347.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/abdukodir-khusanov/profil/spieler/763079",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2637
+      }
+    },
+    {
+      "id": "186590",
+      "name": "John Stones",
+      "position": "Defensa central",
+      "age": 31,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/186590-1684764261.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/john-stones/profil/spieler/186590",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1066
+      }
+    },
+    {
+      "id": "177476",
+      "name": "Nathan Aké",
+      "position": "Defensa central",
+      "age": 31,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/177476-1666733797.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/nathan-ake/profil/spieler/177476",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1567
+      }
+    },
+    {
+      "id": "843595",
+      "name": "Max Alleyne",
+      "position": "Defensa central",
+      "age": 20,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/843595-1773301916.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/max-alleyne/profil/spieler/843595",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 446
+      }
+    },
+    {
+      "id": "743413",
+      "name": "Nico O'Reilly",
+      "position": "Lateral izquierdo",
+      "age": 21,
+      "marketValue": "50,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743413-1751367149.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/nico-oreilly/profil/spieler/743413",
+      "stats": {
+        "goals": 9,
+        "assists": 6,
+        "yellowCards": 8,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3864
+      }
+    },
+    {
+      "id": "578391",
+      "name": "Rayan Aït-Nouri",
+      "position": "Lateral izquierdo",
+      "age": 24,
+      "marketValue": "40,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/578391-1761076429.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/rayan-ait-nouri/profil/spieler/578391",
+      "stats": {
+        "goals": 0,
+        "assists": 5,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1592
+      }
+    },
+    {
+      "id": "601883",
+      "name": "Matheus Nunes",
+      "position": "Lateral derecho",
+      "age": 27,
+      "marketValue": "45,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/601883-1761076097.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/matheus-nunes/profil/spieler/601883",
+      "stats": {
+        "goals": 1,
+        "assists": 9,
+        "yellowCards": 8,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3835
+      }
+    },
+    {
+      "id": "701057",
+      "name": "Rico Lewis",
+      "position": "Lateral derecho",
+      "age": 21,
+      "marketValue": "32,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/701057-1684856684.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/rico-lewis/profil/spieler/701057",
+      "stats": {
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1015
+      }
+    },
+    {
+      "id": "357565",
+      "name": "Rodri",
+      "position": "Pivote",
+      "age": 29,
+      "marketValue": "65,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/357565-1682587890.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/rodri/profil/spieler/357565",
+      "stats": {
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 5,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2032
+      }
+    },
+    {
+      "id": "466805",
+      "name": "Nico González",
+      "position": "Pivote",
+      "age": 24,
+      "marketValue": "45,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/466805-1743669968.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/nico-gonzalez/profil/spieler/466805",
+      "stats": {
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 8,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2492
+      }
+    },
+    {
+      "id": "460939",
+      "name": "Tijjani Reijnders",
+      "position": "Mediocentro",
+      "age": 27,
+      "marketValue": "60,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/460939-1773302677.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/tijjani-reijnders/profil/spieler/460939",
+      "stats": {
+        "goals": 7,
+        "assists": 8,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2733
+      }
+    },
+    {
+      "id": "911736",
+      "name": "Sverre Nypan",
+      "position": "Mediocentro",
+      "age": 19,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/911736-1743175613.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/sverre-nypan/profil/spieler/911736",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "51471",
+      "name": "Mateo Kovacic",
+      "position": "Mediocentro",
+      "age": 32,
+      "marketValue": "12,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/51471-1682668192.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/mateo-kovacic/profil/spieler/51471",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 130
+      }
+    },
+    {
+      "id": "406635",
+      "name": "Phil Foden",
+      "position": "Mediocentro ofensivo",
+      "age": 25,
+      "marketValue": "80,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/406635-1668524492.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/phil-foden/profil/spieler/406635",
+      "stats": {
+        "goals": 10,
+        "assists": 7,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2924
+      }
+    },
+    {
+      "id": "607223",
+      "name": "Rayan Cherki",
+      "position": "Mediocentro ofensivo",
+      "age": 22,
+      "marketValue": "65,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/607223-1773302431.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/rayan-cherki/profil/spieler/607223",
+      "stats": {
+        "goals": 10,
+        "assists": 15,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2743
+      }
+    },
+    {
+      "id": "241641",
+      "name": "Bernardo Silva",
+      "position": "Mediocentro ofensivo",
+      "age": 31,
+      "marketValue": "27,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/241641-1684311533.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/bernardo-silva/profil/spieler/241641",
+      "stats": {
+        "goals": 3,
+        "assists": 5,
+        "yellowCards": 14,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 3649
+      }
+    },
+    {
+      "id": "486049",
+      "name": "Jérémy Doku",
+      "position": "Extremo izquierdo",
+      "age": 23,
+      "marketValue": "65,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/486049-1743670159.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jeremy-doku/profil/spieler/486049",
+      "stats": {
+        "goals": 8,
+        "assists": 14,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2783
+      }
+    },
+    {
+      "id": "743591",
+      "name": "Savinho",
+      "position": "Extremo izquierdo",
+      "age": 22,
+      "marketValue": "40,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/743591-1751367497.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/savinho/profil/spieler/743591",
+      "stats": {
+        "goals": 4,
+        "assists": 3,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1378
+      }
+    },
+    {
+      "id": "583255",
+      "name": "Antoine Semenyo",
+      "position": "Extremo derecho",
+      "age": 26,
+      "marketValue": "75,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/583255-1737452028.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/antoine-semenyo/profil/spieler/583255",
+      "stats": {
+        "goals": 9,
+        "assists": 3,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1821
+      }
+    },
+    {
+      "id": "418560",
+      "name": "Erling Haaland",
+      "position": "Delantero centro",
+      "age": 25,
+      "marketValue": "200,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/418560-1709108116.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/erling-haaland/profil/spieler/418560",
+      "stats": {
+        "goals": 37,
+        "assists": 8,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3964
+      }
+    },
+    {
+      "id": "445939",
+      "name": "Omar Marmoush",
+      "position": "Delantero centro",
+      "age": 27,
+      "marketValue": "60,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/445939-1747656490.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/omar-marmoush/profil/spieler/445939",
+      "stats": {
+        "goals": 8,
+        "assists": 3,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1334
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "UEFA Champions League winner",
+      "count": 1,
+      "seasons": [
+        "22/23"
+      ]
+    },
+    {
+      "name": "Campeón de Inglaterra",
+      "count": 10,
+      "seasons": [
+        "23/24",
+        "22/23",
+        "21/22",
+        "20/21",
+        "18/19",
+        "17/18",
+        "13/14",
+        "11/12",
+        "67/68",
+        "36/37"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de Europa",
+      "count": 1,
+      "seasons": [
+        "23/24"
+      ]
+    },
+    {
+      "name": "Campeón de la Recopa de Europa",
+      "count": 1,
+      "seasons": [
+        "69/70"
+      ]
+    },
+    {
+      "name": "Campeón del Mundial de Clubes",
+      "count": 1,
+      "seasons": [
+        "23/24"
+      ]
+    },
+    {
+      "name": "Campeón de la FA Cup de Inglaterra",
+      "count": 7,
+      "seasons": [
+        "22/23",
+        "18/19",
+        "10/11",
+        "68/69",
+        "55/56",
+        "33/34",
+        "1903/04"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa de la Liga de Inglaterra",
+      "count": 9,
+      "seasons": [
+        "25/26",
+        "20/21",
+        "19/20",
+        "18/19",
+        "17/18",
+        "15/16",
+        "13/14",
+        "75/76",
+        "69/70"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de Inglaterra",
+      "count": 7,
+      "seasons": [
+        "24/25",
+        "19/20",
+        "18/19",
+        "12/13",
+        "72/73",
+        "68/69",
+        "37/38"
+      ]
+    },
+    {
+      "name": "English 2nd tier champion",
+      "count": 7,
+      "seasons": [
+        "01/02",
+        "65/66",
+        "46/47",
+        "1927/28",
+        "1909/10",
+        "1902/03",
+        "1898/99"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "name": "RC Celta de Vigo",
+  "coach": {
+    "name": ""
+  },
+  "venue": {
+    "name": "6Abanca Balaídos+41,70 mill. €"
+  },
+  "seasonStats": {
+    "rank": 0,
+    "played": 0,
+    "goalsDiff": "",
+    "points": 0
+  },
+  "lastUpdated": "2026-05-14T09:43:31.041Z",
+  "source": "https://www.transfermarkt.es/celta-vigo/startseite/verein/940",
+  "squad": [
+    {
+      "id": "303657",
+      "name": "Ionuț Radu",
+      "position": "Portero",
+      "age": 28,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/303657-1699432718.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ionut-radu/profil/spieler/303657",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 4320
+      }
+    },
+    {
+      "id": "297194",
+      "name": "Iván Villar",
+      "position": "Portero",
+      "age": 28,
+      "marketValue": "900 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/297194-1516876837.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ivan-villar/profil/spieler/297194",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 510
+      }
+    },
+    {
+      "id": "541621",
+      "name": "Marc Vidal",
+      "position": "Portero",
+      "age": 26,
+      "marketValue": "300 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/541621-1772461246.jpeg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/marc-vidal/profil/spieler/541621",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "1076815",
+      "name": "Javi Rodríguez",
+      "position": "Defensa central",
+      "age": 22,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1076815-1732611843.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/javi-rodriguez/profil/spieler/1076815",
+      "stats": {
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3453
+      }
+    },
+    {
+      "id": "258987",
+      "name": "Carl Starfelt",
+      "position": "Defensa central",
+      "age": 30,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/258987-1758827268.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/carl-starfelt/profil/spieler/258987",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2394
+      }
+    },
+    {
+      "id": "636093",
+      "name": "Carlos Domínguez",
+      "position": "Defensa central",
+      "age": 25,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/636093-1629886975.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/carlos-dominguez/profil/spieler/636093",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 927
+      }
+    },
+    {
+      "id": "939374",
+      "name": "Yoel Lago",
+      "position": "Defensa central",
+      "age": 22,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/939374-1758827211.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/yoel-lago/profil/spieler/939374",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1205
+      }
+    },
+    {
+      "id": "638124",
+      "name": "Manu Fernández",
+      "position": "Defensa central",
+      "age": 25,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/638124-1769759285.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/manu-fernandez/profil/spieler/638124",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1117
+      }
+    },
+    {
+      "id": "112515",
+      "name": "Marcos Alonso",
+      "position": "Defensa central",
+      "age": 35,
+      "marketValue": "1,40 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/112515-1694505734.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/marcos-alonso/profil/spieler/112515",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3579
+      }
+    },
+    {
+      "id": "358250",
+      "name": "Joseph Aidoo",
+      "position": "Defensa central",
+      "age": 30,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/358250-1773950910.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/joseph-aidoo/profil/spieler/358250",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 875
+      }
+    },
+    {
+      "id": "271455",
+      "name": "Mihailo Ristic",
+      "position": "Lateral izquierdo",
+      "age": 30,
+      "marketValue": "800 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/271455-1769759453.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/mihailo-ristic/profil/spieler/271455",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 743
+      }
+    },
+    {
+      "id": "331505",
+      "name": "Óscar Mingueza",
+      "position": "Lateral derecho",
+      "age": 27,
+      "marketValue": "18,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/331505-1698852962.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/oscar-mingueza/profil/spieler/331505",
+      "stats": {
+        "goals": 1,
+        "assists": 6,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2893
+      }
+    },
+    {
+      "id": "545647",
+      "name": "Sergio Carreira",
+      "position": "Lateral derecho",
+      "age": 25,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/545647-1773950983.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/sergio-carreira/profil/spieler/545647",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3335
+      }
+    },
+    {
+      "id": "626953",
+      "name": "Álvaro Núñez",
+      "position": "Lateral derecho",
+      "age": 25,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/626953-1752919393.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alvaro-nunez/profil/spieler/626953",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 332
+      }
+    },
+    {
+      "id": "652331",
+      "name": "Javi Rueda",
+      "position": "Lateral derecho",
+      "age": 24,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/652331-1773949798.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/javi-rueda/profil/spieler/652331",
+      "stats": {
+        "goals": 4,
+        "assists": 7,
+        "yellowCards": 9,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1946
+      }
+    },
+    {
+      "id": "892932",
+      "name": "Miguel Román",
+      "position": "Mediocentro",
+      "age": 23,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/892932-1769759183.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/miguel-roman/profil/spieler/892932",
+      "stats": {
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2004
+      }
+    },
+    {
+      "id": "617074",
+      "name": "Ilaix Moriba",
+      "position": "Mediocentro",
+      "age": 23,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/617074-1758827372.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ilaix-moriba/profil/spieler/617074",
+      "stats": {
+        "goals": 1,
+        "assists": 3,
+        "yellowCards": 12,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3329
+      }
+    },
+    {
+      "id": "892221",
+      "name": "Hugo Sotelo",
+      "position": "Mediocentro",
+      "age": 22,
+      "marketValue": "7,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/892221-1758827715.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/hugo-sotelo/profil/spieler/892221",
+      "stats": {
+        "goals": 0,
+        "assists": 2,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1605
+      }
+    },
+    {
+      "id": "143812",
+      "name": "Matías Vecino",
+      "position": "Mediocentro",
+      "age": 34,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/143812-1695026891.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/matias-vecino/profil/spieler/143812",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 475
+      }
+    },
+    {
+      "id": "1064471",
+      "name": "Fer López",
+      "position": "Mediocentro ofensivo",
+      "age": 21,
+      "marketValue": "16,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1064471-1744632582.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/fer-lopez/profil/spieler/1064471",
+      "stats": {
+        "goals": 2,
+        "assists": 0,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1268
+      }
+    },
+    {
+      "id": "764859",
+      "name": "Williot Swedberg",
+      "position": "Extremo izquierdo",
+      "age": 22,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/764859-1765193019.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/williot-swedberg/profil/spieler/764859",
+      "stats": {
+        "goals": 9,
+        "assists": 7,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1836
+      }
+    },
+    {
+      "id": "892929",
+      "name": "Hugo Álvarez",
+      "position": "Extremo izquierdo",
+      "age": 22,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/892929-1715867247.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/hugo-alvarez/profil/spieler/892929",
+      "stats": {
+        "goals": 4,
+        "assists": 3,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1881
+      }
+    },
+    {
+      "id": "341110",
+      "name": "Franco Cervi",
+      "position": "Extremo izquierdo",
+      "age": 31,
+      "marketValue": "700 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/341110-1603798993.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/franco-cervi/profil/spieler/341110",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 165
+      }
+    },
+    {
+      "id": "960571",
+      "name": "Jones El-Abdellaoui",
+      "position": "Extremo derecho",
+      "age": 20,
+      "marketValue": "8,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/960571-1720825911.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jones-el-abdellaoui/profil/spieler/960571",
+      "stats": {
+        "goals": 3,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1169
+      }
+    },
+    {
+      "id": "599231",
+      "name": "Ferran Jutglà",
+      "position": "Extremo derecho",
+      "age": 27,
+      "marketValue": "7,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/599231-1666292299.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ferran-jutgla/profil/spieler/599231",
+      "stats": {
+        "goals": 10,
+        "assists": 3,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2198
+      }
+    },
+    {
+      "id": "905997",
+      "name": "Pablo Durán",
+      "position": "Delantero centro",
+      "age": 24,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/905997-1761577329.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pablo-duran/profil/spieler/905997",
+      "stats": {
+        "goals": 5,
+        "assists": 2,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1829
+      }
+    },
+    {
+      "id": "278359",
+      "name": "Borja Iglesias",
+      "position": "Delantero centro",
+      "age": 33,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/278359-1686661509.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/borja-iglesias/profil/spieler/278359",
+      "stats": {
+        "goals": 18,
+        "assists": 3,
+        "yellowCards": 7,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2577
+      }
+    },
+    {
+      "id": "72047",
+      "name": "Iago Aspas",
+      "position": "Delantero centro",
+      "age": 38,
+      "marketValue": "1,80 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/72047-1758827533.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/iago-aspas/profil/spieler/72047",
+      "stats": {
+        "goals": 8,
+        "assists": 6,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1950
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "Intertoto Cup Champion",
+      "count": 1,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/59.png?lm=1461847499",
+      "seasons": [
+        "00/01"
+      ]
+    },
+    {
+      "name": "Campeón de Segunda División",
+      "count": 3,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/878.png?lm=1647419746",
+      "seasons": [
+        "91/92",
+        "81/82",
+        "35/36"
+      ]
+    }
+  ]
+}

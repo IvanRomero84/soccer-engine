@@ -1,0 +1,498 @@
+{
+  "name": "Levante UD",
+  "coach": {
+    "name": ""
+  },
+  "venue": {
+    "name": "3Ciutat de València+300 mil €"
+  },
+  "seasonStats": {
+    "rank": 0,
+    "played": 0,
+    "goalsDiff": "",
+    "points": 0
+  },
+  "lastUpdated": "2026-05-14T09:46:38.786Z",
+  "source": "https://www.transfermarkt.es/ud-levante/startseite/verein/3368",
+  "squad": [
+    {
+      "id": "128969",
+      "name": "Mathew Ryan",
+      "position": "Portero",
+      "age": 34,
+      "marketValue": "2,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/128969-1668505563.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/mathew-ryan/profil/spieler/128969",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3060
+      }
+    },
+    {
+      "id": "617059",
+      "name": "Pablo Campos",
+      "position": "Portero",
+      "age": 24,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/617059-1742981909.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pablo-campos/profil/spieler/617059",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 450
+      }
+    },
+    {
+      "id": "939445",
+      "name": "Álex Primo",
+      "position": "Portero",
+      "age": 21,
+      "marketValue": "-",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/default.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alex-primo/profil/spieler/939445",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "1144700",
+      "name": "Matías Moreno",
+      "position": "Defensa central",
+      "age": 22,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1144700-1730183072.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/matias-moreno/profil/spieler/1144700",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 8,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2101
+      }
+    },
+    {
+      "id": "861981",
+      "name": "Alan Matturro",
+      "position": "Defensa central",
+      "age": 21,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/861981-1692967519.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alan-matturro/profil/spieler/861981",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1096
+      }
+    },
+    {
+      "id": "341263",
+      "name": "Adrián Dela",
+      "position": "Defensa central",
+      "age": 27,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/341263-1698879765.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/adrian-dela/profil/spieler/341263",
+      "stats": {
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2710
+      }
+    },
+    {
+      "id": "255495",
+      "name": "Unai Elgezabal",
+      "position": "Defensa central",
+      "age": 33,
+      "marketValue": "600 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/255495-1675799445.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/unai-elgezabal/profil/spieler/255495",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1023
+      }
+    },
+    {
+      "id": "618809",
+      "name": "Manu Sánchez",
+      "position": "Lateral izquierdo",
+      "age": 25,
+      "marketValue": "6,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/618809-1673281847.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/manu-sanchez/profil/spieler/618809",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 8,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2638
+      }
+    },
+    {
+      "id": "505493",
+      "name": "Diego Pampín",
+      "position": "Lateral izquierdo",
+      "age": 26,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/505493-1698882821.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/diego-pampin/profil/spieler/505493",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 714
+      }
+    },
+    {
+      "id": "129674",
+      "name": "Jeremy Toljan",
+      "position": "Lateral derecho",
+      "age": 31,
+      "marketValue": "2,20 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/129674-1692277806.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jeremy-toljan/profil/spieler/129674",
+      "stats": {
+        "goals": 1,
+        "assists": 4,
+        "yellowCards": 7,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3093
+      }
+    },
+    {
+      "id": "590690",
+      "name": "Víctor García",
+      "position": "Lateral derecho",
+      "age": 28,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/590690-1702510605.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/victor-garcia/profil/spieler/590690",
+      "stats": {
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1220
+      }
+    },
+    {
+      "id": "707230",
+      "name": "Ugo Raghouber",
+      "position": "Pivote",
+      "age": 22,
+      "marketValue": "3,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/707230-1678906674.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ugo-raghouber/profil/spieler/707230",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 692
+      }
+    },
+    {
+      "id": "293388",
+      "name": "Oriol Rey",
+      "position": "Pivote",
+      "age": 28,
+      "marketValue": "1,80 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/293388-1726053851.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/oriol-rey/profil/spieler/293388",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1409
+      }
+    },
+    {
+      "id": "526050",
+      "name": "Kervin Arriaga",
+      "position": "Pivote",
+      "age": 28,
+      "marketValue": "1,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/526050-1710094372.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/kervin-arriaga/profil/spieler/526050",
+      "stats": {
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 5,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 1437
+      }
+    },
+    {
+      "id": "568835",
+      "name": "Pablo Martínez",
+      "position": "Mediocentro",
+      "age": 28,
+      "marketValue": "2,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/568835-1632129599.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pablo-martinez/profil/spieler/568835",
+      "stats": {
+        "goals": 1,
+        "assists": 4,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1783
+      }
+    },
+    {
+      "id": "625660",
+      "name": "Jon Ander Olasagasti",
+      "position": "Mediocentro",
+      "age": 25,
+      "marketValue": "1,80 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/625660-1695238891.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jon-ander-olasagasti/profil/spieler/625660",
+      "stats": {
+        "goals": 1,
+        "assists": 4,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1713
+      }
+    },
+    {
+      "id": "610083",
+      "name": "Unai Vencedor",
+      "position": "Mediocentro",
+      "age": 25,
+      "marketValue": "1,80 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/610083-1671998817.png?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/unai-vencedor/profil/spieler/610083",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 993
+      }
+    },
+    {
+      "id": "668179",
+      "name": "Carlos Álvarez",
+      "position": "Mediocentro ofensivo",
+      "age": 22,
+      "marketValue": "15,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/668179-1726053882.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/carlos-alvarez/profil/spieler/668179",
+      "stats": {
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1898
+      }
+    },
+    {
+      "id": "557057",
+      "name": "Roger Brugué",
+      "position": "Extremo izquierdo",
+      "age": 29,
+      "marketValue": "2,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/557057-1701787446.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/roger-brugue/profil/spieler/557057",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1073
+      }
+    },
+    {
+      "id": "1232057",
+      "name": "Paco Cortés",
+      "position": "Extremo izquierdo",
+      "age": 18,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1232057-1761232668.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/paco-cortes/profil/spieler/1232057",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 471
+      }
+    },
+    {
+      "id": "1063340",
+      "name": "Kareem Tunde",
+      "position": "Extremo derecho",
+      "age": 20,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/default.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/kareem-tunde/profil/spieler/1063340",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1098
+      }
+    },
+    {
+      "id": "921345",
+      "name": "Tay Abed",
+      "position": "Extremo derecho",
+      "age": 21,
+      "marketValue": "800 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/921345-1752587415.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/tay-abed/profil/spieler/921345",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 42
+      }
+    },
+    {
+      "id": "632741",
+      "name": "Iker Losada",
+      "position": "Mediapunta",
+      "age": 24,
+      "marketValue": "1,40 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/632741-1569337955.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/iker-losada/profil/spieler/632741",
+      "stats": {
+        "goals": 3,
+        "assists": 2,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1081
+      }
+    },
+    {
+      "id": "1038950",
+      "name": "Karl Etta Eyong",
+      "position": "Delantero centro",
+      "age": 22,
+      "marketValue": "18,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1038950-1759409401.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/karl-etta-eyong/profil/spieler/1038950",
+      "stats": {
+        "goals": 6,
+        "assists": 2,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1422
+      }
+    },
+    {
+      "id": "628886",
+      "name": "Iván Romero",
+      "position": "Delantero centro",
+      "age": 25,
+      "marketValue": "7,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/628886-1756192561.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ivan-romero/profil/spieler/628886",
+      "stats": {
+        "goals": 7,
+        "assists": 2,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2152
+      }
+    },
+    {
+      "id": "1063338",
+      "name": "Carlos Espí",
+      "position": "Delantero centro",
+      "age": 20,
+      "marketValue": "2,50 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/1063338-1759409131.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/carlos-espi/profil/spieler/1063338",
+      "stats": {
+        "goals": 11,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1258
+      }
+    },
+    {
+      "id": "252677",
+      "name": "José Luis Morales",
+      "position": "Delantero centro",
+      "age": 38,
+      "marketValue": "300 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/252677-1447315847.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/jose-luis-morales/profil/spieler/252677",
+      "stats": {
+        "goals": 2,
+        "assists": 2,
+        "yellowCards": 1,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 612
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "Campeón de la Copa del Rey",
+      "count": 1,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/94.png?lm=1520606999",
+      "seasons": [
+        "36/37"
+      ]
+    },
+    {
+      "name": "Campeón de Segunda División",
+      "count": 3,
+      "image": "https://tmssl.akamaized.net//images/erfolge/medium/878.png?lm=1647419746",
+      "seasons": [
+        "24/25",
+        "16/17",
+        "03/04"
+      ]
+    }
+  ]
+}

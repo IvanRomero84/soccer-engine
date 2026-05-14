@@ -1,0 +1,519 @@
+{
+  "name": "AC Milan",
+  "lastUpdated": "2026-05-14T09:15:00.966Z",
+  "source": "https://www.transfermarkt.es/ac-milan/startseite/verein/5",
+  "squad": [
+    {
+      "id": "182906",
+      "name": "Mike Maignan",
+      "position": "Portero",
+      "age": 30,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/182906-1681459155.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/mike-maignan/profil/spieler/182906",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3476
+      }
+    },
+    {
+      "id": "96254",
+      "name": "Pietro Terracciano",
+      "position": "Portero",
+      "age": 36,
+      "marketValue": "1,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/96254-1753403934.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pietro-terracciano/profil/spieler/96254",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 124
+      }
+    },
+    {
+      "id": "939745",
+      "name": "Lorenzo Torriani",
+      "position": "Portero",
+      "age": 21,
+      "marketValue": "500 mil €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/939745-1730184012.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/lorenzo-torriani/profil/spieler/939745",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 0
+      }
+    },
+    {
+      "id": "574671",
+      "name": "Strahinja Pavlović",
+      "position": "Defensa central",
+      "age": 24,
+      "marketValue": "35,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/574671-1757664768.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/strahinja-pavlovic/profil/spieler/574671",
+      "stats": {
+        "goals": 5,
+        "assists": 1,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 3039
+      }
+    },
+    {
+      "id": "490384",
+      "name": "Koni De Winter",
+      "position": "Defensa central",
+      "age": 23,
+      "marketValue": "23,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/490384-1730126791.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/koni-de-winter/profil/spieler/490384",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2033
+      }
+    },
+    {
+      "id": "303254",
+      "name": "Fikayo Tomori",
+      "position": "Defensa central",
+      "age": 28,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/303254-1684856117.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/fikayo-tomori/profil/spieler/303254",
+      "stats": {
+        "goals": 0,
+        "assists": 3,
+        "yellowCards": 6,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2786
+      }
+    },
+    {
+      "id": "323167",
+      "name": "Matteo Gabbia",
+      "position": "Defensa central",
+      "age": 26,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/323167-1661351918.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/matteo-gabbia/profil/spieler/323167",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2441
+      }
+    },
+    {
+      "id": "897423",
+      "name": "David Odogu",
+      "position": "Defensa central",
+      "age": 19,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/897423-1724771146.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/david-odogu/profil/spieler/897423",
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 16
+      }
+    },
+    {
+      "id": "887638",
+      "name": "Davide Bartesaghi",
+      "position": "Lateral izquierdo",
+      "age": 20,
+      "marketValue": "23,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/887638-1695108454.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/davide-bartesaghi/profil/spieler/887638",
+      "stats": {
+        "goals": 2,
+        "assists": 1,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2356
+      }
+    },
+    {
+      "id": "349599",
+      "name": "Pervis Estupiñán",
+      "position": "Lateral izquierdo",
+      "age": 28,
+      "marketValue": "14,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/349599-1668498118.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/pervis-estupinan/profil/spieler/349599",
+      "stats": {
+        "goals": 1,
+        "assists": 1,
+        "yellowCards": 6,
+        "secondYellows": 0,
+        "redCards": 1,
+        "minutes": 1303
+      }
+    },
+    {
+      "id": "990637",
+      "name": "Zachary Athekame",
+      "position": "Lateral derecho",
+      "age": 21,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/990637-1733948149.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/zachary-athekame/profil/spieler/990637",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 754
+      }
+    },
+    {
+      "id": "608172",
+      "name": "Ardon Jashari",
+      "position": "Pivote",
+      "age": 23,
+      "marketValue": "30,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/608172-1734438792.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ardon-jashari/profil/spieler/608172",
+      "stats": {
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 733
+      }
+    },
+    {
+      "id": "467992",
+      "name": "Samuele Ricci",
+      "position": "Pivote",
+      "age": 24,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/467992-1730125512.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/samuele-ricci/profil/spieler/467992",
+      "stats": {
+        "goals": 1,
+        "assists": 4,
+        "yellowCards": 3,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1477
+      }
+    },
+    {
+      "id": "569598",
+      "name": "Youssouf Fofana",
+      "position": "Pivote",
+      "age": 27,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/569598-1725528517.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/youssouf-fofana/profil/spieler/569598",
+      "stats": {
+        "goals": 2,
+        "assists": 4,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2237
+      }
+    },
+    {
+      "id": "182913",
+      "name": "Adrien Rabiot",
+      "position": "Mediocentro",
+      "age": 31,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/182913-1681462009.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/adrien-rabiot/profil/spieler/182913",
+      "stats": {
+        "goals": 6,
+        "assists": 5,
+        "yellowCards": 5,
+        "secondYellows": 1,
+        "redCards": 0,
+        "minutes": 2640
+      }
+    },
+    {
+      "id": "202886",
+      "name": "Ruben Loftus-Cheek",
+      "position": "Mediocentro",
+      "age": 30,
+      "marketValue": "10,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/202886-1692879593.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/ruben-loftus-cheek/profil/spieler/202886",
+      "stats": {
+        "goals": 3,
+        "assists": 1,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1448
+      }
+    },
+    {
+      "id": "27992",
+      "name": "Luka Modrić",
+      "position": "Mediocentro",
+      "age": 40,
+      "marketValue": "4,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/27992-1687776160.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/luka-modric/profil/spieler/27992",
+      "stats": {
+        "goals": 2,
+        "assists": 3,
+        "yellowCards": 4,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2836
+      }
+    },
+    {
+      "id": "381950",
+      "name": "Alexis Saelemaekers",
+      "position": "Interior derecho",
+      "age": 26,
+      "marketValue": "25,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/381950-1757604189.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/alexis-saelemaekers/profil/spieler/381950",
+      "stats": {
+        "goals": 2,
+        "assists": 5,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 2987
+      }
+    },
+    {
+      "id": "357164",
+      "name": "Rafael Leão",
+      "position": "Extremo izquierdo",
+      "age": 26,
+      "marketValue": "65,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/357164-1730126553.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/rafael-leao/profil/spieler/357164",
+      "stats": {
+        "goals": 10,
+        "assists": 3,
+        "yellowCards": 5,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1946
+      }
+    },
+    {
+      "id": "315779",
+      "name": "Christian Pulisic",
+      "position": "Extremo derecho",
+      "age": 27,
+      "marketValue": "50,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/315779-1691696699.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/christian-pulisic/profil/spieler/315779",
+      "stats": {
+        "goals": 10,
+        "assists": 3,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1747
+      }
+    },
+    {
+      "id": "344381",
+      "name": "Christopher Nkunku",
+      "position": "Delantero centro",
+      "age": 28,
+      "marketValue": "28,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/344381-1663686834.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/christopher-nkunku/profil/spieler/344381",
+      "stats": {
+        "goals": 7,
+        "assists": 3,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 1391
+      }
+    },
+    {
+      "id": "552955",
+      "name": "Santiago Gimenez",
+      "position": "Delantero centro",
+      "age": 25,
+      "marketValue": "20,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/552955-1739903736.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/santiago-gimenez/profil/spieler/552955",
+      "stats": {
+        "goals": 1,
+        "assists": 2,
+        "yellowCards": 2,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 924
+      }
+    },
+    {
+      "id": "75489",
+      "name": "Niclas Füllkrug",
+      "position": "Delantero centro",
+      "age": 33,
+      "marketValue": "5,00 mill. €",
+      "photo": "https://img.a.transfermarkt.technology/portrait/big/75489-1768815337.jpg?lm=1",
+      "profileUrl": "https://www.transfermarkt.es/niclas-fullkrug/profil/spieler/75489",
+      "stats": {
+        "goals": 1,
+        "assists": 0,
+        "yellowCards": 0,
+        "secondYellows": 0,
+        "redCards": 0,
+        "minutes": 597
+      }
+    }
+  ],
+  "trophies": [
+    {
+      "name": "UEFA Champions League winner",
+      "count": 3,
+      "seasons": [
+        "06/07",
+        "02/03",
+        "93/94"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa de Europa",
+      "count": 4,
+      "seasons": [
+        "89/90",
+        "88/89",
+        "68/69",
+        "62/63"
+      ]
+    },
+    {
+      "name": "Campeón de Italia",
+      "count": 19,
+      "seasons": [
+        "21/22",
+        "10/11",
+        "03/04",
+        "98/99",
+        "95/96",
+        "93/94",
+        "92/93",
+        "91/92",
+        "87/88",
+        "78/79",
+        "67/68",
+        "61/62",
+        "58/59",
+        "56/57",
+        "54/55",
+        "50/51",
+        "1906/07",
+        "1905/06",
+        "1900/01"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de Europa",
+      "count": 5,
+      "seasons": [
+        "07/08",
+        "03/04",
+        "94/95",
+        "90/91",
+        "89/90"
+      ]
+    },
+    {
+      "name": "Campeón de la Recopa de Europa",
+      "count": 2,
+      "seasons": [
+        "72/73",
+        "67/68"
+      ]
+    },
+    {
+      "name": "Campeón del Mundial de Clubes",
+      "count": 1,
+      "seasons": [
+        "07/08"
+      ]
+    },
+    {
+      "name": "Campeón de la Copa Italia",
+      "count": 5,
+      "seasons": [
+        "02/03",
+        "76/77",
+        "72/73",
+        "71/72",
+        "66/67"
+      ]
+    },
+    {
+      "name": "Campeón de la Supercopa de Italia",
+      "count": 8,
+      "seasons": [
+        "24/25",
+        "16/17",
+        "11/12",
+        "04/05",
+        "94/95",
+        "93/94",
+        "92/93",
+        "88/89"
+      ]
+    },
+    {
+      "name": "Campeón de la segunda división de Italia",
+      "count": 2,
+      "seasons": [
+        "82/83",
+        "80/81"
+      ]
+    },
+    {
+      "name": "Ganador de la Copa Intercontinental",
+      "count": 3,
+      "seasons": [
+        "1990",
+        "1989",
+        "1969"
+      ]
+    },
+    {
+      "name": "Mitropacup",
+      "count": 1,
+      "seasons": [
+        "82/83"
+      ]
+    }
+  ]
+}
