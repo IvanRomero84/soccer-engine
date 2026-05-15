@@ -12,7 +12,7 @@ const HEADERS = {
   'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
   'Cache-Control': 'no-cache',
   'Pragma': 'no-cache',
-  'Referer': 'https://www.google.com/'
+  'Referer': 'https://www.transfermarkt.es/'
 };
 
 const COMPETITIONS = {
@@ -35,25 +35,22 @@ async function fetchWithRetry(url: string, retries = 2) {
 export default async (request: Request, context: Context) => {
   const url = new URL(request.url);
   
-  // Extraer parámetros: pueden venir en la query o en el path (vía splat de Netlify)
   let type = url.searchParams.get('type') || '';
   let id = url.searchParams.get('id') || '';
 
-  // Si type contiene el path completo del splat: football/competitions/PD/standings
   if (type.includes('/')) {
     const parts = type.split('/');
     if (parts.includes('competitions')) {
       const idx = parts.indexOf('competitions');
       id = id || parts[idx + 1];
       type = 'competition';
-    } else if (parts.includes('teams') || parts.includes('teams')) {
+    } else if (parts.includes('teams')) {
       const idx = parts.indexOf('teams');
       id = id || parts[idx + 1];
       type = 'club';
     }
   }
 
-  // Fallback si id sigue vacío pero está en el pathname real
   if (!id) {
     const parts = url.pathname.split('/');
     if (parts.includes('competitions')) {
@@ -65,21 +62,13 @@ export default async (request: Request, context: Context) => {
     }
   }
 
-  // Debug for headers/logs
-  console.log(`Scraper execution: type=${type}, id=${id}, url=${url.toString()}`);
-
   if (!type || !id) {
-    // Si la URL es simplemente /matches (global en vivo)
     if (url.pathname.endsWith('/matches') || type.includes('matches')) {
       return new Response(JSON.stringify({ matches: [] }), { 
         headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
       });
     }
-
-    return new Response(JSON.stringify({ 
-      error: 'Missing type or id',
-      debug: { type, id, pathname: url.pathname, query: url.search }
-    }), { 
+    return new Response(JSON.stringify({ error: 'Missing type or id' }), { 
       status: 400,
       headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
     });
@@ -89,15 +78,8 @@ export default async (request: Request, context: Context) => {
     if (type === 'club' || type === 'team') {
       return await handleClubScrape(id);
     } else if (type === 'competition' || type === 'league') {
-      // Ignorar peticiones de partidos si no están implementadas para evitar 404
-      if (url.pathname.endsWith('/matches') || url.search.includes('/matches')) {
-        return new Response(JSON.stringify({ matches: [] }), { 
-          headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
-        });
-      }
       return await handleCompetitionScrape(id);
     }
-    
     return new Response(JSON.stringify({ error: `Not implemented: ${type}` }), { 
       status: 200, 
       headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
@@ -110,16 +92,19 @@ export default async (request: Request, context: Context) => {
   }
 };
 
-/**
- * Helper para asegurar que las URLs de imágenes sean absolutas
- */
 function fixImageUrl(url: string | undefined): string {
   if (!url) return '';
   let fixed = url;
   if (url.startsWith('//')) fixed = `https:${url}`;
   else if (url.startsWith('/')) fixed = `https://www.transfermarkt.es${url}`;
   
-  // Limpiar dobles slashes accidentales (ej: .net//images -> .net/images)
+  // High res replacements
+  fixed = fixed.replace('/tiny/', '/big/')
+               .replace('/small/', '/big/')
+               .replace('/medium/', '/big/')
+               .replace('/header/', '/big/')
+               .replace('/mediumsmall/', '/big/');
+
   return fixed.replace(/([^:])\/\//g, '$1/');
 }
 
@@ -127,72 +112,81 @@ async function handleClubScrape(id: string) {
   const baseUrl = `https://www.transfermarkt.es/real-madrid/startseite/verein/${id}`;
   const mitarbeiterUrl = baseUrl.replace('startseite', 'mitarbeiter');
   const stadionUrl = baseUrl.replace('startseite', 'stadion');
+  const erfolgeUrl = baseUrl.replace('startseite', 'erfolge');
 
-  // Intentar obtener datos básicos primero. Si falla, fallamos todo.
-  const homeRes = await fetchWithRetry(baseUrl);
-  const $ = cheerio.load(homeRes?.data);
+  const [homeRes, staffRes, stadiumRes, successRes] = await Promise.allSettled([
+    fetchWithRetry(baseUrl),
+    fetchWithRetry(mitarbeiterUrl),
+    fetchWithRetry(stadionUrl),
+    fetchWithRetry(erfolgeUrl)
+  ]);
 
-  // Intentar obtener staff y estadio en paralelo (menos críticos)
-  let staffData = '';
-  let stadiumData = '';
-  try {
-    const [sRes, stRes] = await Promise.allSettled([
-      fetchWithRetry(mitarbeiterUrl),
-      fetchWithRetry(stadionUrl)
-    ]);
-    if (sRes.status === 'fulfilled') staffData = sRes.value?.data;
-    if (stRes.status === 'fulfilled') stadiumData = stRes.value?.data;
-  } catch (e) {
-    console.warn('Optional pages failed');
-  }
-
-  const $staff = cheerio.load(staffData);
-  const $stadium = cheerio.load(stadiumData);
+  const $ = cheerio.load(homeRes.status === 'fulfilled' ? homeRes.value?.data : '');
+  const $staff = cheerio.load(staffRes.status === 'fulfilled' ? staffRes.value?.data : '');
+  const $stadium = cheerio.load(stadiumRes.status === 'fulfilled' ? stadiumRes.value?.data : '');
+  const $success = cheerio.load(successRes.status === 'fulfilled' ? successRes.value?.data : '');
 
   const name = $('h1.data-header__headline-wrapper').text().trim().replace(/\s\s+/g, ' ');
-  const logo = fixImageUrl($('header.data-header img.data-header__profile-image').attr('src'));
+  const logo = fixImageUrl($('header.data-header img.data-header__profile-image').attr('src') || $('.data-header__profile-container img').attr('src'));
 
-  // Coach
+  // Coach Fix
   const $coachRow = $staff('tr:has(td:contains("Entrenador"))').first();
-  const coach = $coachRow.length > 0 ? {
-    name: $coachRow.find('a[href*="/profil/trainer/"]').first().text().trim(),
-    photo: fixImageUrl($coachRow.find('img').first().attr('src')?.replace('/small/', '/big/')),
-    age: $staff($coachRow.find('td').get(2)).text().trim() || ''
-  } : { name: 'No disponible', photo: '', age: '' };
+  const coachName = $coachRow.find('a[href*="/profil/trainer/"]').first().text().trim();
+  const coachAge = $coachRow.find('td').eq(2).text().trim().replace(/[^0-9]/g, '');
+  const coach = {
+    name: coachName || 'No disponible',
+    photo: fixImageUrl($coachRow.find('img').first().attr('src')),
+    age: coachAge
+  };
 
-  // Stadium
+  // Stadium Fix
   const venue = {
-    name: $stadium('.stadion-profil-head-grafik img').attr('alt')?.trim() || $stadium('h1').text().replace('Estadio - ', '').trim() || '',
-    image: fixImageUrl($stadium('.stadion-galerie img, .reveal img').first().attr('src')?.replace('/header/', '/big/')),
+    name: $stadium('h1').text().replace('Estadio - ', '').trim() || $('.data-header__details th:contains("Estadio:")').next('td').text().trim(),
+    image: fixImageUrl($stadium('.stadion-galerie img, .reveal img').first().attr('src')),
     capacity: $stadium('.profil-header-datentabelle th:contains("Aforo:")').next('td').text().trim().replace(/[^0-9.]/g, ''),
     yearBuilt: $stadium('table tr:has(th:contains("Año de construcción:")) td').first().text().trim()
   };
 
-  // Squad
+  // Trophies Scrape
+  const trophies: any[] = [];
+  $success('.box').each((i, box) => {
+    const title = $(box).find('.header-social').text().trim();
+    if (!title) return;
+    const count = parseInt($(box).find('.success-score').text().trim()) || 1;
+    const image = fixImageUrl($(box).find('img').attr('src'));
+    const seasons = $(box).find('.success-table-detail').text().trim();
+    
+    trophies.push({
+      league: title,
+      count: count,
+      image: image,
+      seasons: seasons
+    });
+  });
+
+  // Squad Scrape with detailed stats
   const squad: any[] = [];
   $('.items > tbody > tr').each((i, tr) => {
     const $tds = $(tr).find('td');
     if ($tds.length < 5) return;
     const $nameLink = $(tr).find('.hauptlink a').first();
+    const photo = fixImageUrl($(tr).find('img.bilderrahmen-fixed').attr('src'));
+    
     squad.push({
       id: parseInt($nameLink.attr('href')?.match(/\/spieler\/(\d+)/)?.[1] || '0'),
       name: $nameLink.text().trim(),
-      photo: fixImageUrl($(tr).find('img.bilderrahmen-fixed').attr('src')?.replace('/small/', '/big/').replace('/medium/', '/big/')),
+      photo: photo,
       position: $(tr).find('td:nth-child(2) table tr:nth-child(2) td').text().trim(),
       age: $(tr).find('td').eq(3).text().trim(),
-      nationality: $(tr).find('img.flaggenabzeichen').first().attr('alt') || ''
+      marketValue: $(tr).find('.rechts.hauptlink').text().trim(),
+      number: $(tr).find('.rn_nummer').text().trim()
     });
   });
 
   return new Response(JSON.stringify({ 
-    id, 
-    name, 
-    shortName: name,
-    tla: name.substring(0, 3).toUpperCase(),
-    crest: logo, 
-    coach, 
-    venue, 
-    squad 
+    id, name, crest: logo, coach, venue, squad, trophies,
+    founded: $('.data-header__details th:contains("Fundado:")').next('td').text().trim(),
+    country: $('.data-header__club-link').text().trim()
   }), {
     headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
   });
@@ -200,86 +194,62 @@ async function handleClubScrape(id: string) {
 
 async function handleCompetitionScrape(id: string) {
   const comp = COMPETITIONS[id as keyof typeof COMPETITIONS];
-  if (!comp) {
-    // Si la liga no está en nuestra lista de soportadas, devolver un error amigable o datos vacíos
-    return new Response(JSON.stringify({ 
-      competition: { id, name: id, emblem: '' },
-      standings: [] 
-    }), { headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' } });
-  }
+  if (!comp) return new Response(JSON.stringify({ competition: { id, name: id }, standings: [] }), { headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' } });
 
   const { data } = await fetchWithRetry(comp.url);
   const $ = cheerio.load(data);
-  
-  // Scrape league emblem
-  const leagueEmblem = fixImageUrl($('.data-header__profile-container img').attr('src')?.replace('/header/', '/medium/'));
+  const leagueEmblem = fixImageUrl($('.data-header__profile-container img').attr('src'));
 
   const standings: any[] = [];
-  // Buscar tablas que parezcan de clasificación (tienen #, Club, Ptos, etc.)
-  const $allTables = $('table.items');
-  
-  $allTables.each((i, table) => {
+  $('table.items').each((i, table) => {
     const headerText = $(table).find('tr').first().text();
     if (!headerText.includes('Club') || !headerText.includes('Ptos')) return;
 
     const groupTable: any[] = [];
+    const headers: string[] = [];
+    $(table).find('tr').first().find('th, td').each((h, el) => headers.push($(el).text().trim()));
+
+    const idxW = headers.findIndex(h => h === 'G');
+    const idxD = headers.findIndex(h => h === 'E');
+    const idxL = headers.findIndex(h => h === 'P');
+    const idxGoals = headers.findIndex(h => h === 'Goles');
+    const idxDiff = headers.findIndex(h => h === '+/-');
+    const idxPts = headers.findIndex(h => h === 'Ptos');
+
     $(table).find('tr').each((j, tr) => {
-      // Ignorar cabecera y espaciadores
       if (j === 0 || $(tr).hasClass('spacer') || $(tr).find('th').length > 0) return;
-      
       const $tds = $(tr).find('td');
       if ($tds.length < 4) return;
 
-      // En Transfermarkt el formato suele ser:
-      // td0: Posición, td1: Escudo, td2: Nombre equipo, td3: Partidos, td4: +/-, td5: Puntos
-      // O variaciones. Vamos a ser flexibles.
-      
       const pos = parseInt($tds.eq(0).text().trim());
       const $teamLink = $tds.find('a[href*="/verein/"]').first();
       if (!$teamLink.length) return;
 
       const teamId = $teamLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1];
       const teamName = $teamLink.text().trim();
-      const crest = fixImageUrl($tds.find('img').first().attr('src')?.replace('/tiny/', '/header/') || $tds.find('img').first().attr('data-src')?.replace('/tiny/', '/header/'));
+      const crest = fixImageUrl($tds.find('img').first().attr('src') || $tds.find('img').first().attr('data-src'));
 
-      // Intentar encontrar puntos y partidos jugados
-      // Normalmente Ptos es la última o penúltima columna
-      const points = parseInt($tds.last().text().trim());
-      const played = parseInt($tds.eq(3).text().trim()) || 0;
-      const goalsDiff = parseInt($tds.eq($tds.length - 2).text().trim()) || 0;
-      
+      const goalsStr = idxGoals !== -1 ? $tds.eq(idxGoals).text().trim() : '0:0';
+      const [gf, ga] = goalsStr.split(':').map(n => parseInt(n) || 0);
+
       groupTable.push({
         position: pos,
-        team: {
-          id: teamId,
-          name: teamName,
-          shortName: teamName,
-          crest: crest
-        },
-        playedGames: played,
-        won: 0,
-        draw: 0,
-        lost: 0,
-        points: points,
-        goalDifference: goalsDiff,
-        form: ''
+        team: { id: teamId, name: teamName, crest: crest },
+        playedGames: parseInt($tds.eq(3).text().trim()) || 0,
+        won: idxW !== -1 ? parseInt($tds.eq(idxW).text().trim()) || 0 : 0,
+        draw: idxD !== -1 ? parseInt($tds.eq(idxD).text().trim()) || 0 : 0,
+        lost: idxL !== -1 ? parseInt($tds.eq(idxL).text().trim()) || 0 : 0,
+        goalsFor: gf,
+        goalsAgainst: ga,
+        points: idxPts !== -1 ? parseInt($tds.eq(idxPts).text().trim()) || 0 : 0,
+        goalDifference: idxDiff !== -1 ? parseInt($tds.eq(idxDiff).text().trim()) || 0 : 0,
+        form: $tds.last().find('.tm-form-chart__dot').map((f, el) => $(el).hasClass('tm-form-chart__dot--win') ? 'W' : $(el).hasClass('tm-form-chart__dot--draw') ? 'D' : 'L').get().join('')
       });
     });
-
     if (groupTable.length > 0) standings.push({ type: 'TOTAL', table: groupTable });
   });
 
-  // Estructura compatible con FDStandingsResponse
-  const response = {
-    competition: {
-      id,
-      name: comp.name,
-      emblem: leagueEmblem
-    },
-    standings
-  };
-
-  return new Response(JSON.stringify(response), {
+  return new Response(JSON.stringify({ competition: { id, name: comp.name, emblem: leagueEmblem }, standings }), {
     headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
   });
 }

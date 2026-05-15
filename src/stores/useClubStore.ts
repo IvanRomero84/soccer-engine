@@ -7,7 +7,7 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 import { fetchFromFootballDataOrg } from '@/services/api'
-import type { Club, ClubStatsSeason, CacheEntry, ClubPlayer, Trophy } from '@/types'
+import type { Club, ClubStatsSeason, CacheEntry, ClubPlayer } from '@/types'
 import type { FDTeamResponse, FDMatchesResponse } from '@/types/api'
 
 const CLUB_TTL_MS = 60 * 60 * 1000 // 1 hora
@@ -94,92 +94,29 @@ export const useClubStore = defineStore('club', () => {
       const club: Club = {
         id: teamRes.id,
         name: teamRes.name,
-        code: teamRes.tla || '',
-        country: '',
-        founded: teamRes.founded,
+        code: teamRes.tla || (teamRes as any).tla || '',
+        country: (teamRes as any).country || '',
+        founded: (teamRes as any).founded || teamRes.founded,
         national: false,
         logo: teamRes.crest || '',
         venue: (teamRes as any).venue && typeof (teamRes as any).venue === 'object' ? (teamRes as any).venue : {
           name: (teamRes as any).venue || '',
         },
         coach: (teamRes as any).coach,
-        trophies: [],
+        trophies: ((teamRes as any).trophies || []).map((t: any) => ({
+          league: t.league,
+          country: '',
+          season: t.seasons || `${t.count}x`,
+          place: 'Winner',
+          image: t.image
+        })),
         stats,
-        squad: (teamRes as any).squad || squad,
+        squad: ((teamRes as any).squad || squad).map((p: any) => ({
+          ...p,
+          rating: p.stats ? calculateRating(p.stats) : p.rating
+        })),
       }
 
-      // 3. Enriquecer con datos scrapeados si existen
-      try {
-        const enrichmentRes = await fetch(`/data/clubs/${clubId}.json`)
-        if (enrichmentRes.ok) {
-          const extra = await enrichmentRes.json()
-
-          // Mapear trofeos (expandir por temporadas e incluir imagen)
-          if (extra.trophies) {
-            const allTrophies: Trophy[] = []
-            extra.trophies.forEach((t: any) => {
-              const seasons = t.seasons || [`${t.count}x`]
-              seasons.forEach((s: string) => {
-                allTrophies.push({
-                  league: t.name,
-                  country: '',
-                  season: s,
-                  place: 'Winner',
-                  image: t.image
-                })
-              })
-            })
-            club.trophies = allTrophies
-          }
-
-          // Enriquecer info básica (Coach, Stadium, SeasonStats)
-          if (extra.coach) {
-            club.coach = {
-              name: extra.coach.name,
-              age: extra.coach.age,
-              photo: extra.coach.image
-            }
-          }
-          if (extra.venue) {
-            club.venue = {
-              ...club.venue,
-              name: extra.venue.name || club.venue.name,
-              capacity: extra.venue.capacity
-            }
-          }
-          if (extra.seasonStats) {
-            club.seasonStats = extra.seasonStats
-          }
-
-          // Enriquecer jugadores (match por nombre)
-          if (extra.squad && club.squad) {
-            const normalize = (s: string) => s ? s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z ]/g, "").trim() : ""
-
-            club.squad = club.squad.map(p => {
-              const pExtra = extra.squad.find((e: any) => {
-                const n1 = normalize(e.name)
-                const n2 = normalize(p.name)
-                return n1.includes(n2) || n2.includes(n1)
-              })
-
-              if (pExtra) {
-                return {
-                  ...p,
-                  photo: pExtra.photo || p.photo,
-                  marketValue: pExtra.marketValue,
-                  age: pExtra.age || p.age,
-                  position: pExtra.position || p.position,
-                  rating: pExtra.stats ? calculateRating(pExtra.stats) : p.rating,
-                  detailedStats: pExtra.stats
-                }
-              }
-              return p
-            })
-          }
-        }
-      } catch (e) {
-        // Silencioso si no hay datos
-      }
 
       clubCache.value.set(clubId, { data: club, fetchedAt: Date.now() })
       return club
