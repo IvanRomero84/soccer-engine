@@ -9,9 +9,10 @@ const USER_AGENTS = [
 
 const getHeaders = () => ({
   'User-Agent': USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)],
-  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
   'Accept-Language': 'es-ES,es;q=0.9',
-  'Referer': 'https://www.transfermarkt.es/'
+  'Referer': 'https://www.transfermarkt.es/',
+  'Cache-Control': 'no-cache'
 });
 
 const COMPETITIONS: Record<string, { name: string, url: string }> = {
@@ -26,8 +27,25 @@ const COMPETITIONS: Record<string, { name: string, url: string }> = {
 
 function fixImageUrl(url: string | undefined): string {
   if (!url || url.includes('placeholder')) return '';
+  // Si no es una URL de Transfermarkt (akamaized o tmssl), la devolvemos tal cual
+  if (!url.includes('tmssl') && !url.includes('akamaized')) return url;
+  
   let fixed = url.startsWith('//') ? `https:${url}` : (url.startsWith('/') ? `https://www.transfermarkt.es${url}` : url);
-  return fixed.replace('/tiny/', '/big/').replace('/small/', '/big/').replace('/medium/', '/big/').replace('/header/', '/big/').replace('/portrait_small/', '/header/');
+  
+  return fixed.replace('/tiny/', '/big/')
+              .replace('/small/', '/big/')
+              .replace('/medium/', '/big/')
+              .replace('/header/', '/big/')
+              .replace('/portrait_small/', '/header/')
+              .replace(/([^:])\/\//g, '$1/');
+}
+
+function parseSpanishDate(dateStr: string): string {
+  const m = dateStr.match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/);
+  if (!m) return new Date().toISOString();
+  let [_, d, mnt, y] = m;
+  if (y.length === 2) y = "20" + y;
+  return `${y}-${mnt.padStart(2, '0')}-${d.padStart(2, '0')}T12:00:00Z`;
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -35,15 +53,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const { type: qType, id: qId, season: qSeason } = req.query;
   let type = String(qType || ''), id = String(qId || ''), season = String(qSeason || '');
 
-  // Detect type and ID from path if not in query
   if (path.includes('competitions')) { type = 'competition'; id = id || path.split('competitions/')[1]?.split(/[/?]/)[0]; }
   else if (path.includes('teams')) { type = 'club'; id = id || path.split('teams/')[1]?.split(/[/?]/)[0]; }
 
   try {
     if (type === 'club') {
-      // Intentar buscar el club directamente por ID. Si falla 404, es que el ID no es de Transfermarkt.
-      const url = `https://www.transfermarkt.es/startseite/verein/${id}`;
-      const { data: html } = await axios.get(url, { headers: getHeaders(), timeout: 8000 });
+      // URL de club ultra-robusta (Transfermarkt redirige automáticamente desde aquí)
+      const url = `https://www.transfermarkt.es/club/startseite/verein/${id}`;
+      const { data: html } = await axios.get(url, { headers: getHeaders(), timeout: 10000, maxRedirects: 5 });
       const $ = cheerio.load(html);
       
       const name = $('h1.data-header__headline-wrapper').text().trim().replace(/\s\s+/g, ' ') || $('.data-header__profile-container img').attr('alt') || '';
@@ -75,7 +92,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         id, name, logo, crest: logo, 
         coach: { name: coachName.split('(')[0].trim(), age: coachName.match(/\((\d+)\)/)?.[1] || '' },
         venue: { name: $('.data-header__details th:contains("Estadio")').next('td').text().trim() },
-        squad, trophies, founded: $('.data-header__details th:contains("Fundado")').next('td').text().trim(), country: $('.data-header__club-link').text().trim()
+        squad, trophies, 
+        founded: $('.data-header__details th:contains("Fundado")').next('td').text().trim(),
+        country: $('.data-header__club-link').text().trim(),
+        debugUrl: url
       });
     }
 
@@ -85,7 +105,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       
       if (path.includes('/matches')) {
         const matchUrl = comp ? comp.url.replace('/tabelle/', '/gesamtspielplan/') + seasonPart : `https://www.transfermarkt.es/league/gesamtspielplan/wettbewerb/${id}${seasonPart}`;
-        const { data: mHtml } = await axios.get(matchUrl, { headers: getHeaders(), timeout: 8000 });
+        const { data: mHtml } = await axios.get(matchUrl, { headers: getHeaders(), timeout: 10000 });
         const $m = cheerio.load(mHtml);
         const matches: any[] = [];
         $m('.box').each((i, box) => {
@@ -99,7 +119,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             if (!homeCell.length || !awayCell.length) return;
             matches.push({
               id: Math.random().toString(36).substr(2, 9),
-              round: roundName,
+              round: roundName, date: parseSpanishDate(tds.eq(0).text().trim()),
               homeTeam: { id: homeCell.find('a').attr('href')?.match(/\/verein\/(\d+)/)?.[1], name: homeCell.find('a').text().trim(), logo: fixImageUrl(homeCell.next('td').find('img').attr('src')) },
               awayTeam: { id: awayCell.find('a').attr('href')?.match(/\/verein\/(\d+)/)?.[1], name: awayCell.find('a').text().trim(), logo: fixImageUrl(awayCell.prev('td').find('img').attr('src')) },
               status: score.includes(':') ? 'NS' : 'FT',
@@ -111,7 +131,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
 
       const tableUrl = (comp ? comp.url : `https://www.transfermarkt.es/league/tabelle/wettbewerb/${id}`) + seasonPart;
-      const { data: tHtml } = await axios.get(tableUrl, { headers: getHeaders(), timeout: 8000 });
+      const { data: tHtml } = await axios.get(tableUrl, { headers: getHeaders(), timeout: 10000 });
       const $ = cheerio.load(tHtml);
       const tableData: any[] = [];
       
@@ -121,6 +141,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         if (tds.length < 8) return;
         const link = tds.find('a[href*="/verein/"]').first();
         const goals = tds.eq(7).text().trim().split(':');
+        
         let form = '';
         tds.each((idx, td) => {
           const dots = $(td).find('.tm-form-chart__dot');
@@ -129,12 +150,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
         tableData.push({
           position: parseInt(tds.eq(0).text()),
-          team: { 
-            id: link.attr('href')?.match(/\/verein\/(\d+)/)?.[1], // Este es el ID real de Transfermarkt
-            name: link.text().trim(), 
-            logo: fixImageUrl(tds.eq(1).find('img').attr('src')),
-            crest: fixImageUrl(tds.eq(1).find('img').attr('src'))
-          },
+          team: { id: link.attr('href')?.match(/\/verein\/(\d+)/)?.[1], name: link.text().trim(), logo: fixImageUrl(tds.eq(1).find('img').attr('src')), crest: fixImageUrl(tds.eq(1).find('img').attr('src')) },
           playedGames: parseInt(tds.eq(3).text()), won: parseInt(tds.eq(4).text()), draw: parseInt(tds.eq(5).text()), lost: parseInt(tds.eq(6).text()),
           goalsFor: parseInt(goals[0]), goalsAgainst: parseInt(goals[1]),
           points: parseInt(tds.eq(9).text()), goalDifference: parseInt(tds.eq(8).text()), form
@@ -142,8 +158,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       });
       return res.status(200).json({ competition: { id, name: id, emblem: fixImageUrl($('.data-header__profile-container img').attr('src')) }, standings: [{ type: 'TOTAL', table: tableData }] });
     }
-    return res.status(404).send('Not found');
+    return res.status(404).json({ error: 'Not found' });
   } catch (e: any) {
-    return res.status(500).json({ error: `TM Error: ${e.message}` });
+    return res.status(500).json({ error: `TM Error: ${e.message}`, url: req.url, debugUrl: `https://www.transfermarkt.es/club/startseite/verein/${id}` });
   }
 }
