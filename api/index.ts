@@ -40,7 +40,14 @@ function fixImageUrl(url: string | undefined): string {
   let fixed = url;
   if (url.startsWith('//')) fixed = `https:${url}`;
   else if (url.startsWith('/')) fixed = `https://www.transfermarkt.es${url}`;
-  fixed = fixed.replace('/tiny/', '/big/').replace('/small/', '/big/').replace('/medium/', '/big/').replace('/header/', '/big/').replace('/portrait_small/', '/header/');
+  
+  fixed = fixed.replace('/tiny/', '/big/')
+               .replace('/small/', '/big/')
+               .replace('/medium/', '/big/')
+               .replace('/header/', '/big/')
+               .replace('/portrait_small/', '/header/')
+               .replace('/portrait_medium/', '/header/');
+
   return fixed.replace(/([^:])\/\//g, '$1/');
 }
 
@@ -90,28 +97,41 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 }
 
 async function handleClubScrape(id: string) {
-  const baseUrl = `https://www.transfermarkt.es/real-madrid/startseite/verein/${id}`;
+  const baseUrl = `https://www.transfermarkt.es/startseite/verein/${id}`;
   const homeRes = await fetchWithRetry(baseUrl);
   const $ = cheerio.load(homeRes?.data || '');
 
   const name = $('h1.data-header__headline-wrapper').text().trim().replace(/\s\s+/g, ' ') || $('.data-header__profile-container img').attr('alt') || '';
   const logo = fixImageUrl($('.data-header__profile-container img').attr('src'));
-  const coachName = $('.data-header__details th:contains("Entrenador:")').next('td').text().trim();
-  const coach = { name: coachName.split('(')[0].trim() || 'No disponible', photo: '', age: coachName.match(/\((\d+)\)/)?.[1] || '' };
   
+  // Coach detection by keyword
+  const coachLabel = $('.data-header__details th:contains("Entrenador")');
+  const coachName = coachLabel.next('td').text().trim();
+  const coach = {
+    name: coachName.split('(')[0].trim() || 'No disponible',
+    photo: '', 
+    age: coachName.match(/\((\d+)\)/)?.[1] || ''
+  };
+
   const trophies: any[] = [];
   $('.data-header__success-data a').each((i, el) => {
-    trophies.push({ league: $(el).attr('title') || '', count: parseInt($(el).find('span').text().trim()) || 1, image: fixImageUrl($(el).find('img').attr('src')) });
+    trophies.push({
+      league: $(el).attr('title') || '',
+      count: parseInt($(el).find('span').text().trim()) || 1,
+      image: fixImageUrl($(el).find('img').attr('src'))
+    });
   });
 
   const squad: any[] = [];
+  // Target the main squad table specifically
   $('table.items').first().find('tbody > tr').each((i, tr) => {
     const $nameLink = $(tr).find('.hauptlink a').first();
     if (!$nameLink.length) return;
+    
     squad.push({
       id: parseInt($nameLink.attr('href')?.match(/\/spieler\/(\d+)/)?.[1] || '0'),
       name: $nameLink.text().trim(),
-      photo: fixImageUrl($(tr).find('img.bilderrahmen-fixed, img.player-profile-image').attr('src')),
+      photo: fixImageUrl($(tr).find('img.bilderrahmen-fixed, img.player-profile-image').attr('src') || $(tr).find('img').attr('data-src') || $(tr).find('img').attr('src')),
       position: $(tr).find('td:nth-child(2) table tr:nth-child(2) td').text().trim(),
       age: $(tr).find('td').eq(3).text().trim(),
       marketValue: $(tr).find('.rechts.hauptlink').text().trim(),
@@ -119,7 +139,17 @@ async function handleClubScrape(id: string) {
     });
   });
 
-  return { id, name, crest: logo, coach, venue: { name: $('.data-header__details th:contains("Estadio:")').next('td').text().trim() }, squad, trophies, founded: $('.data-header__details th:contains("Fundado:")').next('td').text().trim(), country: $('.data-header__club-link').text().trim() };
+  const venueLabel = $('.data-header__details th:contains("Estadio")');
+  const venue = {
+    name: venueLabel.next('td').text().trim(),
+    capacity: $('.data-header__details th:contains("Aforo")').next('td').text().trim().replace(/[^0-9.]/g, '')
+  };
+
+  return {
+    id, name, logo, crest: logo, coach, venue, squad, trophies,
+    founded: $('.data-header__details th:contains("Fundado")').next('td').text().trim(),
+    country: $('.data-header__club-link').text().trim()
+  };
 }
 
 async function handleCompetitionScrape(id: string) {
@@ -128,14 +158,17 @@ async function handleCompetitionScrape(id: string) {
   const { data } = await fetchWithRetry(url);
   const $ = cheerio.load(data);
   const emblem = fixImageUrl($('.data-header__profile-container img').attr('src'));
+
   const standings: any[] = [];
   const $table = $('table.items').first();
+  
   if ($table.length) {
     const tableData: any[] = [];
     $table.find('tbody > tr').each((j, tr) => {
       if ($(tr).hasClass('spacer') || $(tr).find('th').length > 0) return;
       const $tds = $(tr).find('td');
       if ($tds.length < 5) return;
+
       const $teamLink = $tds.find('a[href*="/verein/"]').first();
       const goalsStr = $tds.eq(7).text().trim() || '0:0';
       const [gf, ga] = goalsStr.split(':').map(n => parseInt(n) || 0);
@@ -146,33 +179,84 @@ async function handleCompetitionScrape(id: string) {
           return 'L';
       }).get().join('');
 
-      tableData.push({ position: parseInt($tds.eq(0).text().trim()) || j, team: { id: $teamLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1], name: $teamLink.text().trim(), crest: fixImageUrl($tds.eq(1).find('img').attr('src')) }, playedGames: parseInt($tds.eq(3).text().trim()) || 0, won: parseInt($tds.eq(4).text().trim()) || 0, draw: parseInt($tds.eq(5).text().trim()) || 0, lost: parseInt($tds.eq(6).text().trim()) || 0, goalsFor: gf, goalsAgainst: ga, points: parseInt($tds.eq(9).text().trim()) || 0, goalDifference: parseInt($tds.eq(8).text().trim()) || (gf - ga), form });
+      tableData.push({
+        position: parseInt($tds.eq(0).text().trim()) || j,
+        team: { 
+          id: $teamLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1], 
+          name: $teamLink.text().trim(),
+          crest: fixImageUrl($tds.eq(1).find('img').attr('src')),
+          logo: fixImageUrl($tds.eq(1).find('img').attr('src'))
+        },
+        playedGames: parseInt($tds.eq(3).text().trim()) || 0,
+        won: parseInt($tds.eq(4).text().trim()) || 0,
+        draw: parseInt($tds.eq(5).text().trim()) || 0,
+        lost: parseInt($tds.eq(6).text().trim()) || 0,
+        goalsFor: gf,
+        goalsAgainst: ga,
+        points: parseInt($tds.eq(9).text().trim()) || 0,
+        goalDifference: gf - ga,
+        form: form
+      });
     });
     standings.push({ type: 'TOTAL', table: tableData });
   }
-  return { competition: { id, name: comp?.name || id, emblem }, standings };
+  return { competition: { id, name: comp?.name || id, emblem, logo: emblem }, standings };
 }
 
 async function handleCompetitionMatches(id: string) {
   const comp = COMPETITIONS[id];
+  // Convert table URL to fixtures URL
   const url = comp ? comp.url.replace('/tabelle/', '/gesamtspielplan/') : `https://www.transfermarkt.es/laliga/gesamtspielplan/wettbewerb/${id}`;
   const { data } = await fetchWithRetry(url);
   const $ = cheerio.load(data);
+
   const matches: any[] = [];
   $('.box').each((i, box) => {
     const roundName = $(box).find('h2').text().trim();
     $(box).find('tr').each((j, tr) => {
       const $tds = $(tr).find('td');
       if ($tds.length < 5) return;
+
       const homeCell = $tds.filter((_, el) => $(el).hasClass('text-right') && $(el).find('a').length > 0).first();
       const awayCell = $tds.filter((_, el) => $(el).hasClass('no-border-links') && $(el).find('a').length > 0).last();
       const scoreCell = $tds.find('a[href*="/ergebnis/"]').parent();
+
       if (!homeCell.length || !awayCell.length) return;
+
       const homeLink = homeCell.find('a').first();
       const awayLink = awayCell.find('a').first();
       const score = scoreCell.text().trim();
-      matches.push({ id: Math.random().toString(36).substr(2, 9), round: roundName, date: parseSpanishDate($tds.eq(0).text().trim()), homeTeam: { id: homeLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1], name: homeLink.text().trim(), logo: fixImageUrl(homeCell.next('td').find('img').attr('src')) }, awayTeam: { id: awayLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1], name: awayLink.text().trim(), logo: fixImageUrl(awayCell.prev('td').find('img').attr('src')) }, status: score.includes(':') ? 'NS' : 'FT', score: { fullTime: { home: score.split(':')[0] || null, away: score.split(':')[1] || null }, penalty: { home: null, away: null } }, goals: { home: score.split(':')[0] || null, away: score.split(':')[1] || null }, leagueName: comp?.name || '' });
+
+      matches.push({
+        id: Math.random().toString(36).substr(2, 9),
+        round: roundName,
+        date: parseSpanishDate($tds.eq(0).text().trim()),
+        homeTeam: { 
+          id: homeLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1], 
+          name: homeLink.text().trim(), 
+          logo: fixImageUrl(homeCell.next('td').find('img').attr('src')),
+          crest: fixImageUrl(homeCell.next('td').find('img').attr('src'))
+        },
+        awayTeam: { 
+          id: awayLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1], 
+          name: awayLink.text().trim(), 
+          logo: fixImageUrl(awayCell.prev('td').find('img').attr('src')),
+          crest: fixImageUrl(awayCell.prev('td').find('img').attr('src'))
+        },
+        status: score.includes(':') ? 'NS' : 'FT',
+        score: { 
+          fullTime: { 
+            home: score.split(':')[0] || null, 
+            away: score.split(':')[1] || null 
+          }, 
+          halfTime: { home: null, away: null },
+          penalty: { home: null, away: null } 
+        },
+        goals: { home: score.split(':')[0] || null, away: score.split(':')[1] || null },
+        leagueName: comp?.name || ''
+      });
     });
   });
+
   return { matches: matches.slice(0, 30) };
 }
