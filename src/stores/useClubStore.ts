@@ -99,13 +99,13 @@ export const useClubStore = defineStore('club', () => {
         founded: teamRes.founded,
         national: false,
         logo: teamRes.crest || '',
-        venue: teamRes.venue && typeof teamRes.venue === 'object' ? teamRes.venue : {
-          name: teamRes.venue || '',
+        venue: (teamRes as any).venue && typeof (teamRes as any).venue === 'object' ? (teamRes as any).venue : {
+          name: (teamRes as any).venue || '',
         },
-        coach: teamRes.coach,
+        coach: (teamRes as any).coach,
         trophies: [],
         stats,
-        squad: teamRes.squad || squad,
+        squad: (teamRes as any).squad || squad,
       }
 
       // 3. Enriquecer con datos scrapeados si existen
