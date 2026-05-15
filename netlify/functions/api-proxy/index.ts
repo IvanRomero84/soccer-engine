@@ -2,6 +2,10 @@ import { Context, Config } from '@netlify/functions';
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 
+export const config: Config = {
+  path: "/api/*"
+};
+
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
@@ -208,35 +212,58 @@ async function handleCompetitionScrape(id: string) {
   const leagueEmblem = fixImageUrl($('.data-header__profile-container img').attr('src'));
 
   const standings: any[] = [];
-  const $tables = $('.box:has(h2:contains("Clasificación")), .box:has(h2:contains("Grupo"))');
+  // Buscar tablas que parezcan de clasificación (tienen #, Club, Ptos, etc.)
+  const $allTables = $('table.items');
   
-  $tables.each((i, tableBox) => {
-    const $table = $(tableBox).find('table.items');
-    const table: any[] = [];
-    $table.find('tr').each((j, tr) => {
-      if (j === 0 || $(tr).hasClass('spacer')) return;
-      const $tds = $(tr).find('td');
-      if ($tds.length < 5) return;
-      const $teamLink = $tds.eq(2).find('a');
+  $allTables.each((i, table) => {
+    const headerText = $(table).find('tr').first().text();
+    if (!headerText.includes('Club') || !headerText.includes('Ptos')) return;
+
+    const groupTable: any[] = [];
+    $(table).find('tr').each((j, tr) => {
+      // Ignorar cabecera y espaciadores
+      if (j === 0 || $(tr).hasClass('spacer') || $(tr).find('th').length > 0) return;
       
-      table.push({
-        position: parseInt($tds.eq(0).text().trim()),
+      const $tds = $(tr).find('td');
+      if ($tds.length < 4) return;
+
+      // En Transfermarkt el formato suele ser:
+      // td0: Posición, td1: Escudo, td2: Nombre equipo, td3: Partidos, td4: +/-, td5: Puntos
+      // O variaciones. Vamos a ser flexibles.
+      
+      const pos = parseInt($tds.eq(0).text().trim());
+      const $teamLink = $tds.find('a[href*="/verein/"]').first();
+      if (!$teamLink.length) return;
+
+      const teamId = $teamLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1];
+      const teamName = $teamLink.text().trim();
+      const crest = fixImageUrl($tds.find('img').first().attr('src') || $tds.find('img').first().attr('data-src'));
+
+      // Intentar encontrar puntos y partidos jugados
+      // Normalmente Ptos es la última o penúltima columna
+      const points = parseInt($tds.last().text().trim());
+      const played = parseInt($tds.eq(3).text().trim()) || 0;
+      const goalsDiff = parseInt($tds.eq($tds.length - 2).text().trim()) || 0;
+      
+      groupTable.push({
+        position: pos,
         team: {
-          id: $teamLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1],
-          name: $teamLink.text().trim(),
-          shortName: $teamLink.text().trim(),
-          crest: fixImageUrl($tds.eq(1).find('img').attr('src') || $tds.eq(1).find('img').attr('data-src'))
+          id: teamId,
+          name: teamName,
+          shortName: teamName,
+          crest: crest
         },
-        playedGames: parseInt($tds.eq(3).text().trim()),
+        playedGames: played,
         won: 0,
         draw: 0,
         lost: 0,
-        points: parseInt($tds.eq(6).text().trim()),
-        goalDifference: parseInt($tds.eq(5).text().trim()),
+        points: points,
+        goalDifference: goalsDiff,
         form: ''
       });
     });
-    if (table.length > 0) standings.push({ type: 'TOTAL', table });
+
+    if (groupTable.length > 0) standings.push({ type: 'TOTAL', table: groupTable });
   });
 
   // Estructura compatible con FDStandingsResponse
