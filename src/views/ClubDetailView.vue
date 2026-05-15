@@ -18,7 +18,7 @@
             <button class="btn btn-ghost btn--sm" @click="$router.back()">← Volver</button>
             <div class="club-hero__identity">
               <div class="club-logo-wrap">
-                <img :src="club.logo" :alt="club.name" class="club-logo" />
+                <img :src="club.logo" :alt="club.name" class="club-logo" referrerpolicy="no-referrer" />
               </div>
               <div>
                 <h1 class="club-name">{{ club.name }}</h1>
@@ -59,7 +59,7 @@
           <div v-if="club.squad?.length" class="squad-grid">
             <div v-for="player in club.squad" :key="player.id" class="player-card">
               <div class="player-card__img-wrap">
-                <img v-if="player.photo" :src="player.photo" :alt="player.name" class="player-card__photo" loading="lazy" />
+                <img v-if="player.photo" :src="player.photo" :alt="player.name" class="player-card__photo" loading="lazy" referrerpolicy="no-referrer" />
                 <div v-else class="player-card__photo-placeholder">{{ player.name.charAt(0) }}</div>
                 <div v-if="player.rating" class="player-card__rating" :class="ratingClass(Number(player.rating))">
                   {{ Number(player.rating).toFixed(1) }}

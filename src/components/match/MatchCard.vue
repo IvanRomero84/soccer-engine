@@ -19,6 +19,7 @@
           :src="match.leagueLogo"
           :alt="match.leagueName"
           class="match-card__league-logo"
+          referrerpolicy="no-referrer"
         />
         <span class="match-card__league-name">{{ match.leagueName }}</span>
         <span class="match-card__round">· {{ shortRound }}</span>
@@ -51,6 +52,7 @@
             :alt="match.homeTeam.name"
             class="team__logo"
             loading="lazy"
+            referrerpolicy="no-referrer"
           />
         </div>
         <span class="team__name" :class="{ 'team__name--winner': homeWon }">
@@ -88,6 +90,7 @@
             :alt="match.awayTeam.name"
             class="team__logo"
             loading="lazy"
+            referrerpolicy="no-referrer"
           />
         </div>
         <span class="team__name" :class="{ 'team__name--winner': awayWon }">

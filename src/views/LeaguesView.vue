@@ -24,7 +24,7 @@
           @click="$router.push(`/leagues/${league.id}`)"
         >
           <div class="league-card__logo-wrap">
-            <img :src="league.logo" :alt="league.name" class="league-card__logo" />
+            <img :src="league.logo" :alt="league.name" class="league-card__logo" referrerpolicy="no-referrer" />
           </div>
           <div class="league-card__content">
             <div class="league-card__meta">

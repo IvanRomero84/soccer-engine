@@ -115,9 +115,12 @@ export default async (request: Request, context: Context) => {
  */
 function fixImageUrl(url: string | undefined): string {
   if (!url) return '';
-  if (url.startsWith('//')) return `https:${url}`;
-  if (url.startsWith('/')) return `https://www.transfermarkt.es${url}`;
-  return url;
+  let fixed = url;
+  if (url.startsWith('//')) fixed = `https:${url}`;
+  else if (url.startsWith('/')) fixed = `https://www.transfermarkt.es${url}`;
+  
+  // Limpiar dobles slashes accidentales (ej: .net//images -> .net/images)
+  return fixed.replace(/([^:])\/\//g, '$1/');
 }
 
 async function handleClubScrape(id: string) {

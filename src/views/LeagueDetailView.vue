@@ -4,7 +4,7 @@
       <div class="league-detail-header">
         <button class="btn btn-ghost btn--sm" @click="$router.back()">← Volver</button>
         <div v-if="standings" class="league-info">
-          <img v-if="standings.leagueLogo" :src="standings.leagueLogo" :alt="standings.leagueName" class="league-logo" />
+          <img v-if="standings.leagueLogo" :src="standings.leagueLogo" :alt="standings.leagueName" class="league-logo" referrerpolicy="no-referrer" />
           <div>
             <h1 class="league-name">{{ standings.leagueName }}</h1>
             <div class="season-selector-wrap">
@@ -53,7 +53,7 @@
                   <span class="rank" :class="rankClass(entry.rank)">{{ entry.rank }}</span>
                 </td>
                 <td class="logo-cell">
-                  <img :src="entry.teamLogo" :alt="entry.teamName" class="team-logo-sm" loading="lazy" />
+                  <img :src="entry.teamLogo" :alt="entry.teamName" class="team-logo-sm" loading="lazy" referrerpolicy="no-referrer" />
                 </td>
                 <td class="name-cell">
                   <span class="team-name-link">{{ entry.teamName }}</span>
