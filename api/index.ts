@@ -90,7 +90,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 }
 
 async function handleClubScrape(id: string) {
-  const baseUrl = `https://www.transfermarkt.es/id/startseite/verein/${id}`;
+  const baseUrl = `https://www.transfermarkt.es/real-madrid/startseite/verein/${id}`;
   const homeRes = await fetchWithRetry(baseUrl);
   const $ = cheerio.load(homeRes?.data || '');
 
@@ -98,10 +98,12 @@ async function handleClubScrape(id: string) {
   const logo = fixImageUrl($('.data-header__profile-container img').attr('src'));
   const coachName = $('.data-header__details th:contains("Entrenador:")').next('td').text().trim();
   const coach = { name: coachName.split('(')[0].trim() || 'No disponible', photo: '', age: coachName.match(/\((\d+)\)/)?.[1] || '' };
+  
   const trophies: any[] = [];
   $('.data-header__success-data a').each((i, el) => {
     trophies.push({ league: $(el).attr('title') || '', count: parseInt($(el).find('span').text().trim()) || 1, image: fixImageUrl($(el).find('img').attr('src')) });
   });
+
   const squad: any[] = [];
   $('table.items').first().find('tbody > tr').each((i, tr) => {
     const $nameLink = $(tr).find('.hauptlink a').first();
@@ -137,11 +139,13 @@ async function handleCompetitionScrape(id: string) {
       const $teamLink = $tds.find('a[href*="/verein/"]').first();
       const goalsStr = $tds.eq(7).text().trim() || '0:0';
       const [gf, ga] = goalsStr.split(':').map(n => parseInt(n) || 0);
+      
       const form = $tds.eq(10).find('.tm-form-chart__dot').map((f, el) => {
           if ($(el).hasClass('tm-form-chart__dot--win')) return 'W';
           if ($(el).hasClass('tm-form-chart__dot--draw')) return 'D';
           return 'L';
       }).get().join('');
+
       tableData.push({ position: parseInt($tds.eq(0).text().trim()) || j, team: { id: $teamLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1], name: $teamLink.text().trim(), crest: fixImageUrl($tds.eq(1).find('img').attr('src')) }, playedGames: parseInt($tds.eq(3).text().trim()) || 0, won: parseInt($tds.eq(4).text().trim()) || 0, draw: parseInt($tds.eq(5).text().trim()) || 0, lost: parseInt($tds.eq(6).text().trim()) || 0, goalsFor: gf, goalsAgainst: ga, points: parseInt($tds.eq(9).text().trim()) || 0, goalDifference: parseInt($tds.eq(8).text().trim()) || (gf - ga), form });
     });
     standings.push({ type: 'TOTAL', table: tableData });
@@ -151,7 +155,7 @@ async function handleCompetitionScrape(id: string) {
 
 async function handleCompetitionMatches(id: string) {
   const comp = COMPETITIONS[id];
-  const url = `https://www.transfermarkt.es/laliga/gesamtspielplan/wettbewerb/${id}`;
+  const url = comp ? comp.url.replace('/tabelle/', '/gesamtspielplan/') : `https://www.transfermarkt.es/laliga/gesamtspielplan/wettbewerb/${id}`;
   const { data } = await fetchWithRetry(url);
   const $ = cheerio.load(data);
   const matches: any[] = [];
