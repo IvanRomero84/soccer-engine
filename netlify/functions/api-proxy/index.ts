@@ -162,8 +162,8 @@ async function handleClubScrape(id: string) {
 
   // Stadium
   const venue = {
-    name: $stadium('.stadion-profil-head-grafik img').attr('alt') || '',
-    image: fixImageUrl($stadium('.stadion-galerie img, .reveal img').first().attr('src')),
+    name: $stadium('.stadion-profil-head-grafik img').attr('alt')?.trim() || $stadium('h1').text().replace('Estadio - ', '').trim() || '',
+    image: fixImageUrl($stadium('.stadion-galerie img, .reveal img').first().attr('src')?.replace('/header/', '/big/')),
     capacity: $stadium('.profil-header-datentabelle th:contains("Aforo:")').next('td').text().trim().replace(/[^0-9.]/g, ''),
     yearBuilt: $stadium('table tr:has(th:contains("Año de construcción:")) td').first().text().trim()
   };
@@ -177,7 +177,7 @@ async function handleClubScrape(id: string) {
     squad.push({
       id: parseInt($nameLink.attr('href')?.match(/\/spieler\/(\d+)/)?.[1] || '0'),
       name: $nameLink.text().trim(),
-      photo: fixImageUrl($(tr).find('img.bilderrahmen-fixed').attr('src')?.replace('/small/', '/medium/')),
+      photo: fixImageUrl($(tr).find('img.bilderrahmen-fixed').attr('src')?.replace('/small/', '/big/').replace('/medium/', '/big/')),
       position: $(tr).find('td:nth-child(2) table tr:nth-child(2) td').text().trim(),
       age: $(tr).find('td').eq(3).text().trim(),
       nationality: $(tr).find('img.flaggenabzeichen').first().attr('alt') || ''
@@ -212,7 +212,7 @@ async function handleCompetitionScrape(id: string) {
   const $ = cheerio.load(data);
   
   // Scrape league emblem
-  const leagueEmblem = fixImageUrl($('.data-header__profile-container img').attr('src'));
+  const leagueEmblem = fixImageUrl($('.data-header__profile-container img').attr('src')?.replace('/header/', '/medium/'));
 
   const standings: any[] = [];
   // Buscar tablas que parezcan de clasificación (tienen #, Club, Ptos, etc.)
@@ -240,7 +240,7 @@ async function handleCompetitionScrape(id: string) {
 
       const teamId = $teamLink.attr('href')?.match(/\/verein\/(\d+)/)?.[1];
       const teamName = $teamLink.text().trim();
-      const crest = fixImageUrl($tds.find('img').first().attr('src') || $tds.find('img').first().attr('data-src'));
+      const crest = fixImageUrl($tds.find('img').first().attr('src')?.replace('/tiny/', '/header/') || $tds.find('img').first().attr('data-src')?.replace('/tiny/', '/header/'));
 
       // Intentar encontrar puntos y partidos jugados
       // Normalmente Ptos es la última o penúltima columna
