@@ -17,7 +17,6 @@
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
-    "ignoreDeprecations": "6.0",
     /* Path aliases — must match vite.config.ts */
     "baseUrl": ".",
     "paths": {
