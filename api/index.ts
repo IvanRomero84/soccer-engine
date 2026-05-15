@@ -2,13 +2,19 @@ import axios from 'axios';
 import * as cheerio from 'cheerio';
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-const HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+const USER_AGENTS = [
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+];
+
+const getHeaders = () => ({
+  'User-Agent': USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)],
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
   'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
   'Cache-Control': 'no-cache',
   'Referer': 'https://www.transfermarkt.es/'
-};
+});
 
 const COMPETITIONS: Record<string, { name: string, url: string }> = {
   'PD': { name: 'La Liga', url: 'https://www.transfermarkt.es/laliga/tabelle/wettbewerb/ES1' },
@@ -17,11 +23,7 @@ const COMPETITIONS: Record<string, { name: string, url: string }> = {
   'SA': { name: 'Serie A', url: 'https://www.transfermarkt.es/serie-a/tabelle/wettbewerb/IT1' },
   'FL1': { name: 'Ligue 1', url: 'https://www.transfermarkt.es/ligue-1/tabelle/wettbewerb/FR1' },
   'DED': { name: 'Eredivisie', url: 'https://www.transfermarkt.es/eredivisie/tabelle/wettbewerb/NL1' },
-  'PPL': { name: 'Primeira Liga', url: 'https://www.transfermarkt.es/liga-nos/tabelle/wettbewerb/PO1' },
-  'ELC': { name: 'Championship', url: 'https://www.transfermarkt.es/championship/tabelle/wettbewerb/GB2' },
-  'CL': { name: 'Champions League', url: 'https://www.transfermarkt.es/uefa-champions-league/tabelle/wettbewerb/CL' },
-  'CLI': { name: 'Copa Libertadores', url: 'https://www.transfermarkt.es/copa-libertadores/tabelle/wettbewerb/CLI' },
-  'WC': { name: 'Copa del Mundo', url: 'https://www.transfermarkt.es/weltmeisterschaft-2022/tabelle/wettbewerb/WM22' }
+  'PPL': { name: 'Primeira Liga', url: 'https://www.transfermarkt.es/liga-nos/tabelle/wettbewerb/PO1' }
 };
 
 function fixImageUrl(url: string | undefined): string {
@@ -40,8 +42,8 @@ function parseSpanishDate(dateStr: string): string {
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   const path = req.url || '';
-  const { type: qType, id: qId } = req.query;
-  let type = String(qType || ''), id = String(qId || '');
+  const { type: qType, id: qId, season: qSeason } = req.query;
+  let type = String(qType || ''), id = String(qId || ''), season = String(qSeason || '');
 
   if (path.includes('competitions')) {
     type = 'competition';
@@ -55,7 +57,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   try {
     if (type === 'club') {
-      const { data: html } = await axios.get(`https://www.transfermarkt.es/startseite/verein/${id}`, { headers: HEADERS });
+      const url = `https://www.transfermarkt.es/startseite/verein/${id}`;
+      const { data: html } = await axios.get(url, { headers: getHeaders(), timeout: 8000 });
       const $ = cheerio.load(html);
       
       const name = $('h1.data-header__headline-wrapper').text().trim().replace(/\s\s+/g, ' ') || $('.data-header__profile-container img').attr('alt') || '';
@@ -80,7 +83,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
       const trophies: any[] = [];
       $('.data-header__success-data a').each((i, el) => {
-        trophies.push({ league: $(el).attr('title'), count: parseInt($(el).find('span').text()), image: fixImageUrl($(el).find('img').attr('src')) });
+        trophies.push({ league: $(el).attr('title'), count: parseInt($(el).find('span').text()) || 1, image: fixImageUrl($(el).find('img').attr('src')) });
       });
 
       return res.status(200).json({ 
@@ -95,10 +98,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     if (type === 'competition') {
       const comp = COMPETITIONS[id];
+      const seasonPart = season ? `/saison_id/${season}` : '';
+      
       if (path.includes('/matches')) {
-        const matchUrl = comp ? comp.url.replace('/tabelle/', '/gesamtspielplan/') : `https://www.transfermarkt.es/league/gesamtspielplan/wettbewerb/${id}`;
-        const { data: matchHtml } = await axios.get(matchUrl, { headers: HEADERS });
-        const $m = cheerio.load(matchHtml);
+        const matchUrl = comp ? comp.url.replace('/tabelle/', '/gesamtspielplan/') + seasonPart : `https://www.transfermarkt.es/league/gesamtspielplan/wettbewerb/${id}${seasonPart}`;
+        const { data: mHtml } = await axios.get(matchUrl, { headers: getHeaders(), timeout: 8000 });
+        const $m = cheerio.load(mHtml);
         const matches: any[] = [];
         $m('.box').each((i, box) => {
           const roundName = $m(box).find('h2').text().trim();
@@ -111,8 +116,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             if (!homeCell.length || !awayCell.length) return;
             matches.push({
               id: Math.random().toString(36).substr(2, 9),
-              round: roundName,
-              date: parseSpanishDate(tds.eq(0).text().trim()),
+              round: roundName, date: parseSpanishDate(tds.eq(0).text().trim()),
               homeTeam: { id: homeCell.find('a').attr('href')?.match(/\/verein\/(\d+)/)?.[1], name: homeCell.find('a').text().trim(), logo: fixImageUrl(homeCell.next('td').find('img').attr('src')) },
               awayTeam: { id: awayCell.find('a').attr('href')?.match(/\/verein\/(\d+)/)?.[1], name: awayCell.find('a').text().trim(), logo: fixImageUrl(awayCell.prev('td').find('img').attr('src')) },
               status: score.includes(':') ? 'NS' : 'FT',
@@ -123,30 +127,43 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         return res.status(200).json({ matches: matches.slice(0, 30) });
       }
 
-      const { data: html } = await axios.get(comp?.url || `https://www.transfermarkt.es/league/tabelle/wettbewerb/${id}`, { headers: HEADERS });
-      const $ = cheerio.load(html);
+      const tableUrl = (comp ? comp.url : `https://www.transfermarkt.es/league/tabelle/wettbewerb/${id}`) + seasonPart;
+      const { data: tHtml } = await axios.get(tableUrl, { headers: getHeaders(), timeout: 8000 });
+      const $ = cheerio.load(tHtml);
       const tableData: any[] = [];
+      
       $('table.items').first().find('tbody > tr').each((i, tr) => {
         if ($(tr).hasClass('spacer')) return;
         const tds = $(tr).find('td');
-        if (tds.length < 10) return;
+        if (tds.length < 8) return;
+        
         const link = tds.find('a[href*="/verein/"]').first();
         const goals = tds.eq(7).text().trim().split(':');
+        
+        // Dynamic search for form column (it's usually the one with dots)
+        let form = '';
+        tds.each((idx, td) => {
+            const dots = $(td).find('.tm-form-chart__dot');
+            if (dots.length > 0) {
+                form = dots.map((_, e) => $(e).hasClass('tm-form-chart__dot--win') ? 'W' : ($(e).hasClass('tm-form-chart__dot--draw') ? 'D' : 'L')).get().join('');
+            }
+        });
+
         tableData.push({
           position: parseInt(tds.eq(0).text()),
           team: { id: link.attr('href')?.match(/\/verein\/(\d+)/)?.[1], name: link.text().trim(), logo: fixImageUrl(tds.eq(1).find('img').attr('src')), crest: fixImageUrl(tds.eq(1).find('img').attr('src')) },
           playedGames: parseInt(tds.eq(3).text()),
           won: parseInt(tds.eq(4).text()), draw: parseInt(tds.eq(5).text()), lost: parseInt(tds.eq(6).text()),
           goalsFor: parseInt(goals[0]), goalsAgainst: parseInt(goals[1]),
-          points: parseInt(tds.eq(9).text()),
-          goalDifference: parseInt(tds.eq(8).text()),
-          form: tds.eq(10).find('.tm-form-chart__dot').map((_, e) => $(e).hasClass('tm-form-chart__dot--win') ? 'W' : ($(e).hasClass('tm-form-chart__dot--draw') ? 'D' : 'L')).get().join('')
+          points: parseInt(tds.eq(9).text()), goalDifference: parseInt(tds.eq(8).text()),
+          form
         });
       });
-      return res.status(200).json({ competition: { id, name: comp?.name || id, emblem: fixImageUrl($('.data-header__profile-container img').attr('src')) }, standings: [{ type: 'TOTAL', table: tableData }] });
+      return res.status(200).json({ competition: { id, name: id, emblem: fixImageUrl($('.data-header__profile-container img').attr('src')) }, standings: [{ type: 'TOTAL', table: tableData }] });
     }
-    return res.status(404).json({ error: 'Not implemented' });
+    return res.status(404).json({ error: 'Not found' });
   } catch (e: any) {
-    return res.status(500).json({ error: e.message });
+    console.error('Scrape Error:', e.message);
+    return res.status(500).json({ error: `TM Error: ${e.message}`, url: req.url });
   }
 }
